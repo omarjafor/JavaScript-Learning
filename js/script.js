@@ -127,23 +127,23 @@ document.write("<br>"+text);
 // document.write("Farenheit is = " + farn);
 
 //New program code ---------------->
-// var num = 5;
+var num = 5;
 
-// if(num%2 == 0)
-//     document.write("Even");
-// else
-//     document.write("Odd");
+if(num%2 == 0)
+    document.write("<br>Even");
+else
+    document.write("<br>Odd");
 
 //New program code ---------------->
 // var num = prompt("Enter a number");
 // num = parseInt(num);
 
 // if(num > 0)
-//     document.write("Positive");
+//     document.write("<br>Positive");
 // else if(num < 0)
-//     document.write("Negative");
+//     document.write("<br>Negative");
 // else
-//     document.write("Zero");
+//     document.write("<br>Zero");
 
 //Task Number Four code for student grade mark -------->
 // var num = prompt("Enter your mark number: ");
@@ -165,5 +165,109 @@ document.write("<br>"+text);
 //     document.write("D");
 // else
 //     document.write("Fail");
+document.write("<br>");
 
 //New Program code for student grade mark -------->
+// var num1 = prompt("Enter your number 1: ");
+// var num2 = prompt("Enter your number 2: ");
+// var num3 = prompt("Enter your number 3: ");
+
+// if(num1>num2 && num1>num3)
+//     document.write("<br> Large Number is = " + num1);
+// else if(num2>num1 && num2>num3)
+//     document.write("<br> Large Number is = " + num2);
+// else
+//     document.write("<br> Large Number is = " + num3);
+document.write("<br>");
+
+//New Program code for student grade mark -------->
+
+// var letter = prompt("Enter Your Letter : ");
+// letter = letter.toLowerCase();
+
+// if (letter == "a" || letter == "e" || letter == "i" || letter == "o" || letter == "u")
+//     document.write("Vowel");
+// else
+//     document.write("Consonant");
+
+//New Program code for student grade mark -------->
+
+// var digit = prompt("Enter Your Number : ");
+
+// switch (digit){
+//     case "0":
+//         document.write("Zero");
+//         break;
+//     case "1":
+//         document.write("One");
+//         break;
+//     case "2":
+//         document.write("Two");
+//         break;
+//     case "3":
+//         document.write("Three");
+//         break;
+//     case "4":
+//         document.write("Four");
+//         break;
+//     case "5":
+//         document.write("Five");
+//         break;
+//     case "6":
+//         document.write("Six");
+//         break;
+//     case "7":
+//         document.write("Seven");
+//         break;
+//     case "8":
+//         document.write("Eight");
+//         break;
+//     case "9":
+//         document.write("Nine");
+//         break;
+//     case "10":
+//             document.write("Ten");
+//             break;
+//     default:
+//         document.write("Not a Digit");
+// }
+
+//Task Number Five code for finding vowel or consonant using switch -------->
+// var letter = prompt("Enter Your Letter : ");
+// letter = letter.toLowerCase();
+
+// switch (letter){
+//     case "a":
+//         document.write("Vowel");
+//         break;
+//     case "e":
+//         document.write("Vowel");
+//         break;
+//     case "i":
+//         document.write("Vowel");
+//         break;
+//     case "o":
+//         document.write("Vowel");
+//         break;
+//     case "u":
+//         document.write("Vowel");
+//         break;
+//     default:
+//         document.write("Not a Vowel, it's Consonant");
+// }
+
+//Task Number Five code for finding vowel or consonant using switch 2-------->
+var letter = prompt("Enter Your Letter : ");
+letter = letter.toLowerCase();
+
+switch (letter){
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+        document.write("Vowel");
+        break;
+    default:
+        document.write("Not a Vowel, it's Consonant");
+}
