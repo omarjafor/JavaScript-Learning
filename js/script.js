@@ -167,7 +167,7 @@ else
 //     document.write("Fail");
 document.write("<br>");
 
-//New Program code for student grade mark -------->
+//New Program code for finding large number -------->
 // var num1 = prompt("Enter your number 1: ");
 // var num2 = prompt("Enter your number 2: ");
 // var num3 = prompt("Enter your number 3: ");
@@ -180,7 +180,7 @@ document.write("<br>");
 //     document.write("<br> Large Number is = " + num3);
 document.write("<br>");
 
-//New Program code for student grade mark -------->
+//New Program code for finding vowel or consonant -------->
 
 // var letter = prompt("Enter Your Letter : ");
 // letter = letter.toLowerCase();
@@ -190,7 +190,7 @@ document.write("<br>");
 // else
 //     document.write("Consonant");
 
-//New Program code for student grade mark -------->
+//New Program code for number spelling -------->
 
 // var digit = prompt("Enter Your Number : ");
 
@@ -271,3 +271,5 @@ switch (letter){
     default:
         document.write("Not a Vowel, it's Consonant");
 }
+
+// New Program Code For  ------------->
