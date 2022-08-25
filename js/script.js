@@ -351,26 +351,50 @@ document.write("<br>");
 // document.write("<br>Result For Even = "+ sum);
 
 //Task Number Six code for find sum of number of division 3 & 5 from 1 to 100-------->
-var i = 1;
-var sum = 0;
-while (i<=100){
-    if(i%3==0 && i%5==0){
-        document.write("<br> "+i);
-        sum = sum + i;
-    }
-    i = i + 1;
-}
-document.write("<br>Result For %3 & %5 = "+ sum);
+// var i = 1;
+// var sum = 0;
+// while (i<=100){
+//     if(i%3==0 && i%5==0){
+//         document.write("<br> "+i);
+//         sum = sum + i;
+//     }
+//     i = i + 1;
+// }
+// document.write("<br>Result For %3 & %5 = "+ sum);
 
 // Task Number Six doing using switch only...............>
-var i = 1;
-var sum = 0;
-while (i<=100){
-    switch(i<=100){
-        case (i%3==0 && i%5==0):
-            document.write("<br> "+i);
-            sum = sum + i;
-    }
-    i = i + 1;
+// var i = 1;
+// var sum = 0;
+// while (i<=100){
+//     switch(i<=100){
+//         case (i%3==0 && i%5==0):
+//             document.write("<br> "+i);
+//             sum = sum + i;
+//     }
+//     i = i + 1;
+// }
+// document.write("<br>Result For %3 & %5 = "+ sum);
+
+// New Program Code using do while Loop ------------->
+// Using For Loop
+for (i=1; i<=10; i++){
+    document.write("<br>Result = "+i);
 }
-document.write("<br>Result For %3 & %5 = "+ sum);
+
+document.write("<br><br>");
+
+// Using While Loop
+var i=0;
+while(i<=10){
+    document.write("<br>Result = "+i);
+    i++;
+}
+
+// Using Do While Loop
+document.write("<br><br>");
+
+var i=0;
+do{
+    document.write("<br>Result = "+i);
+    i++;
+}while(i<=10);
