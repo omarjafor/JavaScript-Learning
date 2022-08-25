@@ -257,19 +257,64 @@ document.write("<br>");
 // }
 
 //Task Number Five code for finding vowel or consonant using switch 2-------->
-var letter = prompt("Enter Your Letter : ");
-letter = letter.toLowerCase();
+// var letter = prompt("Enter Your Letter : ");
+// letter = letter.toLowerCase();
 
-switch (letter){
-    case "a":
-    case "e":
-    case "i":
-    case "o":
-    case "u":
-        document.write("Vowel");
-        break;
-    default:
-        document.write("Not a Vowel, it's Consonant");
-}
+// switch (letter){
+//     case "a":
+//     case "e":
+//     case "i":
+//     case "o":
+//     case "u":
+//         document.write("Vowel");
+//         break;
+//     default:
+//         document.write("Not a Vowel, it's Consonant");
+// }
 
-// New Program Code For  ------------->
+// New Program Code using For Loop ------------->
+// for(x=1; x<=100; x=x+1){
+//     document.write(x + " ")
+// }
+// document.write("Loop End <br><br>");
+
+// for(x=1; x<=100; x=x+2){
+//     document.write(x + " ")
+// }
+// document.write("Loop End <br><br>");
+
+// for(x=2; x<=100; x=x+2){
+//     document.write(x + " ")
+// }
+// document.write("Loop End <br><br>");
+
+// for(x=10; x>=1; x=x-1){
+//     document.write(x + " ")
+// }
+// document.write("Loop End <br><br>");
+
+// New Program Code using For Loop ------------->
+// var sum = 0;
+// for(x=1; x<=5; x++){
+//         sum = sum + x;
+//     }
+//     document.write(sum)
+
+
+// var m = parseInt(prompt("Enter Your First Number : "));
+// var n = parseInt(prompt("Enter Your Secound Number : "));
+// var sum = 0;
+//     for(x=m; x<=n; x++){
+//             sum = sum + x;
+//         }
+//         document.write(sum)
+
+
+// for(x=1; x<=5; x++){
+//     var num1 = parseInt(prompt("Enter Your First Number : "));
+//     var num2 = parseInt(prompt("Enter Your Secound Number : "));
+//     var sum = num1+num2;
+//     console.log("Result = "+sum);
+// }
+
+// New Program Code using while Loop ------------->
