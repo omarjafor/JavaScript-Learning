@@ -377,25 +377,24 @@ document.write("<br>");
 
 // New Program Code using do while Loop ------------->
 // Using For Loop
-for (i=1; i<=10; i++){
-    document.write("<br>Result = "+i);
-}
+// for (i=1; i<=10; i++){
+//     document.write("<br>Result = "+i);
+// }
 
-document.write("<br><br>");
+// document.write("<br><br>");
 
-// Using While Loop
-var i=0;
-while(i<=10){
-    document.write("<br>Result = "+i);
-    i++;
-}
+// // Using While Loop
+// var i=0;
+// while(i<=10){
+//     document.write("<br>Result = "+i);
+//     i++;
+// }
 
-// Using Do While Loop
-document.write("<br><br>");
+// // Using Do While Loop
+// document.write("<br><br>");
 
-var i=0;
-do{
-    document.write("<br>Result = "+i);
-    i++;
-}while(i<=10);
-
+// var i=0;
+// do{
+//     document.write("<br>Result = "+i);
+//     i++;
+// }while(i<=10);
