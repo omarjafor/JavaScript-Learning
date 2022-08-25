@@ -398,3 +398,4 @@ do{
     document.write("<br>Result = "+i);
     i++;
 }while(i<=10);
+
