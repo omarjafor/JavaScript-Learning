@@ -318,3 +318,59 @@ document.write("<br>");
 // }
 
 // New Program Code using while Loop ------------->
+// var i = 1;
+// while (i<=100){
+//     document.write(" "+i);
+//     i++;
+// }
+
+
+// var i = 1;
+// var sum = 0;
+
+// while (i<=5){
+//     sum = sum + i;
+//     i++;
+// }
+// document.write("<br>Result is = "+ sum);
+
+// var i = 1;
+// var sum = 0;
+// while (i<=100){
+//     sum = sum + i;
+//     i = i + 2;
+// }
+// document.write("<br>Result For Odd= "+ sum);
+
+// var i = 2;
+// var sum = 0;
+// while (i<=100){
+//     sum = sum + i;
+//     i = i + 2;
+// }
+// document.write("<br>Result For Even = "+ sum);
+
+//Task Number Six code for find sum of number of division 3 & 5 from 1 to 100-------->
+var i = 1;
+var sum = 0;
+while (i<=100){
+    if(i%3==0 && i%5==0){
+        document.write("<br> "+i);
+        sum = sum + i;
+    }
+    i = i + 1;
+}
+document.write("<br>Result For %3 & %5 = "+ sum);
+
+// Task Number Six doing using switch only...............>
+var i = 1;
+var sum = 0;
+while (i<=100){
+    switch(i<=100){
+        case (i%3==0 && i%5==0):
+            document.write("<br> "+i);
+            sum = sum + i;
+    }
+    i = i + 1;
+}
+document.write("<br>Result For %3 & %5 = "+ sum);
