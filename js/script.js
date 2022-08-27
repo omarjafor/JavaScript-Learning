@@ -440,21 +440,37 @@ document.write("<br>");
 
 // New Program Code Using Ternary Operator ------------->
 
-var num = prompt("Enter Your Number : ");
+// var num = prompt("Enter Your Number : ");
 
-if(num > 0){
-    document.write("Positive");
-}else if( num < 0){
-    document.write("Negative");
-}else{
-    document.write("Zero")
-}
-document.write("<br><br>");
+// if(num > 0){
+//     document.write("Positive");
+// }else if( num < 0){
+//     document.write("Negative");
+// }else{
+//     document.write("Zero")
+// }
+// document.write("<br><br>");
 
-var result = num > 0 ? "Positive" : "Negative"
+// var result = num > 0 ? "Positive" : "Negative"
+// document.write(result);
+// document.write("<br><br>");
+
+// result = num > 0 ? "Positive" : num < 0 ? "Negative" : "Zero"
+// document.write(result);
+// document.write("<br><br>");
+
+// New Program Code Using Ternary Operator Find large number------------->
+var num = prompt("Enter Your Number 1 : ");
+var num1 = prompt("Enter Your Number 2 : ");
+var num2 = prompt("Enter Your Number 3 : ");
+
+// if(num > num1 && num > num2){
+//     document.write("Large Number is : " + num);
+// }else if( num1 > num2 && num1 > num){
+//     document.write("Large Number is : " + num1);
+// }else{
+//     document.write("Large Number is : " + num2);
+// }
+
+result = num > num1 && num > num2 ? "Large number is: "+num : num1 > num2 && num1 > num ? "Large number is: "+num1 : "Large number is: "+num2
 document.write(result);
-document.write("<br><br>");
-
-result = num > 0 ? "Positive" : num < 0 ? "Negative" : "Zero"
-document.write(result);
-document.write("<br><br>");
