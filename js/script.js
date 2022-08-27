@@ -398,3 +398,13 @@ do{
     document.write("<br>Result = "+i);
     i++;
 }while(i<=10);
+
+document.write("<br><br>");
+
+// New Program Code using break and continue ------------->
+for (i=1; i<=100; i++){
+    if(i==10){
+        break;
+    }
+    document.write(" " + i);
+}
