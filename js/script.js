@@ -377,65 +377,84 @@ document.write("<br>");
 
 // New Program Code using do while Loop ------------->
 // Using For Loop
-for (i=1; i<=10; i++){
-    document.write("<br>Result = "+i);
-}
+// for (i=1; i<=10; i++){
+//     document.write("<br>Result = "+i);
+// }
 
-document.write("<br><br>");
+// document.write("<br><br>");
 
-// // Using While Loop
-var i=0;
-while(i<=10){
-    document.write("<br>Result = "+i);
-    i++;
-}
+// Using While Loop
+// var i=0;
+// while(i<=10){
+//     document.write("<br>Result = "+i);
+//     i++;
+// }
 
-document.write("<br><br>");
+// document.write("<br><br>");
 
-// // Using Do While Loop
-var i=0;
-do{
-    document.write("<br>Result = "+i);
-    i++;
-}while(i<=10);
+// Using Do While Loop
+// var i=0;
+// do{
+//     document.write("<br>Result = "+i);
+//     i++;
+// }while(i<=10);
 
-document.write("<br><br>");
+// document.write("<br><br>");
 
 // New Program Code using break and continue ------------->
 // Using break 
-for (i=1; i<=100; i++){
-    if(i==10){
-        break;
-    }
-    document.write(" " + i);
-}
-document.write("<br><br>");
+// for (i=1; i<=100; i++){
+//     if(i==10){
+//         break;
+//     }
+//     document.write(" " + i);
+// }
+// document.write("<br><br>");
 
 // Using continue
-for (i=1; i<=20; i++){
-    if(i==10){
-        continue;
-    }
-    document.write(" " + i);
-}
-document.write("<br><br>");
+// for (i=1; i<=20; i++){
+//     if(i==10){
+//         continue;
+//     }
+//     document.write(" " + i);
+// }
+// document.write("<br><br>");
 
 // Using continue Code No:-2
-for (i=1; i<=100; i++){
-    if(i%2 == 0){
-        continue;
-    }
-    document.write(" " + i);
-}
-document.write("<br><br>");
+// for (i=1; i<=100; i++){
+//     if(i%2 == 0){
+//         continue;
+//     }
+//     document.write(" " + i);
+// }
+// document.write("<br><br>");
 
 // Using continue Code No:-3
-for (i=1; i<=100; i++){
-    if(i%2 != 0){
-        continue;
-    }
-    document.write(" " + i);
+// for (i=1; i<=100; i++){
+//     if(i%2 != 0){
+//         continue;
+//     }
+//     document.write(" " + i);
+// }
+// document.write("<br><br>");
+
+// New Program Code Using Ternary Operator ------------->
+
+var num = prompt("Enter Your Number : ");
+
+if(num > 0){
+    document.write("Positive");
+}else if( num < 0){
+    document.write("Negative");
+}else{
+    document.write("Zero")
 }
 document.write("<br><br>");
 
-// New Program Code  ------------->
+var result = num > 0 ? "Positive" : "Negative"
+document.write(result);
+document.write("<br><br>");
+
+result = num > 0 ? "Positive" : num < 0 ? "Negative" : "Zero"
+document.write(result);
+document.write("<br><br>");
