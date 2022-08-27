@@ -402,9 +402,38 @@ do{
 document.write("<br><br>");
 
 // New Program Code using break and continue ------------->
+// Using break 
 for (i=1; i<=100; i++){
     if(i==10){
         break;
     }
     document.write(" " + i);
 }
+document.write("<br><br>");
+
+// Using continue
+for (i=1; i<=20; i++){
+    if(i==10){
+        continue;
+    }
+    document.write(" " + i);
+}
+document.write("<br><br>");
+
+// Using continue Code No:-2
+for (i=1; i<=100; i++){
+    if(i%2 == 0){
+        continue;
+    }
+    document.write(" " + i);
+}
+document.write("<br><br>");
+
+// Using continue Code No:-3
+for (i=1; i<=100; i++){
+    if(i%2 != 0){
+        continue;
+    }
+    document.write(" " + i);
+}
+document.write("<br><br>");
