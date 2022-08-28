@@ -477,64 +477,64 @@ document.write("<br>");
 
 // New Program Code For Creating Function---------------------------->
 // sample for multification we use earlier
-var num = 5;
-var result = num * num;
-document.write("Result = " + result);
+// var num = 5;
+// var result = num * num;
+// document.write("Result = " + result);
 
 // Creating a function for mulification
-function sqaure(num){
-    var result = num * num;
-    document.write("<br>Result = " + result);
-}
-sqaure(8);
+// function sqaure(num){
+//     var result = num * num;
+//     document.write("<br>Result = " + result);
+// }
+// sqaure(8);
 
 // Creating a function for multifly 2 perameter
-var num1 = 0;
-var num2 = 0;
-function sqaure2(num1, num2){
-    var result = num1 * num2;
-    document.write("<br>Result = " + result);
-}
-sqaure2(2,5);
+// var num1 = 0;
+// var num2 = 0;
+// function sqaure2(num1, num2){
+//     var result = num1 * num2;
+//     document.write("<br>Result = " + result);
+// }
+// sqaure2(2,5);
 
 // Creating a function for multifly 2 perameter and return result
-function sqaure3(num1, num2){
-    var result = num1 * num2;
-    return result;
-}
-document.write("<br>Result = " + sqaure3(6,5));
+// function sqaure3(num1, num2){
+//     var result = num1 * num2;
+//     return result;
+// }
+// document.write("<br>Result = " + sqaure3(6,5));
 
 // Creating a function make Additon of two number
-var num1, num2;
-function addition(num1, num2){
-    var result = num1 + num2;
-    document.write("<br>Result of Addition = " + result);
-}
-addition(546,59);
+// var num1, num2;
+// function addition(num1, num2){
+//     var result = num1 + num2;
+//     document.write("<br>Result of Addition = " + result);
+// }
+// addition(546,59);
 
 // Creating a function make subtraction of two number
-var num1, num2;
-function sub(num1, num2){
-    var result = num1 - num2;
-    document.write("<br>Result of subtraction = " + result);
-}
-sub(505,354);
+// var num1, num2;
+// function sub(num1, num2){
+//     var result = num1 - num2;
+//     document.write("<br>Result of subtraction = " + result);
+// }
+// sub(505,354);
 
 // Creating a function make Division of two number
-var num1, num2;
-function division(num1, num2){
-    var result = num1 / num2;
-    document.write("<br>Result of Division = " + result);
-}
-division(55,5);
+// var num1, num2;
+// function division(num1, num2){
+//     var result = num1 / num2;
+//     document.write("<br>Result of Division = " + result);
+// }
+// division(55,5);
 
 // Creating a function make modulous of two number
-var num1, num2;
-function modulous(num1, num2){
-    var result = num1 % num2;
-    document.write("<br>Result of Modulous = " + result);
-}
-modulous(18,5);
+// var num1, num2;
+// function modulous(num1, num2){
+//     var result = num1 % num2;
+//     document.write("<br>Result of Modulous = " + result);
+// }
+// modulous(18,5);
 
 // New Program Code For Creating Imidiate Function---------------------------->
 //IIFEs (Immediately Invokeable Function Expresions)
