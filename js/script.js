@@ -460,9 +460,9 @@ document.write("<br>");
 // document.write("<br><br>");
 
 // New Program Code Using Ternary Operator Find large number------------->
-var num = prompt("Enter Your Number 1 : ");
-var num1 = prompt("Enter Your Number 2 : ");
-var num2 = prompt("Enter Your Number 3 : ");
+// var num = prompt("Enter Your Number 1 : ");
+// var num1 = prompt("Enter Your Number 2 : ");
+// var num2 = prompt("Enter Your Number 3 : ");
 
 // if(num > num1 && num > num2){
 //     document.write("Large Number is : " + num);
@@ -472,5 +472,68 @@ var num2 = prompt("Enter Your Number 3 : ");
 //     document.write("Large Number is : " + num2);
 // }
 
-result = num > num1 && num > num2 ? "Large number is: "+num : num1 > num2 && num1 > num ? "Large number is: "+num1 : "Large number is: "+num2
-document.write(result);
+// result = num > num1 && num > num2 ? "Large number is: "+num : num1 > num2 && num1 > num ? "Large number is: "+num1 : "Large number is: "+num2
+// document.write(result);
+
+// New Program Code For Creating Function---------------------------->
+// sample for multification we use earlier
+var num = 5;
+var result = num * num;
+document.write("Result = " + result);
+
+// Creating a function for mulification
+function sqaure(num){
+    var result = num * num;
+    document.write("<br>Result = " + result);
+}
+sqaure(8);
+
+// Creating a function for multifly 2 perameter
+var num1 = 0;
+var num2 = 0;
+function sqaure2(num1, num2){
+    var result = num1 * num2;
+    document.write("<br>Result = " + result);
+}
+sqaure2(2,5);
+
+// Creating a function for multifly 2 perameter and return result
+function sqaure3(num1, num2){
+    var result = num1 * num2;
+    return result;
+}
+document.write("<br>Result = " + sqaure3(6,5));
+
+// Creating a function make Additon of two number
+var num1, num2;
+function addition(num1, num2){
+    var result = num1 + num2;
+    document.write("<br>Result of Addition = " + result);
+}
+addition(546,59);
+
+// Creating a function make subtraction of two number
+var num1, num2;
+function sub(num1, num2){
+    var result = num1 - num2;
+    document.write("<br>Result of subtraction = " + result);
+}
+sub(505,354);
+
+// Creating a function make Division of two number
+var num1, num2;
+function division(num1, num2){
+    var result = num1 / num2;
+    document.write("<br>Result of Division = " + result);
+}
+division(55,5);
+
+// Creating a function make modulous of two number
+var num1, num2;
+function modulous(num1, num2){
+    var result = num1 % num2;
+    document.write("<br>Result of Modulous = " + result);
+}
+modulous(18,5);
+
+// New Program Code For Creating Imidiate Function---------------------------->
