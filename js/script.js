@@ -537,3 +537,29 @@ function modulous(num1, num2){
 modulous(18,5);
 
 // New Program Code For Creating Imidiate Function---------------------------->
+//IIFEs (Immediately Invokeable Function Expresions)
+
+(function word(){
+    document.write("<br> Hello World");
+})();
+
+(function word(msg){
+    document.write("<br> "+ msg);
+})("Hello My New World");
+
+// Task Number :- 07 Code For Creating 2 Number sum with IIFE------------->
+(function add(num1,num2){
+    result = num1 + num2;
+    document.write("<br> Addition is = "+ result);
+})(10,20);
+
+// New Program Code For Creating Function Expression---------------------------->
+var display2 = function display(){
+    document.write("<br>Hello This is my Message");
+}
+display2();
+
+var display3 = function display(msg){
+    document.write("<br> Your message = "+ msg);
+}
+display3("I am Omar Jafor, it's new");
