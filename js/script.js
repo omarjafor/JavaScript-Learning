@@ -563,3 +563,5 @@ var display3 = function display(msg){
     document.write("<br> Your message = "+ msg);
 }
 display3("I am Omar Jafor, it's new");
+
+// New Program Code For Creating Function Expression---------------------------->
