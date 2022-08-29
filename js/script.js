@@ -571,3 +571,14 @@ display3("Writing new message for you");
 document.write("<br><br>");
 
 // New Program Code For Creating Array---------------------------->
+var names = new Array(6);
+names[0] = "Abul";
+names[1] = "Kalam";
+names[2] = "Jamal";
+names[3] = "Rohim";
+names[4] = "Pagol";
+names[5] = "Chagol";
+
+console.log("Array Length is = "+names.length);
+console.log(names);
+console.log(names[3]);
