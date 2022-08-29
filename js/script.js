@@ -579,17 +579,17 @@ names[3] = "Rohim";
 names[4] = "Pagol";
 names[5] = "Chagol";
 
-console.log("Array Length is = "+names.length);
+console.log("Array Length is = "+names.length); //using for finding array length
 console.log(names);
 console.log(names[3]);
 
 var country1 =["Bangladesh", "India", "Pakistan"];
 var country2 =["Japan", "Chaina", "Rusia"];
-country1.push("Nepal","Maldives");
+country1.push("Nepal","Maldives"); //adding an array in the last
 country2.push("Mayanmar");
 console.log(country1);
 console.log(country2);
-country1.pop();
+country1.pop(); // deleting an array in the last
 country2.pop();
 console.log(country1);
 console.log(country2);
