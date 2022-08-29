@@ -582,3 +582,14 @@ names[5] = "Chagol";
 console.log("Array Length is = "+names.length);
 console.log(names);
 console.log(names[3]);
+
+var country1 =["Bangladesh", "India", "Pakistan"];
+var country2 =["Japan", "Chaina", "Rusia"];
+country1.push("Nepal","Maldives");
+country2.push("Mayanmar");
+console.log(country1);
+console.log(country2);
+country1.pop();
+country2.pop();
+console.log(country1);
+console.log(country2);
