@@ -593,3 +593,7 @@ country1.pop(); // deleting an array in the last
 country2.pop();
 console.log(country1);
 console.log(country2);
+country1.shift(); // oposite of pop
+country2.unshift("Jabed"); // oposite of push
+console.log(country1);
+console.log(country2);
