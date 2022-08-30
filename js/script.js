@@ -629,3 +629,5 @@ country1.splice(2,0,"Newzilan", "Thailand"); // Adding Elements using splice
 console.log(country1);
 country1.splice(3,1);
 console.log(country1);
+country1.sort();
+console.log(country1);
