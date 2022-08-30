@@ -597,3 +597,31 @@ country1.shift(); // oposite of pop
 country2.unshift("Jabed"); // oposite of push
 console.log(country1);
 console.log(country2);
+
+// New Program Code For Creating Loop in Array---------------------------->
+// Printing Array Number
+var num = [10, 20, 30, 40, 50];
+for(i=0; i<5; i++){
+    console.log(num[i]);
+}
+// Finding sum of all array number
+var sum = 0;
+for(i=0; i<5; i++){
+    sum = sum + num[i];
+}
+console.log("Sum = "+ sum);
+
+// Taking number from a user
+var num = new Array();
+for(i=0; i<5; i++){
+    num[i] = parseInt(prompt("Enter Your Number = "));
+    console.log(num[i]);
+}
+
+var sum = 0;
+for(i=0; i<5; i++){
+    sum = sum + num[i];
+}
+console.log("Sum = "+ sum);
+
+// New Program Code For Creating Array Library Method---------------------------->
