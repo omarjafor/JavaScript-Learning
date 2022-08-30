@@ -593,8 +593,8 @@ country1.pop(); // deleting an array in the last
 country2.pop();
 console.log(country1);
 console.log(country2);
-country1.shift(); // oposite of pop
-country2.unshift("Jabed"); // oposite of push
+country1.shift(); // opposite of pop
+country2.unshift("Jabed"); // opposite of push
 console.log(country1);
 console.log(country2);
 
@@ -612,11 +612,11 @@ for(i=0; i<5; i++){
 console.log("Sum = "+ sum);
 
 // Taking number from a user
-var num = new Array();
-for(i=0; i<5; i++){
-    num[i] = parseInt(prompt("Enter Your Number = "));
-    console.log(num[i]);
-}
+// var num = new Array();
+// for(i=0; i<5; i++){
+//     num[i] = parseInt(prompt("Enter Your Number = "));
+//     console.log(num[i]);
+// }
 
 var sum = 0;
 for(i=0; i<5; i++){
@@ -625,3 +625,7 @@ for(i=0; i<5; i++){
 console.log("Sum = "+ sum);
 
 // New Program Code For Creating Array Library Method---------------------------->
+country1.splice(2,0,"Newzilan", "Thailand"); // Adding Elements using splice
+console.log(country1);
+country1.splice(3,1);
+console.log(country1);
