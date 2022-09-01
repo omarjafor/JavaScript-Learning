@@ -80,8 +80,8 @@ document.write("<br>"+text);
 // var num1 = prompt("Enter First Number :");
 // var num2 = prompt("Enter Second Number :");
 
-// num1 = parseInt(num1,10);
-// num2 = parseInt(num2,10);
+// num1 = parseInt(num1);
+// num2 = parseInt(num2);
 
 // document.write("Entered First Number is =" + num1);
 // document.write("<br>Entered Secound Number is =" + num2 + "<br>");
@@ -318,37 +318,37 @@ document.write("<br>");
 // }
 
 // New Program Code using while Loop ------------->
-// var i = 1;
-// while (i<=100){
-//     document.write(" "+i);
-//     i++;
-// }
+var i = 1;
+while (i<=100){
+    document.write(" "+i);
+    i++;
+}
 
 
-// var i = 1;
-// var sum = 0;
+var i = 1;
+var sum = 0;
 
-// while (i<=5){
-//     sum = sum + i;
-//     i++;
-// }
-// document.write("<br>Result is = "+ sum);
+while (i<=5){
+    sum = sum + i;
+    i++;
+}
+document.write("<br>Result is = "+ sum);
 
-// var i = 1;
-// var sum = 0;
-// while (i<=100){
-//     sum = sum + i;
-//     i = i + 2;
-// }
-// document.write("<br>Result For Odd= "+ sum);
+var i = 1;
+var sum = 0;
+while (i<=100){
+    sum = sum + i;
+    i = i + 2;
+}
+document.write("<br>Result For Odd= "+ sum);
 
-// var i = 2;
-// var sum = 0;
-// while (i<=100){
-//     sum = sum + i;
-//     i = i + 2;
-// }
-// document.write("<br>Result For Even = "+ sum);
+var i = 2;
+var sum = 0;
+while (i<=100){
+    sum = sum + i;
+    i = i + 2;
+}
+document.write("<br>Result For Even = "+ sum);
 
 //Task Number Six code for find sum of number of division 3 & 5 from 1 to 100-------->
 // var i = 1;
@@ -625,9 +625,14 @@ for(i=0; i<5; i++){
 console.log("Sum = "+ sum);
 
 // New Program Code For Creating Array Library Method---------------------------->
-country1.splice(2,0,"Newzilan", "Thailand"); // Adding Elements using splice
+country1.splice(2,0,"Newzilan", "Thailand"); // Adding Elements using splice or remove an array
 console.log(country1);
 country1.splice(3,1);
 console.log(country1);
 country1.sort();
 console.log(country1);
+
+var nums = [10, 5, 15, 9, 2];
+console.log(nums.sort(function(a,b){
+    return a-b;
+}));
