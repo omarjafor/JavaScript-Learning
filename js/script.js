@@ -633,6 +633,9 @@ country1.sort();
 console.log(country1);
 
 var nums = [10, 5, 15, 9, 2];
-console.log(nums.sort(function(a,b){
+console.log(nums.sort());
+
+var nums1 = [12, 1, 15, 9, 3, 6];
+console.log(nums1.sort(function(a,b){
     return a-b;
 }));
