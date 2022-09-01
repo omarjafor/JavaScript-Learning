@@ -645,3 +645,19 @@ var nums1 = [12, 1, 15, 9, 3, 6];
 console.log(nums1.sort(function(a,b){
     return a-b;
 }));
+
+// Task Number :- 08
+// New Program Code For 1D- One dimensional Array ---------------------------->
+// Finding max number from an array by function
+function highestScore(scores){
+    var max = scores[0];
+    for(i=1; i<scores.length; i++){
+        if(max < scores[i]){
+            max = scores[i];
+        }
+    }
+    return max; 
+}
+var scores = [10, 95, 49, 64, 98, 48];
+var maxScore = highestScore(scores);
+console.log(maxScore);
