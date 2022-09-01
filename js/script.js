@@ -629,9 +629,15 @@ country1.splice(2,0,"Newzilan", "Thailand"); // Adding Elements using splice or 
 console.log(country1);
 country1.splice(3,1);
 console.log(country1);
+// slice or remove an array
+var newArray = country1.slice(2);
+console.log(newArray);
+console.log(country1); // here main array not changed by slice
+// Sorting String or name
 country1.sort();
 console.log(country1);
 
+// Sorting number
 var nums = [10, 5, 15, 9, 2];
 console.log(nums.sort());
 
