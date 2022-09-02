@@ -648,6 +648,11 @@ console.log(nums1.sort(function(a,b){
 
 // Task Number :- 08
 // New Program Code For 1D- One dimensional Array ---------------------------->
+var names = ["Kabir", "Arjun", "Mahi", "Kanika", "Putul", "Anika"];
+for(i=0; i<names.length; i++){
+    console.log(names[i]);
+}
+
 // Finding max number from an array by function
 function highestScore(scores){
     var max = scores[0];
