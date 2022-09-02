@@ -666,7 +666,7 @@ function highestScore(scores){
 }
 var scores = [10, 95, 49, 64, 98, 48];
 var maxScore = highestScore(scores);
-console.log(maxScore);
+console.log("Highest Score is = "+ maxScore);
 
 
 // New Program Code For 2D- Two dimensional Array ---------------------------->
@@ -687,3 +687,25 @@ for(i=0; i<names.length; i++){
 
 // Task Number :- 09
 // Finding highest Scorer Name from 2D Array ----------------------------->
+var playersInfo = [
+    ["Kabir", 95],
+    ["Arjun", 145],
+    ["Mahi", 65],
+    ["Kanika", 70],
+    ["Putul", 15],
+    ["Anika", 17]
+];
+
+function highestRunScorer(playersInfo){
+    var highestScorer = playersInfo[0][0];
+    var highestScore = playersInfo[0][1];
+    for(x=1; x<playersInfo.length; x++){
+        if(highestScore < playersInfo[x][1]){
+            highestScore = playersInfo[x][1];
+            highestScorer = playersInfo[x][0];
+        }
+    }
+    return highestScorer;
+}
+
+console.log(highestRunScorer(playersInfo));
