@@ -19,13 +19,13 @@ console.log(typeof(num));
 
 var number = 2.56789;
 
-console.log(number.toFixed(1)); //it's use for how much number shown after .point
-console.log(number.toPrecision(3)); // it's use for total how much digit to shown
+// console.log(number.toFixed(1)); //it's use for how much number shown after .point
+// console.log(number.toPrecision(3)); // it's use for total how much digit to shown
 
-console.log(Number("12"));
-console.log(Number("12.5"));
-console.log(Number(true));
-console.log(Number(false));
+// console.log(Number("12"));
+// console.log(Number("12.5"));
+// console.log(Number(true));
+// console.log(Number(false));
 
 document.write("<br>JaBer " + "JaBed<br>");
 
@@ -318,37 +318,37 @@ document.write("<br>");
 // }
 
 // New Program Code using while Loop ------------->
-var i = 1;
-while (i<=100){
-    document.write(" "+i);
-    i++;
-}
+// var i = 1;
+// while (i<=100){
+//     document.write(" "+i);
+//     i++;
+// }
 
 
-var i = 1;
-var sum = 0;
+// var i = 1;
+// var sum = 0;
 
-while (i<=5){
-    sum = sum + i;
-    i++;
-}
-document.write("<br>Result is = "+ sum);
+// while (i<=5){
+//     sum = sum + i;
+//     i++;
+// }
+// document.write("<br>Result is = "+ sum);
 
-var i = 1;
-var sum = 0;
-while (i<=100){
-    sum = sum + i;
-    i = i + 2;
-}
-document.write("<br>Result For Odd= "+ sum);
+// var i = 1;
+// var sum = 0;
+// while (i<=100){
+//     sum = sum + i;
+//     i = i + 2;
+// }
+// document.write("<br>Result For Odd= "+ sum);
 
-var i = 2;
-var sum = 0;
-while (i<=100){
-    sum = sum + i;
-    i = i + 2;
-}
-document.write("<br>Result For Even = "+ sum);
+// var i = 2;
+// var sum = 0;
+// while (i<=100){
+//     sum = sum + i;
+//     i = i + 2;
+// }
+// document.write("<br>Result For Even = "+ sum);
 
 //Task Number Six code for find sum of number of division 3 & 5 from 1 to 100-------->
 // var i = 1;
@@ -580,30 +580,30 @@ names[4] = "Pagol";
 names[5] = "Chagol";
 
 console.log("Array Length is = "+names.length); //using for finding array length
-console.log(names);
-console.log(names[3]);
+// console.log(names);
+// console.log(names[3]);
 
 var country1 =["Bangladesh", "India", "Pakistan"];
 var country2 =["Japan", "Chaina", "Rusia"];
 country1.push("Nepal","Maldives"); //adding an array in the last
 country2.push("Mayanmar");
-console.log(country1);
-console.log(country2);
+// console.log(country1);
+// console.log(country2);
 country1.pop(); // deleting an array in the last
 country2.pop();
-console.log(country1);
-console.log(country2);
+// console.log(country1);
+// console.log(country2);
 country1.shift(); // opposite of pop
 country2.unshift("Jabed"); // opposite of push
-console.log(country1);
-console.log(country2);
+// console.log(country1);
+// console.log(country2);
 
 // New Program Code For Creating Loop in Array---------------------------->
 // Printing Array Number
-var num = [10, 20, 30, 40, 50];
-for(i=0; i<5; i++){
-    console.log(num[i]);
-}
+// var num = [10, 20, 30, 40, 50];
+// for(i=0; i<5; i++){
+//     console.log(num[i]);
+// }
 // Finding sum of all array number
 var sum = 0;
 for(i=0; i<5; i++){
@@ -626,32 +626,32 @@ console.log("Sum = "+ sum);
 
 // New Program Code For Creating Array Library Method---------------------------->
 country1.splice(2,0,"Newzilan", "Thailand"); // Adding Elements using splice or remove an array
-console.log(country1);
-country1.splice(3,1);
-console.log(country1);
+// console.log(country1);
+// country1.splice(3,1);
+// console.log(country1);
 // slice or remove an array
 var newArray = country1.slice(2);
-console.log(newArray);
-console.log(country1); // here main array not changed by slice
+// console.log(newArray);
+// console.log(country1); // here main array not changed by slice
 // Sorting String or name
 country1.sort();
-console.log(country1);
+// console.log(country1);
 
 // Sorting number
-var nums = [10, 5, 15, 9, 2];
-console.log(nums.sort());
+// var nums = [10, 5, 15, 9, 2];
+// console.log(nums.sort());
 
-var nums1 = [12, 1, 15, 9, 3, 6];
-console.log(nums1.sort(function(a,b){
-    return a-b;
-}));
+// var nums1 = [12, 1, 15, 9, 3, 6];
+// console.log(nums1.sort(function(a,b){
+//     return a-b;
+// }));
 
 
 // New Program Code For 1D- One dimensional Array ---------------------------->
-var names = ["Kabir", "Arjun", "Mahi", "Kanika", "Putul", "Anika"];
-for(i=0; i<names.length; i++){
-    console.log(names[i]);
-}
+// var names = ["Kabir", "Arjun", "Mahi", "Kanika", "Putul", "Anika"];
+// for(i=0; i<names.length; i++){
+//     console.log(names[i]);
+// }
 
 // Task Number :- 08
 // Finding max number from an array by function
@@ -670,20 +670,20 @@ console.log("Highest Score is = "+ maxScore);
 
 
 // New Program Code For 2D- Two dimensional Array ---------------------------->
-var names = [
-    ["Kabir", 95],
-    ["Arjun", 45],
-    ["Mahi", 65],
-    ["Kanika", 70],
-    ["Putul", 105],
-    ["Anika", 17]
-];
+// var names = [
+//     ["Kabir", 95],
+//     ["Arjun", 45],
+//     ["Mahi", 65],
+//     ["Kanika", 70],
+//     ["Putul", 105],
+//     ["Anika", 17]
+// ];
 
-for(i=0; i<names.length; i++){
-    for(var n=0; n<2; n++){
-        console.log(names[i][n]);
-    }
-}
+// for(i=0; i<names.length; i++){
+//     for(var n=0; n<2; n++){
+//         console.log(names[i][n]);
+//     }
+// }
 
 // Task Number :- 09
 // Finding highest Scorer Name from 2D Array ----------------------------->
@@ -695,7 +695,6 @@ var playersInfo = [
     ["Putul", 15],
     ["Anika", 17]
 ];
-
 function highestRunScorer(playersInfo){
     var highestScorer = playersInfo[0][0];
     var highestScore = playersInfo[0][1];
@@ -707,5 +706,6 @@ function highestRunScorer(playersInfo){
     }
     return highestScorer;
 }
-
 console.log(highestRunScorer(playersInfo));
+
+// New Program Code For  ---------------------------->
