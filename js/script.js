@@ -646,13 +646,14 @@ console.log(nums1.sort(function(a,b){
     return a-b;
 }));
 
-// Task Number :- 08
+
 // New Program Code For 1D- One dimensional Array ---------------------------->
 var names = ["Kabir", "Arjun", "Mahi", "Kanika", "Putul", "Anika"];
 for(i=0; i<names.length; i++){
     console.log(names[i]);
 }
 
+// Task Number :- 08
 // Finding max number from an array by function
 function highestScore(scores){
     var max = scores[0];
@@ -667,5 +668,22 @@ var scores = [10, 95, 49, 64, 98, 48];
 var maxScore = highestScore(scores);
 console.log(maxScore);
 
-// Task Number :- 09
+
 // New Program Code For 2D- Two dimensional Array ---------------------------->
+var names = [
+    ["Kabir", 95],
+    ["Arjun", 45],
+    ["Mahi", 65],
+    ["Kanika", 70],
+    ["Putul", 105],
+    ["Anika", 17]
+];
+
+for(i=0; i<names.length; i++){
+    for(var n=0; n<2; n++){
+        console.log(names[i][n]);
+    }
+}
+
+// Task Number :- 09
+// Finding highest Scorer Name from 2D Array ----------------------------->
