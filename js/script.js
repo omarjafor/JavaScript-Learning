@@ -714,7 +714,7 @@ var name = "Kabir";
 var age = 24;
 var cgpa = 3.25;
 var fname = "Karim";
-
+// This is how an object help us to create multi variable in a simple object
 var student = {
     name: "Kabir",
     age: 24,
@@ -722,3 +722,15 @@ var student = {
     fname: "Karim",
 }
 console.log(student);
+console.log(student.name);
+// Adding a constructor for an object
+function Student(name,age,cgpa,lang){
+    this.name = name;
+    this.age = age;
+    this.cgpa = cgpa;
+    this.lang = lang;
+}
+var student1 = new Student("Kabir Khan", 26, 3.96, ["Bangla", "Hindi", "English"]);
+console.log(student1);
+console.log(student1.name);
+console.log(student1.lang);
