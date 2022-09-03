@@ -721,16 +721,39 @@ var student = {
     cgpa: 3.25,
     fname: "Karim",
 }
+// Print the value from an object
 console.log(student);
 console.log(student.name);
 // Adding a constructor for an object
-function Student(name,age,cgpa,lang){
+function Students(name,age,cgpa,lang){
     this.name = name;
     this.age = age;
     this.cgpa = cgpa;
     this.lang = lang;
 }
-var student1 = new Student("Kabir Khan", 26, 3.96, ["Bangla", "Hindi", "English"]);
+var student1 = new Students("Kabir Khan", 26, 3.96, ["Bangla", "Hindi", "English"]);
 console.log(student1);
 console.log(student1.name);
 console.log(student1.lang);
+
+// Adding a function for multiple object identify
+function Student(name,age,cgpa,lang){
+    this.name = name;
+    this.age = age;
+    this.cgpa = cgpa;
+    this.lang = lang;
+    //Creating function in constractor
+    this.display = function(){
+        console.log(this.name);
+        console.log(this.age);
+        console.log(this.cgpa);
+        console.log(this.lang);
+    }    
+}
+var student2 = new Student("Kabir Hossain", 28, 4.92, ["Bangla", "Nepali", "English"]);
+var student3 = new Student("Jaber Islam", 25, 5.00, ["Bangla", "Germany", "English"]);
+var student4 = new Student("Arif Ahmed", 29, 3.80, ["Bangla", "Spain", "English"]);
+
+student2.display();
+student3.display();
+student4.display();
