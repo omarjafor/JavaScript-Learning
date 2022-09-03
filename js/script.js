@@ -757,3 +757,4 @@ var student4 = new Student("Arif Ahmed", 29, 3.80, ["Bangla", "Spain", "English"
 student2.display();
 student3.display();
 student4.display();
+// New Program Code For Create Object---------------------------->
