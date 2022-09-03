@@ -708,4 +708,17 @@ function highestRunScorer(playersInfo){
 }
 console.log(highestRunScorer(playersInfo));
 
-// New Program Code For  ---------------------------->
+// New Program Code For Create Object---------------------------->
+// Varibale VS Object
+var name = "Kabir";
+var age = 24;
+var cgpa = 3.25;
+var fname = "Karim";
+
+var student = {
+    name: "Kabir",
+    age: 24,
+    cgpa: 3.25,
+    fname: "Karim",
+}
+console.log(student);
