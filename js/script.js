@@ -759,4 +759,12 @@ student3.display();
 student4.display();
 
 console.log(student2.lang);
-// New Program Code For---------------------------->
+// New Program Code For Math Object---------------------------->
+// Findin Maximum number by Math Object
+// var num1 = parseInt(prompt("Enter Your 1st Number: "));
+// var num2 = parseInt(prompt("Enter Your 2nd Number: "));
+
+var max = Math.max(num1, num2);
+document.write("Maximum Number is = " + max);
+
+//
