@@ -788,3 +788,12 @@ var numOfLost = 0;
 // document.write("<br><br>Total Number of Lost = "+ numOfLost);
 
 // New Program Code For Date Object & date methods---------------------------->
+var date = new Date();
+console.log(date);
+console.log(date.getFullYear());
+console.log(date.getDate());
+console.log(date.getMonth());
+console.log(date.getDay());
+console.log(date.getHours());
+console.log(date.getMinutes());
+console.log(date.getTimezoneOffset());
