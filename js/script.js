@@ -772,19 +772,19 @@ document.write("Maximum Number is = " + max);
 var numOfWon = 0;
 var numOfLost = 0;
 
-for(i=1; i<=5; i++){
-    var guessNum = parseInt(prompt("Enter Your 1st Number From 1 To 5: "));
-    var randomNum = Math.floor(Math.random()*6);
+// for(i=1; i<=5; i++){
+//     var guessNum = parseInt(prompt("Enter Your 1st Number From 1 To 5: "));
+//     var randomNum = Math.floor(Math.random()*6);
 
-    if(randomNum == guessNum){
-        console.log("You Have Won, Random Number is = "+ randomNum);
-        numOfWon++;
-    }else{
-        console.log("You Have Lost, Random Number is = "+ randomNum);
-        numOfLost++;
-    }
-}
-document.write("<br><br>Total Number of Won = "+ numOfWon);
-document.write("<br><br>Total Number of Lost = "+ numOfLost);
+//     if(randomNum == guessNum){
+//         console.log("You Have Won, Random Number is = "+ randomNum);
+//         numOfWon++;
+//     }else{
+//         console.log("You Have Lost, Random Number is = "+ randomNum);
+//         numOfLost++;
+//     }
+// }
+// document.write("<br><br>Total Number of Won = "+ numOfWon);
+// document.write("<br><br>Total Number of Lost = "+ numOfLost);
 
 // New Program Code For Date Object & date methods---------------------------->
