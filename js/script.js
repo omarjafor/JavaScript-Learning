@@ -759,6 +759,7 @@ student3.display();
 student4.display();
 
 console.log(student2.lang);
+
 // New Program Code For Math Object---------------------------->
 // Findin Maximum number by Math Object
 // var num1 = parseInt(prompt("Enter Your 1st Number: "));
@@ -766,7 +767,24 @@ console.log(student2.lang);
 
 var max = Math.max(num1, num2);
 document.write("Maximum Number is = " + max);
-// Guessing Game Using Math Object ---------------->
-var num1 = parseInt(prompt("Enter Your 1st Number: "));
-var num2 = parseInt(prompt("Enter Your 2nd Number: "));
 
+// Guessing Game Using Math Object ---------------->
+var numOfWon = 0;
+var numOfLost = 0;
+
+for(i=1; i<=5; i++){
+    var guessNum = parseInt(prompt("Enter Your 1st Number From 1 To 5: "));
+    var randomNum = Math.floor(Math.random()*6);
+
+    if(randomNum == guessNum){
+        console.log("You Have Won, Random Number is = "+ randomNum);
+        numOfWon++;
+    }else{
+        console.log("You Have Lost, Random Number is = "+ randomNum);
+        numOfLost++;
+    }
+}
+document.write("<br><br>Total Number of Won = "+ numOfWon);
+document.write("<br><br>Total Number of Lost = "+ numOfLost);
+
+// New Program Code For Date Object & date methods---------------------------->
