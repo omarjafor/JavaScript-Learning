@@ -1,17 +1,23 @@
 *{
     background-color: purple;
     margin: 10px; padding: 10px;
+    margin-top: 0px;
     color: white;
     font-size: 18px;
 }
-
+body{
+    margin-top: 28px;
+}
 h1{
-    background-color: black;
+    background-color: rgb(14, 97, 3);
     display: inline-block;
     margin: 5px; padding: 5px;
 }
 
 marquee{
     background-color: black;
-    margin: 0px; padding: 0px;
+    padding: 0px;
+    position: fixed;
+    top: 0px;
+    margin-bottom: 10px;
 }
