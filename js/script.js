@@ -767,3 +767,6 @@ console.log(student2.lang);
 var max = Math.max(num1, num2);
 document.write("Maximum Number is = " + max);
 // Guessing Game Using Math Object ---------------->
+var num1 = parseInt(prompt("Enter Your 1st Number: "));
+var num2 = parseInt(prompt("Enter Your 2nd Number: "));
+
