@@ -1,7 +1,7 @@
 *{
     background-color: purple;
     margin: 10px; padding: 10px;
-    margin-top: 0px;
+    margin-top: 2px;
     color: white;
     font-size: 18px;
 }
@@ -20,4 +20,5 @@ marquee{
     position: fixed;
     top: 0px;
     margin-bottom: 10px;
+    margin-right: 30px;
 }
