@@ -799,7 +799,8 @@ console.log(date.getMinutes());
 console.log(date.getTimezoneOffset());
 
 // New Program Code For DOM - Document object Model---------------------------->
-var heading = document.getElementById("hh1")
-heading.innerHTML = "Hello Heading One";
+// var heading = document.getElementById("hh1")
+// heading.innerHTML = "Hello Heading One";
 
-document.getElementById("hh2").innerHTML = "Hello Heading Two";
+// document.getElementById("hh2").innerHTML = "Hello Heading Two";
+
