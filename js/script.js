@@ -803,3 +803,5 @@ console.log(date.getTimezoneOffset());
 // heading.innerHTML = "Hello Heading One";
 
 // document.getElementById("hh2").innerHTML = "Hello Heading Two";
+
+document.querySelector("h2").innerHTML = "This is change by QuerySelector";
