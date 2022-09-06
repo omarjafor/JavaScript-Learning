@@ -811,3 +811,5 @@ console.log(date.getTimezoneOffset());
 // document.querySelector("a").innerHTML = "Change Text";
 // document.querySelector("li a").innerHTML = "Change Text";
 // document.querySelector(".my-div a").innerHTML = "Change Text";
+
+// New Program Code For Event Handler OnClick Event---------------------------->
