@@ -808,3 +808,6 @@ console.log(date.getTimezoneOffset());
 // document.querySelector("h2").innerHTML = "This is change by QuerySelector";
 // document.querySelectorAll("h2")[1].innerHTML = "This is change by QuerySelector";
 
+// document.querySelector("a").innerHTML = "Change Text";
+// document.querySelector("li a").innerHTML = "Change Text";
+// document.querySelector(".my-div a").innerHTML = "Change Text";
