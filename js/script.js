@@ -805,5 +805,5 @@ console.log(date.getTimezoneOffset());
 // document.getElementById("hh2").innerHTML = "Hello Heading Two";
 
 // querySelector is very flexiable, id class tagg name all can select
-document.querySelector("h2").innerHTML = "This is change by QuerySelector";
-document.querySelectorAll("h2")[1].innerHTML = "This is change by QuerySelector";
+// document.querySelector("h2").innerHTML = "This is change by QuerySelector";
+// document.querySelectorAll("h2")[1].innerHTML = "This is change by QuerySelector";
