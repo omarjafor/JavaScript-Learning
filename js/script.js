@@ -803,4 +803,3 @@ console.log(date.getTimezoneOffset());
 // heading.innerHTML = "Hello Heading One";
 
 // document.getElementById("hh2").innerHTML = "Hello Heading Two";
-
