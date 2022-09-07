@@ -827,9 +827,9 @@ console.log(date.getTimezoneOffset());
 
 var myVar = document.querySelector("#myPara");
 function myClick(){
-    myVar.innerHTML = "Hello Everyone Paragraph Button 1";
+    myVar.innerHTML = "Hello Everyone Paragraph Button ONE";
 }
 
 function myClick1(){
-    myVar.innerHTML = "Hello Everyone Paragraph Button 2";
+    myVar.innerHTML = "See Change! This is Paragraph Button TWO";
 }
