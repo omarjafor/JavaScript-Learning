@@ -799,8 +799,8 @@ console.log(date.getMinutes());
 console.log(date.getTimezoneOffset());
 
 // New Program Code For DOM - Document object Model---------------------------->
-// var heading = document.getElementById("hh1")
-// heading.innerHTML = "Hello Heading One";
+var heading = document.getElementById("hh1")
+heading.innerHTML = "Hello Heading One";
 
 // document.getElementById("hh2").innerHTML = "Hello Heading Two";
 
@@ -846,5 +846,4 @@ console.log(date.getTimezoneOffset());
 // function myPic3(){
 //     myVar.src = "images/couple.jpg";
 // }
-
 // New Program Code For Find create add remove html element ------------------------>
