@@ -813,3 +813,14 @@ console.log(date.getTimezoneOffset());
 // document.querySelector(".my-div a").innerHTML = "Change Text";
 
 // New Program Code For Event Handler OnClick Event---------------------------->
+function myAlert(){
+    alert("Hello You Clicked Button 1");
+}
+
+function myAlert1(){
+    alert("Hello You Clicked Button 2");
+}
+
+function myAlert2(){
+    alert("Hello You Clicked A Paragraph");
+}
