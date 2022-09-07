@@ -825,11 +825,24 @@ console.log(date.getTimezoneOffset());
 //     alert("Hello You Clicked A Paragraph");
 // }
 
-var myVar = document.querySelector("#myPara");
-function myClick(){
-    myVar.innerHTML = "Hello Everyone Paragraph Button ONE";
+// var myVar = document.querySelector("#myPara");
+// function myClick(){
+//     myVar.innerHTML = "Hello Everyone Paragraph Button ONE";
+// }
+
+// function myClick1(){
+//     myVar.innerHTML = "See Change! This is Paragraph Button TWO";
+// }
+
+var myVar = document.querySelector("#myImage");
+function myPic1(){
+    myVar.src = "images/jabed.jpg";
 }
 
-function myClick1(){
-    myVar.innerHTML = "See Change! This is Paragraph Button TWO";
+function myPic2(){
+    myVar.src = "images/shantu.jpg";
+}
+
+function myPic3(){
+    myVar.src = "images/couple.jpg";
 }
