@@ -834,15 +834,17 @@ console.log(date.getTimezoneOffset());
 //     myVar.innerHTML = "See Change! This is Paragraph Button TWO";
 // }
 
-var myVar = document.querySelector("#myImage");
-function myPic1(){
-    myVar.src = "images/jabed.jpg";
-}
+// var myVar = document.querySelector("#myImage");
+// function myPic1(){
+//     myVar.src = "images/jabed.jpg";
+// }
 
-function myPic2(){
-    myVar.src = "images/shantu.jpg";
-}
+// function myPic2(){
+//     myVar.src = "images/shantu.jpg";
+// }
 
-function myPic3(){
-    myVar.src = "images/couple.jpg";
-}
+// function myPic3(){
+//     myVar.src = "images/couple.jpg";
+// }
+
+// New Program Code For Find create add remove html element ------------------------>
