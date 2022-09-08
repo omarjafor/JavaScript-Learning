@@ -865,6 +865,7 @@ head0.appendChild(text0);
 var h10 = document.getElementsByTagName("h1")[0];
 myDiv.insertBefore(head0, h10);
 
+// note for add, remove or check classname
 document.getElementById("mydiv").classList;
 document.getElementById("mydiv").classList.add("myClass");
 document.getElementById("mydiv").classList.remove("myClass");
