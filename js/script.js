@@ -847,3 +847,9 @@ heading.innerHTML = "Hello Heading One";
 //     myVar.src = "images/couple.jpg";
 // }
 // New Program Code For Find create add remove html element ------------------------>
+var heading3 = document.createElement("h2");
+var text = document.createTextNode("This is new heading");
+heading3.appendChild(text);
+
+var myDiv = document.getElementById("my-div");
+myDiv.appendChild(heading3);
