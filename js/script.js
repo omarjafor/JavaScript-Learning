@@ -869,3 +869,12 @@ myDiv.insertBefore(head0, h10);
 document.getElementById("mydiv").classList;
 document.getElementById("mydiv").classList.add("myClass");
 document.getElementById("mydiv").classList.remove("myClass");
+
+// New Program Code For How to Select html element ------------------------>
+// Select Downword parent then children
+var stuList = document.querySelector(".stdlist");
+// var stuListA = stuList.querySelector(".stdlist-a");
+var stuListA = stuList.children[0];
+stuListA.innerHTML = "New Student";
+
+// Select Upword children then parent
