@@ -1,10 +1,10 @@
 *{
     background-color: purple;
-    margin: 10px; padding: 10px;
+    /* margin: 10px; padding: 10px; */
     color: white;
     font-size: 18px;
 }
-
+/* 
 body{
     margin-top: 25px;
 }
@@ -23,4 +23,4 @@ marquee{
     margin-bottom: 10px;
     margin-right: 50px;
     transition: 0.5s;
-}
+} */
