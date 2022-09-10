@@ -1,23 +1,23 @@
-var name = "Jaber JaBed";
-name = "JaBed";
-document.write(name);
+// var name = "Jaber JaBed";
+// name = "JaBed";
+// document.write(name);
 
-var number = 20;
+// var number = 20;
 
-num = toString(number);
-console.log(typeof(num));
+// num = toString(number);
+// console.log(typeof(num));
 
-var number = "20";
+// var number = "20";
 
-num = parseInt(number);
-console.log(typeof(num));
+// num = parseInt(number);
+// console.log(typeof(num));
 
-var number = 20.567;
+// var number = 20.567;
 
-num = parseFloat(number);
-console.log(typeof(num));
+// num = parseFloat(number);
+// console.log(typeof(num));
 
-var number = 2.56789;
+// var number = 2.56789;
 
 // console.log(number.toFixed(1)); //it's use for how much number shown after .point
 // console.log(number.toPrecision(3)); // it's use for total how much digit to shown
@@ -27,45 +27,45 @@ var number = 2.56789;
 // console.log(Number(true));
 // console.log(Number(false));
 
-document.write("<br>JaBer " + "JaBed<br>");
+// document.write("<br>JaBer " + "JaBed<br>");
 
-var firstName = "Omar Jafor ";
-var lastName = " Chowdhury Jaber <br>";
+// var firstName = "Omar Jafor ";
+// var lastName = " Chowdhury Jaber <br>";
 
-var fullName = firstName + lastName;
-document.write(fullName);
+// var fullName = firstName + lastName;
+// document.write(fullName);
 
-var fullName = "Omar Jafor Chy Jaber";
-document.write("My Full Name is " + fullName);
+// var fullName = "Omar Jafor Chy Jaber";
+// document.write("My Full Name is " + fullName);
 
-var num1, num2;
-num1 = 20;
-num2 = 30;
+// var num1, num2;
+// num1 = 20;
+// num2 = 30;
 
-document.write("<br>Number 1 is = " + num1 + "<br>Number 2 is = " + num2);
+// document.write("<br>Number 1 is = " + num1 + "<br>Number 2 is = " + num2);
 
-var text = "Bangladesh";
+// var text = "Bangladesh";
 // var text = prompt("Enter Your Text To Know Length: ");
 
 // document.write("<br>Number of character: " + text.length);
 
-text = text.charAt(2);
-document.write("<br>"+text);
+// text = text.charAt(2);
+// document.write("<br>"+text);
 
-text = text.toUpperCase();
-document.write("<br>"+text);
+// text = text.toUpperCase();
+// document.write("<br>"+text);
 
-text = text.toLowerCase();
-document.write("<br>"+text);
+// text = text.toLowerCase();
+// document.write("<br>"+text);
 
-var text1 = "Bangladesh";
-var text2 = " is a beautiful country";
-var text = text1.concat(text2);
-document.write("<br>"+text);
+// var text1 = "Bangladesh";
+// var text2 = " is a beautiful country";
+// var text = text1.concat(text2);
+// document.write("<br>"+text);
 
-var text1 = "Bangladesh";
-var text = text1.slice(2, 6);
-document.write("<br>"+text);
+// var text1 = "Bangladesh";
+// var text = text1.slice(2, 6);
+// document.write("<br>"+text);
 
 // Task Number Two
 // var firstName = prompt("Enter Your First Name: ");
@@ -127,12 +127,12 @@ document.write("<br>"+text);
 // document.write("Farenheit is = " + farn);
 
 //New program code ---------------->
-var num = 5;
+// var num = 5;
 
-if(num%2 == 0)
-    document.write("<br>Even");
-else
-    document.write("<br>Odd");
+// if(num%2 == 0)
+//     document.write("<br>Even");
+// else
+//     document.write("<br>Odd");
 
 //New program code ---------------->
 // var num = prompt("Enter a number");
@@ -165,7 +165,7 @@ else
 //     document.write("D");
 // else
 //     document.write("Fail");
-document.write("<br>");
+// document.write("<br>");
 
 //New Program code for finding large number -------->
 // var num1 = prompt("Enter your number 1: ");
@@ -178,7 +178,7 @@ document.write("<br>");
 //     document.write("<br> Large Number is = " + num2);
 // else
 //     document.write("<br> Large Number is = " + num3);
-document.write("<br>");
+// document.write("<br>");
 
 //New Program code for finding vowel or consonant -------->
 
@@ -477,124 +477,124 @@ document.write("<br>");
 
 // New Program Code For Creating Function---------------------------->
 // sample for multification we use earlier
-var num = 5;
-var result = num * num;
-document.write("Result = " + result);
+// var num = 5;
+// var result = num * num;
+// document.write("Result = " + result);
 
 // Creating a function for mulification
-function sqaure(num){
-    var result = num * num;
-    document.write("<br>Result = " + result);
-}
-sqaure(8);
+// function sqaure(num){
+//     var result = num * num;
+//     document.write("<br>Result = " + result);
+// }
+// sqaure(8);
 
 // Creating a function for multifly 2 perameter
-var num1 = 0;
-var num2 = 0;
-function sqaure2(num1, num2){
-    var result = num1 * num2;
-    document.write("<br>Result = " + result);
-}
-sqaure2(2,5);
+// var num1 = 0;
+// var num2 = 0;
+// function sqaure2(num1, num2){
+//     var result = num1 * num2;
+//     document.write("<br>Result = " + result);
+// }
+// sqaure2(2,5);
 
 // Creating a function for multifly 2 perameter and return result
-function sqaure3(num1, num2){
-    var result = num1 * num2;
-    return result;
-}
-document.write("<br>Result = " + sqaure3(6,5));
+// function sqaure3(num1, num2){
+//     var result = num1 * num2;
+//     return result;
+// }
+// document.write("<br>Result = " + sqaure3(6,5));
 
 // Creating a function make Additon of two number
-var num1, num2;
-function addition(num1, num2){
-    var result = num1 + num2;
-    document.write("<br>Result of Addition = " + result);
-}
-addition(546,59);
+// var num1, num2;
+// function addition(num1, num2){
+//     var result = num1 + num2;
+//     document.write("<br>Result of Addition = " + result);
+// }
+// addition(546,59);
 
 // Creating a function make subtraction of two number
-var num1, num2;
-function sub(num1, num2){
-    var result = num1 - num2;
-    document.write("<br>Result of subtraction = " + result);
-}
-sub(505,354);
+// var num1, num2;
+// function sub(num1, num2){
+//     var result = num1 - num2;
+//     document.write("<br>Result of subtraction = " + result);
+// }
+// sub(505,354);
 
 // Creating a function make Division of two number
-var num1, num2;
-function division(num1, num2){
-    var result = num1 / num2;
-    document.write("<br>Result of Division = " + result);
-}
-division(55,5);
+// var num1, num2;
+// function division(num1, num2){
+//     var result = num1 / num2;
+//     document.write("<br>Result of Division = " + result);
+// }
+// division(55,5);
 
-// Creating a function make modulous of two number
-var num1, num2;
-function modulous(num1, num2){
-    var result = num1 % num2;
-    document.write("<br>Result of Modulous = " + result);
-}
-modulous(18,5);
+// // Creating a function make modulous of two number
+// var num1, num2;
+// function modulous(num1, num2){
+//     var result = num1 % num2;
+//     document.write("<br>Result of Modulous = " + result);
+// }
+// modulous(18,5);
 
-document.write("<br><br>");
+// document.write("<br><br>");
 // New Program Code For Creating Imidiate Function---------------------------->
 //IIFEs (Immediately Invokeable Function Expresions)
 
-(function word(){
-    document.write("<br> Hello World");
-})();
+// (function word(){
+//     document.write("<br> Hello World");
+// })();
 
-(function word(msg){
-    document.write("<br> "+ msg);
-})("Hello My New World");
+// (function word(msg){
+//     document.write("<br> "+ msg);
+// })("Hello My New World");
 
-// Task Number :- 07 Code For Creating 2 Number sum with IIFE------------->
-(function add(num1,num2){
-    result = num1 + num2;
-    document.write("<br> Addition is = "+ result);
-})(10,20);
+// // Task Number :- 07 Code For Creating 2 Number sum with IIFE------------->
+// (function add(num1,num2){
+//     result = num1 + num2;
+//     document.write("<br> Addition is = "+ result);
+// })(10,20);
 
-document.write("<br><br>");
-// New Program Code For Creating Function Expression---------------------------->
-var display2 = function display(){
-    document.write("<br>Hello This is my Message");
-}
-display2();
+// document.write("<br><br>");
+// // New Program Code For Creating Function Expression---------------------------->
+// var display2 = function display(){
+//     document.write("<br>Hello This is my Message");
+// }
+// display2();
 
-var display3 = function display(msg){
-    document.write("<br> Your message = "+ msg);
-}
-display3("I am Omar Jafor, it's new");
-document.write("<br>");
-display2();
-display3("Writing new message for you");
-document.write("<br><br>");
+// var display3 = function display(msg){
+//     document.write("<br> Your message = "+ msg);
+// }
+// display3("I am Omar Jafor, it's new");
+// document.write("<br>");
+// display2();
+// display3("Writing new message for you");
+// document.write("<br><br>");
 
-// New Program Code For Creating Array---------------------------->
-var names = new Array(6);
-names[0] = "Abul";
-names[1] = "Kalam";
-names[2] = "Jamal";
-names[3] = "Rohim";
-names[4] = "Pagol";
-names[5] = "Chagol";
+// // New Program Code For Creating Array---------------------------->
+// var names = new Array(6);
+// names[0] = "Abul";
+// names[1] = "Kalam";
+// names[2] = "Jamal";
+// names[3] = "Rohim";
+// names[4] = "Pagol";
+// names[5] = "Chagol";
 
-console.log("Array Length is = "+names.length); //using for finding array length
+// console.log("Array Length is = "+names.length); //using for finding array length
 // console.log(names);
 // console.log(names[3]);
 
-var country1 =["Bangladesh", "India", "Pakistan"];
-var country2 =["Japan", "Chaina", "Rusia"];
-country1.push("Nepal","Maldives"); //adding an array in the last
-country2.push("Mayanmar");
+// var country1 =["Bangladesh", "India", "Pakistan"];
+// var country2 =["Japan", "Chaina", "Rusia"];
+// country1.push("Nepal","Maldives"); //adding an array in the last
+// country2.push("Mayanmar");
 // console.log(country1);
 // console.log(country2);
-country1.pop(); // deleting an array in the last
-country2.pop();
+// country1.pop(); // deleting an array in the last
+// country2.pop();
 // console.log(country1);
 // console.log(country2);
-country1.shift(); // opposite of pop
-country2.unshift("Jabed"); // opposite of push
+// country1.shift(); // opposite of pop
+// country2.unshift("Jabed"); // opposite of push
 // console.log(country1);
 // console.log(country2);
 
@@ -605,11 +605,11 @@ country2.unshift("Jabed"); // opposite of push
 //     console.log(num[i]);
 // }
 // Finding sum of all array number
-var sum = 0;
-for(i=0; i<5; i++){
-    sum = sum + num[i];
-}
-console.log("Sum = "+ sum);
+// var sum = 0;
+// for(i=0; i<5; i++){
+//     sum = sum + num[i];
+// }
+// console.log("Sum = "+ sum);
 
 // Taking number from a user
 // var num = new Array();
@@ -618,23 +618,23 @@ console.log("Sum = "+ sum);
 //     console.log(num[i]);
 // }
 
-var sum = 0;
-for(i=0; i<5; i++){
-    sum = sum + num[i];
-}
-console.log("Sum = "+ sum);
+// var sum = 0;
+// for(i=0; i<5; i++){
+//     sum = sum + num[i];
+// }
+// console.log("Sum = "+ sum);
 
 // New Program Code For Creating Array Library Method---------------------------->
-country1.splice(2,0,"Newzilan", "Thailand"); // Adding Elements using splice or remove an array
+// country1.splice(2,0,"Newzilan", "Thailand"); // Adding Elements using splice or remove an array
 // console.log(country1);
 // country1.splice(3,1);
 // console.log(country1);
 // slice or remove an array
-var newArray = country1.slice(2);
+// var newArray = country1.slice(2);
 // console.log(newArray);
 // console.log(country1); // here main array not changed by slice
 // Sorting String or name
-country1.sort();
+// country1.sort();
 // console.log(country1);
 
 // Sorting number
@@ -655,18 +655,18 @@ country1.sort();
 
 // Task Number :- 08
 // Finding max number from an array by function
-function highestScore(scores){
-    var max = scores[0];
-    for(i=1; i<scores.length; i++){
-        if(max < scores[i]){
-            max = scores[i];
-        }
-    }
-    return max; 
-}
-var scores = [10, 95, 49, 64, 98, 48];
-var maxScore = highestScore(scores);
-console.log("Highest Score is = "+ maxScore);
+// function highestScore(scores){
+//     var max = scores[0];
+//     for(i=1; i<scores.length; i++){
+//         if(max < scores[i]){
+//             max = scores[i];
+//         }
+//     }
+//     return max; 
+// }
+// var scores = [10, 95, 49, 64, 98, 48];
+// var maxScore = highestScore(scores);
+// console.log("Highest Score is = "+ maxScore);
 
 
 // New Program Code For 2D- Two dimensional Array ---------------------------->
@@ -687,90 +687,90 @@ console.log("Highest Score is = "+ maxScore);
 
 // Task Number :- 09
 // Finding highest Scorer Name from 2D Array ----------------------------->
-var playersInfo = [
-    ["Kabir", 95],
-    ["Arjun", 145],
-    ["Mahi", 65],
-    ["Kanika", 70],
-    ["Putul", 15],
-    ["Anika", 17]
-];
-function highestRunScorer(playersInfo){
-    var highestScorer = playersInfo[0][0];
-    var highestScore = playersInfo[0][1];
-    for(x=1; x<playersInfo.length; x++){
-        if(highestScore < playersInfo[x][1]){
-            highestScore = playersInfo[x][1];
-            highestScorer = playersInfo[x][0];
-        }
-    }
-    return highestScorer;
-}
-console.log(highestRunScorer(playersInfo));
+// var playersInfo = [
+//     ["Kabir", 95],
+//     ["Arjun", 145],
+//     ["Mahi", 65],
+//     ["Kanika", 70],
+//     ["Putul", 15],
+//     ["Anika", 17]
+// ];
+// function highestRunScorer(playersInfo){
+//     var highestScorer = playersInfo[0][0];
+//     var highestScore = playersInfo[0][1];
+//     for(x=1; x<playersInfo.length; x++){
+//         if(highestScore < playersInfo[x][1]){
+//             highestScore = playersInfo[x][1];
+//             highestScorer = playersInfo[x][0];
+//         }
+//     }
+//     return highestScorer;
+// }
+// console.log(highestRunScorer(playersInfo));
 
 // New Program Code For Create Object---------------------------->
 // Varibale VS Object
-var name = "Kabir";
-var age = 24;
-var cgpa = 3.25;
-var fname = "Karim";
+// var name = "Kabir";
+// var age = 24;
+// var cgpa = 3.25;
+// var fname = "Karim";
 // This is how an object help us to create multi variable in a simple object
-var student = {
-    name: "Kabir",
-    age: 24,
-    cgpa: 3.25,
-    fname: "Karim",
-}
+// var student = {
+//     name: "Kabir",
+//     age: 24,
+//     cgpa: 3.25,
+//     fname: "Karim",
+// }
 // Print the value from an object
-console.log(student);
-console.log(student.name);
+// console.log(student);
+// console.log(student.name);
 // Adding a constructor for an object
-function Students(name,age,cgpa,lang){
-    this.name = name;
-    this.age = age;
-    this.cgpa = cgpa;
-    this.lang = lang;
-}
-var student1 = new Students("Kabir Khan", 26, 3.96, ["Bangla", "Hindi", "English"]);
-console.log(student1);
-console.log(student1.name);
-console.log(student1.lang);
+// function Students(name,age,cgpa,lang){
+//     this.name = name;
+//     this.age = age;
+//     this.cgpa = cgpa;
+//     this.lang = lang;
+// }
+// var student1 = new Students("Kabir Khan", 26, 3.96, ["Bangla", "Hindi", "English"]);
+// console.log(student1);
+// console.log(student1.name);
+// console.log(student1.lang);
 
 // Adding a function for multiple object identify
-function Student(name,age,cgpa,lang){
-    this.name = name;
-    this.age = age;
-    this.cgpa = cgpa;
-    this.lang = lang;
-    //Creating function in constractor
-    this.display = function(){
-        console.log(this.name);
-        console.log(this.age);
-        console.log(this.cgpa);
-        console.log(this.lang);
-    }    
-}
-var student2 = new Student("Kabir Hossain", 28, 4.92, ["Bangla", "Nepali", "English"]);
-var student3 = new Student("Jaber Islam", 25, 5.00, ["Bangla", "Germany", "English"]);
-var student4 = new Student("Arif Ahmed", 29, 3.80, ["Bangla", "Spain", "English"]);
+// function Student(name,age,cgpa,lang){
+//     this.name = name;
+//     this.age = age;
+//     this.cgpa = cgpa;
+//     this.lang = lang;
+//     //Creating function in constractor
+//     this.display = function(){
+//         console.log(this.name);
+//         console.log(this.age);
+//         console.log(this.cgpa);
+//         console.log(this.lang);
+//     }    
+// }
+// var student2 = new Student("Kabir Hossain", 28, 4.92, ["Bangla", "Nepali", "English"]);
+// var student3 = new Student("Jaber Islam", 25, 5.00, ["Bangla", "Germany", "English"]);
+// var student4 = new Student("Arif Ahmed", 29, 3.80, ["Bangla", "Spain", "English"]);
 
-student2.display();
-student3.display();
-student4.display();
+// student2.display();
+// student3.display();
+// student4.display();
 
-console.log(student2.lang);
+// console.log(student2.lang);
 
 // New Program Code For Math Object---------------------------->
 // Findin Maximum number by Math Object
 // var num1 = parseInt(prompt("Enter Your 1st Number: "));
 // var num2 = parseInt(prompt("Enter Your 2nd Number: "));
 
-var max = Math.max(num1, num2);
-document.write("Maximum Number is = " + max);
+// var max = Math.max(num1, num2);
+// document.write("Maximum Number is = " + max);
 
-// Guessing Game Using Math Object ---------------->
-var numOfWon = 0;
-var numOfLost = 0;
+// // Guessing Game Using Math Object ---------------->
+// var numOfWon = 0;
+// var numOfLost = 0;
 
 // for(i=1; i<=5; i++){
 //     var guessNum = parseInt(prompt("Enter Your 1st Number From 1 To 5: "));
@@ -788,19 +788,19 @@ var numOfLost = 0;
 // document.write("<br><br>Total Number of Lost = "+ numOfLost);
 
 // New Program Code For Date Object & date methods---------------------------->
-var date = new Date();
-console.log(date);
-console.log(date.getFullYear());
-console.log(date.getDate());
-console.log(date.getMonth());
-console.log(date.getDay());
-console.log(date.getHours());
-console.log(date.getMinutes());
-console.log(date.getTimezoneOffset());
+// var date = new Date();
+// console.log(date);
+// console.log(date.getFullYear());
+// console.log(date.getDate());
+// console.log(date.getMonth());
+// console.log(date.getDay());
+// console.log(date.getHours());
+// console.log(date.getMinutes());
+// console.log(date.getTimezoneOffset());
 
 // New Program Code For DOM - Document object Model---------------------------->
-var heading = document.getElementById("hh1")
-heading.innerHTML = "Hello Heading One";
+// var heading = document.getElementById("hh1")
+// heading.innerHTML = "Hello Heading One";
 
 // document.getElementById("hh2").innerHTML = "Hello Heading Two";
 
@@ -847,28 +847,28 @@ heading.innerHTML = "Hello Heading One";
 //     myVar.src = "images/couple.jpg";
 // }
 // New Program Code For Find create add remove html element ------------------------>
-var head = document.createElement("h1");
-var text = document.createTextNode("This is new Heading");
-head.appendChild(text);
+// var head = document.createElement("h1");
+// var text = document.createTextNode("This is new Heading");
+// head.appendChild(text);
 
-var myDiv = document.getElementById("mydiv");
-myDiv.appendChild(head);
+// var myDiv = document.getElementById("mydiv");
+// myDiv.appendChild(head);
 
-var head1 = document.getElementsByTagName("h1")[1];
-myDiv.removeChild(head1);
+// var head1 = document.getElementsByTagName("h1")[1];
+// myDiv.removeChild(head1);
 
-// New program for add befor any element
-var head0 = document.createElement("h1");
-var text0 = document.createTextNode("This is befor Heading");
-head0.appendChild(text0);
+// // New program for add befor any element
+// var head0 = document.createElement("h1");
+// var text0 = document.createTextNode("This is befor Heading");
+// head0.appendChild(text0);
 
-var h10 = document.getElementsByTagName("h1")[0];
-myDiv.insertBefore(head0, h10);
+// var h10 = document.getElementsByTagName("h1")[0];
+// myDiv.insertBefore(head0, h10);
 
-// note for add, remove or check classname
-document.getElementById("mydiv").classList;
-document.getElementById("mydiv").classList.add("myClass");
-document.getElementById("mydiv").classList.remove("myClass");
+// // note for add, remove or check classname
+// document.getElementById("mydiv").classList;
+// document.getElementById("mydiv").classList.add("myClass");
+// document.getElementById("mydiv").classList.remove("myClass");
 
 // New Program Code For How to Select html element ------------------------>
 // Select Downword parent then children
@@ -878,7 +878,14 @@ document.getElementById("mydiv").classList.remove("myClass");
 // stuListA.innerHTML = "New Student";
 
 // Select Upword children then parent
-var stuListA = document.querySelector("li");
-var stuList = stuListA.parentElement;
-var newClass = stuList.classList.add("newClass");
-console.log(newClass);
+// var stuListA = document.querySelector("li");
+// var stuList = stuListA.parentElement;
+
+// // Select sideway elements sibling
+// var stuListA = document.querySelector("li");
+// var stuListB = stuListA.nextElementSibling;
+// var stuListC = stuListB.nextElementSibling;
+
+// var stuListB = stuListC.previousElementSibling;
+
+// New Program Code For Creating an image slider by JavaScript-------------------->
