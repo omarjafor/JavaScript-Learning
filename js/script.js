@@ -913,3 +913,5 @@ function prev(){
         imgTag.src = photos[count];
     }
 }
+
+// New Program Code For -------------------->
