@@ -889,3 +889,14 @@
 // var stuListB = stuListC.previousElementSibling;
 
 // New Program Code For Creating an image slider by JavaScript-------------------->
+var photos = ["images/couple.jpg", "images/jabed.jpg", "images/shantu.jpg"];
+var imgTag = document.querySelector("img");
+
+count = 0;
+function prev(){
+
+}
+
+function next(){
+
+}
