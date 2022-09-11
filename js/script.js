@@ -914,4 +914,11 @@ function prev(){
     }
 }
 
-// New Program Code For -------------------->
+// New Program Code For Change CSS Style by JavaScript -------------------->
+var myVar = document.querySelector("#para");
+function addStyle(){
+    myVar.classList.add("para");
+}
+function remStyle(){
+    myVar.classList.remove("para");
+}
