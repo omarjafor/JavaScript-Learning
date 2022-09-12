@@ -940,3 +940,5 @@ myVar.addEventListener("mouseover", function(){
 myVar.addEventListener("mouseout", function(){
     myVar.classList.remove("h1Class");
 })
+
+// New Program Code For Event Listener with Multiple element-------------------->
