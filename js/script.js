@@ -924,21 +924,29 @@
 // }
 
 // New Program Code For Event Listener -------------------->
-document.querySelector("button").addEventListener("click", function(){
-    alert("Hello You Clicked on Button");
-});
+// document.querySelector("button").addEventListener("click", function(){
+//     alert("Hello You Clicked on Button");
+// });
 
-var myVar = document.querySelector("h1");
-myVar.addEventListener("click", function(){
-    alert("You Clicked on Heading");
-})
+// var myVar = document.querySelector("h1");
+// myVar.addEventListener("click", function(){
+//     alert("You Clicked on Heading");
+// })
 
-myVar.addEventListener("mouseover", function(){
-    myVar.classList.add("h1Class");
-})
+// myVar.addEventListener("mouseover", function(){
+//     myVar.classList.add("h1Class");
+// })
 
-myVar.addEventListener("mouseout", function(){
-    myVar.classList.remove("h1Class");
-})
+// myVar.addEventListener("mouseout", function(){
+//     myVar.classList.remove("h1Class");
+// })
 
 // New Program Code For Event Listener with Multiple element-------------------->
+for (var i=0; i<3; i++){
+    document.querySelectorAll(".myButt")[i].addEventListener("click", function(){
+        text = this.innerHTML;
+        document.querySelector("h1").innerHTML = text + " is Clicked";
+    });
+}
+
+// New Program Code For Play Audio in JavaScript-------------------->
