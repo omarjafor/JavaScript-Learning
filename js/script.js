@@ -923,4 +923,7 @@
 //     myVar.classList.remove("para");
 // }
 
-// New Program Code For  -------------------->
+// New Program Code For Event Listener -------------------->
+document.querySelector("button").addEventListener("click", function(){
+    alert("Hello You Clicked");
+});
