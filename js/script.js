@@ -889,36 +889,38 @@
 // var stuListB = stuListC.previousElementSibling;
 
 // New Program Code For Creating an image slider by JavaScript-------------------->
-var photos = ["images/couple.jpg", "images/jabed.jpg", "images/shantu.jpg"];
-var imgTag = document.querySelector("img");
+// var photos = ["images/couple.jpg", "images/jabed.jpg", "images/shantu.jpg"];
+// var imgTag = document.querySelector("img");
 
-var count = 0;
+// var count = 0;
 
-function next(){
-    count++;
-    if(count>=photos.length){
-        count = 0;
-        imgTag.src = photos[count];
-    }else{
-        imgTag.src = photos[count];
-    }
-}
+// function next(){
+//     count++;
+//     if(count>=photos.length){
+//         count = 0;
+//         imgTag.src = photos[count];
+//     }else{
+//         imgTag.src = photos[count];
+//     }
+// }
 
-function prev(){
-    count--;
-    if(count < 0){
-        count = photos.length - 1;
-        imgTag.src = photos[count];
-    }else{
-        imgTag.src = photos[count];
-    }
-}
+// function prev(){
+//     count--;
+//     if(count < 0){
+//         count = photos.length - 1;
+//         imgTag.src = photos[count];
+//     }else{
+//         imgTag.src = photos[count];
+//     }
+// }
 
 // New Program Code For Change CSS Style by JavaScript -------------------->
-var myVar = document.querySelector("#para");
-function addStyle(){
-    myVar.classList.add("para");
-}
-function remStyle(){
-    myVar.classList.remove("para");
-}
+// var myVar = document.querySelector("#para");
+// function addStyle(){
+//     myVar.classList.add("para");
+// }
+// function remStyle(){
+//     myVar.classList.remove("para");
+// }
+
+// New Program Code For  -------------------->
