@@ -929,6 +929,14 @@ document.querySelector("button").addEventListener("click", function(){
 });
 
 var myVar = document.querySelector("h1");
-myVar.addEventListener("click", function myFunction(){
+myVar.addEventListener("click", function(){
     alert("You Clicked on Heading");
+})
+
+myVar.addEventListener("mouseover", function(){
+    myVar.classList.add("h1Class");
+})
+
+myVar.addEventListener("mouseout", function(){
+    myVar.classList.remove("h1Class");
 })
