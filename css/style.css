@@ -31,3 +31,8 @@ marquee{
     font-weight: bold;
     font-style: italic;
 }
+
+.h1Class{
+    background-color: blue;
+    font-size: 2rem;
+}

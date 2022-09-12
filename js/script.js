@@ -925,5 +925,10 @@
 
 // New Program Code For Event Listener -------------------->
 document.querySelector("button").addEventListener("click", function(){
-    alert("Hello You Clicked");
+    alert("Hello You Clicked on Button");
 });
+
+var myVar = document.querySelector("h1");
+myVar.addEventListener("click", function myFunction(){
+    alert("You Clicked on Heading");
+})
