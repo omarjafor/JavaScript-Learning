@@ -942,11 +942,11 @@
 // })
 
 // New Program Code For Event Listener with Multiple element-------------------->
-for (var i=0; i<3; i++){
-    document.querySelectorAll(".myButt")[i].addEventListener("click", function(){
-        text = this.innerHTML;
-        document.querySelector("h1").innerHTML = text + " is Clicked";
-    });
-}
+// for (var i=0; i<3; i++){
+//     document.querySelectorAll(".myButt")[i].addEventListener("click", function(){
+//         text = this.innerHTML;
+//         document.querySelector("h1").innerHTML = text + " is Clicked";
+//     });
+// }
 
 // New Program Code For Play Audio in JavaScript-------------------->
