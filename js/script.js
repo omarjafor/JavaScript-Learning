@@ -954,23 +954,25 @@ for(i=0; i<3; i++){
     document.querySelectorAll(".myAud")[i].addEventListener("click",function(){
         var text = this.innerHTML;
         console.log(text);
-        
-        switch(text){
-            case "A":
-                var audio = new Audio("../sound/a.mp3");
-                audio.play();
-                document.querySelector("h1").innerHTML = text + " for Apple";
-                break;
-            case "B":
-                var audio = new Audio("../sound/b.mp3");
-                audio.play();
-                document.querySelector("h1").innerHTML = text + " for Ball";
-                break;
-            case "C":
-                var audio = new Audio("../sound/c.mp3");
-                audio.play();
-                document.querySelector("h1").innerHTML = text + " for Cat";
-                break;
-        }
+        audioPlay(text);
     });
+}
+function audioPlay(text){
+    switch(text){
+        case "A":
+            var audio = new Audio("../sound/a.mp3");
+            audio.play();
+            document.querySelector("h1").innerHTML = text + " for Apple";
+            break;
+        case "B":
+            var audio = new Audio("../sound/b.mp3");
+            audio.play();
+            document.querySelector("h1").innerHTML = text + " for Ball";
+            break;
+        case "C":
+            var audio = new Audio("../sound/c.mp3");
+            audio.play();
+            document.querySelector("h1").innerHTML = text + " for Cat";
+            break;
+    }
 }
