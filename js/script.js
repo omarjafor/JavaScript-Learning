@@ -975,3 +975,5 @@ function audioPlay(text){
             break;
     }
 }
+
+// New Program Code For Play Audio in JavaScript With Animation-------------------->
