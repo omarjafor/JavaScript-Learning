@@ -953,7 +953,6 @@
 for(i=0; i<3; i++){
     document.querySelectorAll(".myAud")[i].addEventListener("click",function(){
         var text = this.innerHTML;
-        console.log(text);
         audioPlay(text);
     });
 }
