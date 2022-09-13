@@ -36,3 +36,11 @@ marquee{
     background-color: blue;
     font-size: 2rem;
 }
+
+.myAud{
+    height: 50px;
+    width: 100px;
+    color: black;
+    font-weight: bold;
+    background-color: aqua;
+}
