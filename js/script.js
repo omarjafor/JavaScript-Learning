@@ -981,6 +981,7 @@ for(i=0; i<3; i++){
     document.querySelectorAll(".myAud")[i].addEventListener("click",function(){
         var text = this.innerHTML;
         audioPlay(text);
+        playAnim(text);
     });
 }
 function audioPlay(text){
@@ -1001,4 +1002,12 @@ function audioPlay(text){
             document.querySelector("h1").innerHTML = text + " for Cat";
             break;
     }
+}
+function playAnim(text){
+    var selectButton = document.querySelector("."+text);
+    selectButton.classList.add("anim");
+
+    setTimeout(function(){
+        selectButton.classList.remove("anim");
+    }, 1000);
 }
