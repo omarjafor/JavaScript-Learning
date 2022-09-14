@@ -977,43 +977,48 @@
 // }
 
 // New Program Code For Play Audio in JavaScript With Animation-------------------->
-for(i=0; i<3; i++){
-    document.querySelectorAll(".myAud")[i].addEventListener("click",function(){
-        var text = this.innerHTML;
-        audioPlay(text);
-        playAnim(text);
-    });
-}
-document.addEventListener("keypress",function(event){
+// for(i=0; i<3; i++){
+//     document.querySelectorAll(".myAud")[i].addEventListener("click",function(){
+//         var text = this.innerHTML;
+//         audioPlay(text);
+//         playAnim(text);
+//     });
+// }
+// document.addEventListener("keypress",function(event){
+//     var text = event.key;
+//     audioPlay(text);
+//     playAnim(text);
+// });
+
+// function audioPlay(text){
+//     switch(text){
+//         case "A":
+//             var audio = new Audio("../sound/a.mp3");
+//             audio.play();
+//             document.querySelector("h1").innerHTML = text + " for Apple";
+//             break;
+//         case "B":
+//             var audio = new Audio("../sound/b.mp3");
+//             audio.play();
+//             document.querySelector("h1").innerHTML = text + " for Ball";
+//             break;
+//         case "C":
+//             var audio = new Audio("../sound/c.mp3");
+//             audio.play();
+//             document.querySelector("h1").innerHTML = text + " for Cat";
+//             break;
+//     }
+// }
+// function playAnim(text){
+//     var selectButton = document.querySelector("."+text);
+//     selectButton.classList.add("anim");
+
+//     setTimeout(function(){
+//         selectButton.classList.remove("anim");
+//     }, 1000);
+// }
+// New Program Code For KeyPress Listener in JavaScript ------------------>
+document.addEventListener("keypress", function(event){
     var text = event.key;
-    audioPlay(text);
-    playAnim(text);
+    
 });
-
-function audioPlay(text){
-    switch(text){
-        case "A":
-            var audio = new Audio("../sound/a.mp3");
-            audio.play();
-            document.querySelector("h1").innerHTML = text + " for Apple";
-            break;
-        case "B":
-            var audio = new Audio("../sound/b.mp3");
-            audio.play();
-            document.querySelector("h1").innerHTML = text + " for Ball";
-            break;
-        case "C":
-            var audio = new Audio("../sound/c.mp3");
-            audio.play();
-            document.querySelector("h1").innerHTML = text + " for Cat";
-            break;
-    }
-}
-function playAnim(text){
-    var selectButton = document.querySelector("."+text);
-    selectButton.classList.add("anim");
-
-    setTimeout(function(){
-        selectButton.classList.remove("anim");
-    }, 1000);
-}
