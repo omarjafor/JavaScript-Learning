@@ -984,6 +984,12 @@ for(i=0; i<3; i++){
         playAnim(text);
     });
 }
+document.addEventListener("keypress",function(event){
+    var text = event.key;
+    audioPlay(text);
+    playAnim(text);
+});
+
 function audioPlay(text){
     switch(text){
         case "A":
