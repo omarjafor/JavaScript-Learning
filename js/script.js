@@ -1034,3 +1034,7 @@
 // });
 
 // New Program Code For Event Listener OnChange in JavaScript ------------------>
+function upperCase(){
+    var input = document.querySelector("input");
+    input.value = input.value.toUpperCase();
+}
