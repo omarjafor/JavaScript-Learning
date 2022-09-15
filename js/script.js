@@ -1038,3 +1038,11 @@ function upperCase(){
     var input = document.querySelector("input");
     input.value = input.value.toUpperCase();
 }
+
+function mover(e){
+    e.innerHTML = "Thank You";
+}
+
+function mout(e){
+    e.innerHTML = "Mouse Over Me";
+}
