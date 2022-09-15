@@ -1028,3 +1028,7 @@ document.querySelector("textarea").addEventListener("keypress", function(event){
     var text = event.key;
     document.querySelector("p").innerHTML = "You have Pressed = "+count;
 });
+
+window.addEventListener("scroll", function(event){
+    console.log("Scrolling.......");
+});
