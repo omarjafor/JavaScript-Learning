@@ -56,4 +56,5 @@ marquee{
     width: 120px;
     padding: 40px;
     background-color: brown;
+    text-align: center;
 }
