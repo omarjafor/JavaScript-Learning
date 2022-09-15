@@ -1022,13 +1022,15 @@
 //     }, 1000);
 // }
 // New Program Code For KeyPress Listener in JavaScript ------------------>
-var count = 0;
-document.querySelector("textarea").addEventListener("keypress", function(event){
-    count++
-    var text = event.key;
-    document.querySelector("p").innerHTML = "You have Pressed = "+count;
-});
+// var count = 0;
+// document.querySelector("textarea").addEventListener("keypress", function(event){
+//     count++
+//     var text = event.key;
+//     document.querySelector("p").innerHTML = "You have Pressed = "+count;
+// });
 
-window.addEventListener("scroll", function(event){
-    console.log("Scrolling.......");
-});
+// window.addEventListener("scroll", function(event){
+//     console.log("Scrolling.......");
+// });
+
+// New Program Code For Event Listener OnChange in JavaScript ------------------>
