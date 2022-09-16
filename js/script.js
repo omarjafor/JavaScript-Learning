@@ -1035,30 +1035,31 @@
 
 // New Program Code For Event Listener OnChange in JavaScript ------------------>
 //Onchange to uppercase sample 1
-function upperCase(){
-    var input = document.querySelector("input");
-    input.value = input.value.toUpperCase();
-}
+// function upperCase(){
+//     var input = document.querySelector("input");
+//     input.value = input.value.toUpperCase();
+// }
 //Onchange to uppercase sample 2
-var input = document.querySelector("#lname");
-input.addEventListener("change",function(){
-    input.value = input.value.toUpperCase();
-});
+// var input = document.querySelector("#lname");
+// input.addEventListener("change",function(){
+//     input.value = input.value.toUpperCase();
+// });
 //on mouse over event
-function mover(e){
-    e.innerHTML = "Thank You";
-}
+// function mover(e){
+//     e.innerHTML = "Thank You";
+// }
 
 //on mouse out event
-function mout(e){
-    e.innerHTML = "Mouse Over Me";
-}
+// function mout(e){
+//     e.innerHTML = "Mouse Over Me";
+// }
 //on mouse over event
-var mover = document.querySelector(".moverout2");
-mover.addEventListener("mouseover",function(){
-    mover.innerHTML = "Thank You";
-});
+// var mover = document.querySelector(".moverout2");
+// mover.addEventListener("mouseover",function(){
+//     mover.innerHTML = "Thank You";
+// });
 //on mouse out event
-mover.addEventListener("mouseout",function(){
-    mover.innerHTML = "Mouse Over Me";
-});
+// mover.addEventListener("mouseout",function(){
+//     mover.innerHTML = "Mouse Over Me";
+// });
+// New Program Code For Event Listener JavaScript ------------------>
