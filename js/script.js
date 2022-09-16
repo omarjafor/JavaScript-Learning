@@ -1041,7 +1041,7 @@ function upperCase(){
 }
 //Onchange to uppercase sample 2
 var input = document.querySelector("#lname");
-input.addEventListener("change",function(e){
+input.addEventListener("change",function(){
     input.value = input.value.toUpperCase();
 });
 //on mouse over event
