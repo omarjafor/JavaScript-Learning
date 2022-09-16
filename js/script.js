@@ -1044,11 +1044,20 @@ var input = document.querySelector("#lname");
 input.addEventListener("change",function(e){
     input.value = input.value.toUpperCase();
 });
-
+//on mouse over event
 function mover(e){
     e.innerHTML = "Thank You";
 }
 
+//on mouse out event
 function mout(e){
     e.innerHTML = "Mouse Over Me";
 }
+
+var mover = document.querySelector(".moverout2");
+mover.addEventListener("mouseover",function(){
+    mover.innerHTML = "Thank You";
+});
+mover.addEventListener("mouseout",function(){
+    mover.innerHTML = "Mouse Over Me";
+});
