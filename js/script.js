@@ -1053,11 +1053,12 @@ function mover(e){
 function mout(e){
     e.innerHTML = "Mouse Over Me";
 }
-
+//on mouse over event
 var mover = document.querySelector(".moverout2");
 mover.addEventListener("mouseover",function(){
     mover.innerHTML = "Thank You";
 });
+//on mouse out event
 mover.addEventListener("mouseout",function(){
     mover.innerHTML = "Mouse Over Me";
 });
