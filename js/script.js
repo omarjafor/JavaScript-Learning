@@ -1073,5 +1073,7 @@ form.addEventListener("submit",formHandler);
 
 function formHandler(e){
     e.preventDefault();
-    console.log("submit");
+    console.log(name.value);
+    console.log(email.value);
+    console.log(password.value);
 }
