@@ -1076,4 +1076,13 @@ function formHandler(e){
     console.log(name.value);
     console.log(email.value);
     console.log(password.value);
+    const userInfo = {
+        name : name.value,
+        email : email.value,
+        password : password.value,
+    };
+    console.log(userInfo);
+    name.value = "";
+    email.value = "";
+    password.value = "";
 }
