@@ -1062,4 +1062,5 @@
 // mover.addEventListener("mouseout",function(){
 //     mover.innerHTML = "Mouse Over Me";
 // });
-// New Program Code For Event Listener JavaScript ------------------>
+
+// New Program Code For Dom Event - Submit Event JavaScript ------------------>
