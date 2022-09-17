@@ -1064,3 +1064,14 @@
 // });
 
 // New Program Code For Dom Event - Submit Event JavaScript ------------------>
+const form =document.querySelector("form");
+const name =form.querySelector("#name");
+const email =form.querySelector("#email");
+const password =form.querySelector("#password");
+
+form.addEventListener("submit",formHandler);
+
+function formHandler(e){
+    e.preventDefault();
+    console.log("submit");
+}
