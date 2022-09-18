@@ -1087,3 +1087,7 @@
 //     password.value = "";
 // }
 // New Program Code For Dom Event - Video Event JavaScript ------------------>
+var video = document.querySelector("video");
+video.addEventListener("canplay", function(){
+    console.log("Canplay");
+});
