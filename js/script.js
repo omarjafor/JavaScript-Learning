@@ -1099,3 +1099,7 @@ video.addEventListener("play", function(){
 video.addEventListener("pause", function(){
     console.log("Pause Video");
 });
+
+video.addEventListener("playing", function(){
+    console.log("Playing......");
+});
