@@ -1127,3 +1127,41 @@
 //     console.log("Toggled....");
 // });
 // New Program Code For Dom Event Object- Mouse Events JavaScript ------------------>
+// on mouse over event
+var mouse = document.querySelector(".moverout2");
+mouse.addEventListener("mouseover",function(){
+    mouse.innerHTML = "Thank You";
+});
+// on mouse out event
+mouse.addEventListener("mouseout",function(){
+    mouse.innerHTML = "Mouse Over Me";
+});
+// on click event
+mouse.addEventListener("click", function(e){
+    console.log("Clicked");
+    console.log(e.target.innerHTML);
+});
+//dblclick event
+mouse.addEventListener("dblclick", function(){
+    console.log("Duble Clicked");
+});
+//mousedown event
+mouse.addEventListener("mousedown", function(){
+    console.log("Mouse Down Occured");
+});
+//mouseup event
+mouse.addEventListener("mouseup", function(){
+    console.log("Mouse Up Occured");
+});
+//mouse enter event
+mouse.addEventListener("mouseenter", function(){
+    console.log("Mouse Enter Occured");
+});
+//mouse leave event
+mouse.addEventListener("mouseleave", function(){
+    console.log("Mouse Leave Occured");
+});
+//mousemove event
+mouse.addEventListener("mousemove", function(){
+    console.log("Mouse Move Occured");
+});

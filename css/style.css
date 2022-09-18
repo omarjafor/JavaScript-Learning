@@ -55,6 +55,6 @@ marquee{
     height: 20px;
     width: 120px;
     padding: 40px;
-    background-color: brown;
+    background-color: rgb(224, 18, 18);
     text-align: center;
 }
