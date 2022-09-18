@@ -1087,42 +1087,43 @@
 //     password.value = "";
 // }
 // New Program Code For Dom Event - Video Event JavaScript ------------------>
-var video = document.querySelector("video");
-video.addEventListener("canplay", function(){
-    console.log("Canplay");
-});
+// var video = document.querySelector("video");
+// video.addEventListener("canplay", function(){
+//     console.log("Canplay");
+// });
 
-video.addEventListener("play", function(){
-    console.log("Video Play");
-});
+// video.addEventListener("play", function(){
+//     console.log("Video Play");
+// });
 
-video.addEventListener("pause", function(){
-    console.log("Pause Video");
-});
+// video.addEventListener("pause", function(){
+//     console.log("Pause Video");
+// });
 
-video.addEventListener("playing", function(){
-    console.log("Playing......");
-});
+// video.addEventListener("playing", function(){
+//     console.log("Playing......");
+// });
 // New Program Code For Dom Event Object- Scroll,Resize,Toggle JavaScript ------------------>
-window.addEventListener("load", function(){
-        console.log("Loading.......");
-    });
+// window.addEventListener("load", function(){
+//         console.log("Loading.......");
+//     });
 
-window.addEventListener("unload", function(){
-        console.log("Unloding.......");
-    });
+// window.addEventListener("unload", function(){
+//         console.log("Unloding.......");
+//     });
 
-window.addEventListener("scroll", function(){
-        console.log("Scrolling.......");
-    });
+// window.addEventListener("scroll", function(){
+//         console.log("Scrolling.......");
+//     });
 
-window.addEventListener("resize", function(){
-    const width = window.outerWidth;
-    const height = window.outerHeight;
-    console.log(`height : ${height}, width : ${width}`);
-});
+// window.addEventListener("resize", function(){
+//     const width = window.outerWidth;
+//     const height = window.outerHeight;
+//     console.log(`height : ${height}, width : ${width}`);
+// });
 
-var details = document.querySelector("details");
-details.addEventListener("toggle", function(){
-    console.log("Toggled....");
-});
+// var details = document.querySelector("details");
+// details.addEventListener("toggle", function(){
+//     console.log("Toggled....");
+// });
+// New Program Code For Dom Event Object- Mouse Events JavaScript ------------------>
