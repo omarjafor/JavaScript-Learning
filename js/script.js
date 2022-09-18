@@ -1103,3 +1103,21 @@ video.addEventListener("pause", function(){
 video.addEventListener("playing", function(){
     console.log("Playing......");
 });
+// New Program Code For Dom Event Object- Scroll,Resize,Toggle JavaScript ------------------>
+window.addEventListener("load", function(){
+        console.log("Loading.......");
+    });
+
+window.addEventListener("unload", function(){
+        console.log("Unloding.......");
+    });
+
+window.addEventListener("scroll", function(){
+        console.log("Scrolling.......");
+    });
+
+window.addEventListener("resize", function(){
+    const width = window.outerWidth;
+    const height = window.outerHeight;
+    console.log(`height : ${height}, width : ${width}`);
+});
