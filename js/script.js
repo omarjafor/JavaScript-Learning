@@ -1121,3 +1121,8 @@ window.addEventListener("resize", function(){
     const height = window.outerHeight;
     console.log(`height : ${height}, width : ${width}`);
 });
+
+var details = document.querySelector("details");
+details.addEventListener("toggle", function(){
+    console.log("Toggled....");
+});
