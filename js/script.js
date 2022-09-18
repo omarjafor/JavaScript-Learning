@@ -1091,3 +1091,11 @@ var video = document.querySelector("video");
 video.addEventListener("canplay", function(){
     console.log("Canplay");
 });
+
+video.addEventListener("play", function(){
+    console.log("Video Play");
+});
+
+video.addEventListener("pause", function(){
+    console.log("Pause Video");
+});
