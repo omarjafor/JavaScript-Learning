@@ -1127,41 +1127,65 @@
 //     console.log("Toggled....");
 // });
 // New Program Code For Dom Event Object- Mouse Events JavaScript ------------------>
-// on mouse over event
-var mouse = document.querySelector(".moverout2");
-mouse.addEventListener("mouseover",function(){
-    mouse.innerHTML = "Thank You";
+// // on mouse over event
+// var mouse = document.querySelector(".moverout2");
+// mouse.addEventListener("mouseover",function(){
+//     mouse.innerHTML = "Thank You";
+// });
+// // on mouse out event
+// mouse.addEventListener("mouseout",function(){
+//     mouse.innerHTML = "Mouse Over Me";
+// });
+// // on click event
+// mouse.addEventListener("click", function(e){
+//     console.log("Clicked");
+//     console.log(e.target.innerHTML);
+// });
+// //dblclick event
+// mouse.addEventListener("dblclick", function(){
+//     console.log("Duble Clicked");
+// });
+// //mousedown event
+// mouse.addEventListener("mousedown", function(){
+//     console.log("Mouse Down Occured");
+// });
+// //mouseup event
+// mouse.addEventListener("mouseup", function(){
+//     console.log("Mouse Up Occured");
+// });
+// //mouse enter event
+// mouse.addEventListener("mouseenter", function(){
+//     console.log("Mouse Enter Occured");
+// });
+// //mouse leave event
+// mouse.addEventListener("mouseleave", function(){
+//     console.log("Mouse Leave Occured");
+// });
+// //mousemove event
+// mouse.addEventListener("mousemove", function(){
+//     console.log("Mouse Move Occured");
+// });
+// New Program Code For Dom Event - Keyboard Event Object JavaScript ------------------>
+//Keydown, Keypress, KeyUp Event
+var key = document.querySelector("textarea");
+key.addEventListener("keydown",function(e){
+    console.log("Key Down Working..");
+    if(e.repeat){
+        alert("Do Not Repeat Key Pressing");
+    }
 });
-// on mouse out event
-mouse.addEventListener("mouseout",function(){
-    mouse.innerHTML = "Mouse Over Me";
+
+key.addEventListener("keypress",function(){
+    console.log("Key Press Working..");
 });
-// on click event
-mouse.addEventListener("click", function(e){
-    console.log("Clicked");
-    console.log(e.target.innerHTML);
+
+key.addEventListener("keyup",function(){
+    console.log("Key Up Working..");
 });
-//dblclick event
-mouse.addEventListener("dblclick", function(){
-    console.log("Duble Clicked");
+
+key.addEventListener("keyup",function(e){
+    console.log(e.key);
+    console.log(e.code);
+    console.log(e.shiftKey);
 });
-//mousedown event
-mouse.addEventListener("mousedown", function(){
-    console.log("Mouse Down Occured");
-});
-//mouseup event
-mouse.addEventListener("mouseup", function(){
-    console.log("Mouse Up Occured");
-});
-//mouse enter event
-mouse.addEventListener("mouseenter", function(){
-    console.log("Mouse Enter Occured");
-});
-//mouse leave event
-mouse.addEventListener("mouseleave", function(){
-    console.log("Mouse Leave Occured");
-});
-//mousemove event
-mouse.addEventListener("mousemove", function(){
-    console.log("Mouse Move Occured");
-});
+// New Program Code For Dom Event - Focus Event Object JavaScript ------------------>
