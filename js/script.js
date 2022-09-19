@@ -1167,25 +1167,25 @@
 // });
 // New Program Code For Dom Event - Keyboard Event Object JavaScript ------------------>
 //Keydown, Keypress, KeyUp Event
-var key = document.querySelector("textarea");
-key.addEventListener("keydown",function(e){
-    console.log("Key Down Working..");
-    if(e.repeat){
-        alert("Do Not Repeat Key Pressing");
-    }
-});
+// var key = document.querySelector("textarea");
+// key.addEventListener("keydown",function(e){
+//     console.log("Key Down Working..");
+//     if(e.repeat){
+//         alert("Do Not Repeat Key Pressing");
+//     }
+// });
 
-key.addEventListener("keypress",function(){
-    console.log("Key Press Working..");
-});
+// key.addEventListener("keypress",function(){
+//     console.log("Key Press Working..");
+// });
 
-key.addEventListener("keyup",function(){
-    console.log("Key Up Working..");
-});
+// key.addEventListener("keyup",function(){
+//     console.log("Key Up Working..");
+// });
 
-key.addEventListener("keyup",function(e){
-    console.log(e.key);
-    console.log(e.code);
-    console.log(e.shiftKey);
-});
+// key.addEventListener("keyup",function(e){
+//     console.log(e.key);
+//     console.log(e.code);
+//     console.log(e.shiftKey);
+// });
 // New Program Code For Dom Event - Focus Event Object JavaScript ------------------>
