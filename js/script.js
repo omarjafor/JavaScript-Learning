@@ -1225,6 +1225,6 @@ input.addEventListener("paste", function(){
 var div = document.querySelector("div");
 var p = document.querySelector("p");
 
-p.addEventListener("dragstart", function(){
-    
+p.addEventListener("dragstart", function(e){
+    e.dataTransfer.setData("text", e.target.id);
 });
