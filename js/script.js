@@ -1224,3 +1224,7 @@ input.addEventListener("paste", function(){
 // New Program Code For Dom Event - Drag Event Object JavaScript ------------------>
 var div = document.querySelector("div");
 var p = document.querySelector("p");
+
+p.addEventListener("dragstart", function(){
+    
+});
