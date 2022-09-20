@@ -1196,12 +1196,15 @@ input.addEventListener("blur", function(){
 
 input.addEventListener("focus", function(){
     console.log("Focus is working...");
+    input.style.backgroundColor = "blue";
 });
 
 input.addEventListener("focusin", function(){
     console.log("Focus in is working...");
 });
 
-input.addEventListener("focusout", function(){
+input.addEventListener("focusout", function(e){
     console.log("Focus Out is working...");
+    input.style.backgroundColor = "";
+    console.log(e.target.value);
 });
