@@ -1189,3 +1189,19 @@
 //     console.log(e.shiftKey);
 // });
 // New Program Code For Dom Event - Focus Event Object JavaScript ------------------>
+var input = document.querySelector("input");
+input.addEventListener("blur", function(){
+    console.log("Blur is working...");
+});
+
+input.addEventListener("focus", function(){
+    console.log("Focus is working...");
+});
+
+input.addEventListener("focusin", function(){
+    console.log("Focus in is working...");
+});
+
+input.addEventListener("focusout", function(){
+    console.log("Focus Out is working...");
+});
