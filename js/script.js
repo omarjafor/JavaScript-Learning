@@ -1209,22 +1209,32 @@
 //     console.log(e.target.value);
 // });
 // New Program Code For Dom Event - Clip Board Event Object JavaScript ------------------>
-var input = document.querySelector("input");
-input.addEventListener("copy", function(){
-    console.log("Copy is done");
-});
+// var input = document.querySelector("input");
+// input.addEventListener("copy", function(){
+//     console.log("Copy is done");
+// });
 
-input.addEventListener("cut", function(){
-    console.log("Cut is done");
-});
+// input.addEventListener("cut", function(){
+//     console.log("Cut is done");
+// });
 
-input.addEventListener("paste", function(){
-    console.log("Paste is done");
-});
+// input.addEventListener("paste", function(){
+//     console.log("Paste is done");
+// });
 // New Program Code For Dom Event - Drag Event Object JavaScript ------------------>
 var div = document.querySelector("div");
 var p = document.querySelector("p");
 
 p.addEventListener("dragstart", function(e){
     e.dataTransfer.setData("text", e.target.id);
+});
+
+div.addEventListener("dragover", function(e){
+    e.preventDefault();
+});
+
+div.addEventListener("drop", function(e){
+    let id = e.dataTransfer.getData("text");
+    div.appendChild(document.getElementById(id));
+    e.preventDefault();
 });
