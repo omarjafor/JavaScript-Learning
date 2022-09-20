@@ -1189,22 +1189,36 @@
 //     console.log(e.shiftKey);
 // });
 // New Program Code For Dom Event - Focus Event Object JavaScript ------------------>
+// var input = document.querySelector("input");
+// input.addEventListener("blur", function(){
+//     console.log("Blur is working...");
+// });
+
+// input.addEventListener("focus", function(){
+//     console.log("Focus is working...");
+//     input.style.backgroundColor = "blue";
+// });
+
+// input.addEventListener("focusin", function(){
+//     console.log("Focus in is working...");
+// });
+
+// input.addEventListener("focusout", function(e){
+//     console.log("Focus Out is working...");
+//     input.style.backgroundColor = "";
+//     console.log(e.target.value);
+// });
+// New Program Code For Dom Event - Clip Board Event Object JavaScript ------------------>
 var input = document.querySelector("input");
-input.addEventListener("blur", function(){
-    console.log("Blur is working...");
+input.addEventListener("copy", function(){
+    console.log("Copy is done");
 });
 
-input.addEventListener("focus", function(){
-    console.log("Focus is working...");
-    input.style.backgroundColor = "blue";
+input.addEventListener("cut", function(){
+    console.log("Cut is done");
 });
 
-input.addEventListener("focusin", function(){
-    console.log("Focus in is working...");
+input.addEventListener("paste", function(){
+    console.log("Paste is done");
 });
-
-input.addEventListener("focusout", function(e){
-    console.log("Focus Out is working...");
-    input.style.backgroundColor = "";
-    console.log(e.target.value);
-});
+// New Program Code For Dom Event - Drag Event Object JavaScript ------------------>
