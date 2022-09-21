@@ -1239,3 +1239,9 @@
 //     e.preventDefault();
 // });
 // New Program Code For Bom Event - Browser Object Model ------------------>
+console.log(window);
+console.log(location.href);
+console.log(location.protocol);
+console.log(location.port);
+console.log(location.host);
+console.log(location.pathname);
