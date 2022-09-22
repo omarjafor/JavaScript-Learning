@@ -1244,7 +1244,7 @@
 // console.log(location.protocol);
 // console.log(location.port);
 // console.log(location.host);
-// console.log(location.pathname);
+console.log(location.pathname);
 
 var loDiv = document.querySelector(".loDiv");
 console.log(loDiv);
