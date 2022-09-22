@@ -1242,7 +1242,7 @@
 // console.log(window);
 // console.log(location.href);
 // console.log(location.protocol);
-// console.log(location.port);
+console.log(location.port);
 console.log(location.host);
 console.log(location.pathname);
 
