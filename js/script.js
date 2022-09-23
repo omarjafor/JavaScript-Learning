@@ -1252,8 +1252,8 @@
 // var p1 = loDiv.children[0];
 // p1.textContent = location.href;
 
-var p2 = loDiv.children[1];
-p2.textContent = location.protocol;
+// var p2 = loDiv.children[1];
+// p2.textContent = location.protocol;
 
 var p3 = loDiv.children[2];
 p3.textContent = location.port;
