@@ -1246,8 +1246,8 @@
 // console.log(location.host);
 // console.log(location.pathname);
 
-var loDiv = document.querySelector(".loDiv");
-console.log(loDiv);
+// var loDiv = document.querySelector(".loDiv");
+// console.log(loDiv);
 
 var p1 = loDiv.children[0];
 p1.textContent = location.href;
