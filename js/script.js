@@ -1255,8 +1255,8 @@
 // var p2 = loDiv.children[1];
 // p2.textContent = location.protocol;
 
-var p3 = loDiv.children[2];
-p3.textContent = location.port;
+// var p3 = loDiv.children[2];
+// p3.textContent = location.port;
 
 var myButton = document.getElementById("myButton");
 myButton.addEventListener("click", function(){
