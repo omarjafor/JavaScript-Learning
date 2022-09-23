@@ -1258,7 +1258,7 @@
 // var p3 = loDiv.children[2];
 // p3.textContent = location.port;
 
-var myButton = document.getElementById("myButton");
-myButton.addEventListener("click", function(){
-    location.assign("https://www.google.com");
-});
+// var myButton = document.getElementById("myButton");
+// myButton.addEventListener("click", function(){
+//     location.assign("https://www.google.com");
+// });
