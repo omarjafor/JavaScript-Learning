@@ -1249,8 +1249,8 @@
 // var loDiv = document.querySelector(".loDiv");
 // console.log(loDiv);
 
-var p1 = loDiv.children[0];
-p1.textContent = location.href;
+// var p1 = loDiv.children[0];
+// p1.textContent = location.href;
 
 var p2 = loDiv.children[1];
 p2.textContent = location.protocol;
