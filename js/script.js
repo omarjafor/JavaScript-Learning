@@ -1238,7 +1238,7 @@
 //     div.appendChild(document.getElementById(id));
 //     e.preventDefault();
 // });
-// New Program Code For Bom Event - Browser Object Model ------------------>
+// New Program Code For Bom Event - Browser Object Model - Locationg object ------------------>
 // console.log(window);
 // console.log(location.href);
 // console.log(location.protocol);
@@ -1246,19 +1246,20 @@
 // console.log(location.host);
 // console.log(location.pathname);
 
-var loDiv = document.querySelector(".loDiv");
-console.log(loDiv);
+// var loDiv = document.querySelector(".loDiv");
+// console.log(loDiv);
 
-var p1 = loDiv.children[0];
-p1.textContent = location.href;
+// var p1 = loDiv.children[0];
+// p1.textContent = location.href;
 
-var p2 = loDiv.children[1];
-p2.textContent = location.protocol;
+// var p2 = loDiv.children[1];
+// p2.textContent = location.protocol;
 
-var p3 = loDiv.children[2];
-p3.textContent = location.port;
+// var p3 = loDiv.children[2];
+// p3.textContent = location.port;
 
-var myButton = document.getElementById("myButton");
-myButton.addEventListener("click", function(){
-    location.assign("https://www.google.com");
-});
+// var myButton = document.getElementById("myButton");
+// myButton.addEventListener("click", function(){
+//     location.assign("https://www.google.com");
+// });
+// New Program Code For Bom Event - PopUp Boxes Object ------------------>
