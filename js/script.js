@@ -1294,10 +1294,10 @@ setTimeout( () => {
     console.log("Hi");
 }, 2000);
 
-// setTimeout(display, 2000);
-// function display(){
-//     console.log('Display Function Working...');
-// }
+setTimeout(display, 2000);
+function display(){
+    console.log('Display Function Working...');
+}
 
 // var myButton = document.querySelector(".myButton");
 // var message = document.querySelector(".message");
