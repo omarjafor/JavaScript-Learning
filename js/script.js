@@ -1281,7 +1281,7 @@ function welcomeMessage(){
     if (name == null || name == ""){
         text = 'No name found';
     }else{
-        text = "Welcome " + name;
+        text = "Welcome "+name;
     }
     var textNode = document.createTextNode(text);
     h1.appendChild(textNode);
