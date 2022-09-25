@@ -1263,12 +1263,14 @@
 //     location.assign("https://www.google.com");
 // });
 // New Program Code For Bom Event - PopUp Boxes Object ------------------>
-function deleteSomething(){
-    let value = confirm("Do You Want to Delete?");
-    if(value){
-        console.log("Deleted");
-    } else {
-        console.log("Not Deleted");
-    }
-}
-deleteSomething();
+// Confirm Box --------->
+// function deleteSomething(){
+//     let value = confirm("Do You Want to Delete?");
+//     if(value){
+//         console.log("Deleted");
+//     } else {
+//         console.log("Not Deleted");
+//     }
+// }
+// deleteSomething();
+// Prompt Box --------->
