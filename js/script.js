@@ -1294,18 +1294,18 @@ setTimeout( () => {
     console.log("Hi");
 }, 2000);
 
-setTimeout(display, 2000);
-function display(){
-    console.log('Display Function Working...');
-}
+// setTimeout(display, 2000);
+// function display(){
+//     console.log('Display Function Working...');
+// }
 
-var myButton = document.querySelector(".myButton");
-var message = document.querySelector(".message");
-myButton.addEventListener("click", saveUser);
-function saveUser(){
-    message.textContent = "User Registration Successful";
-    setTimeout(()=>{
-        message.textContent = "";
-    }, 2000);
-}
+// var myButton = document.querySelector(".myButton");
+// var message = document.querySelector(".message");
+// myButton.addEventListener("click", saveUser);
+// function saveUser(){
+//     message.textContent = "User Registration Successful";
+//     setTimeout(()=>{
+//         message.textContent = "";
+//     }, 2000);
+// }
 // Set Interval Event ----->
