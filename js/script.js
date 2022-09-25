@@ -1309,3 +1309,14 @@
 //     }, 2000);
 // }
 // Set Interval Event ----->
+var myButton = document.querySelector(".myButton");
+var message = document.querySelector(".message");
+myButton.addEventListener("click", displayCount);
+function displayCount(){
+    let count = 1;
+    message.textContent = count;
+    setInterval(()=>{
+        count++
+        message.textContent = count;
+    }, 1000);
+}
