@@ -1339,3 +1339,11 @@
 //     return i;
 //   }
 // New Program Code For Error Handaling in JavaScript ------------------>
+
+try{
+    alert("This is one");
+    alert(x);
+    alert("This is two");
+}catch(err){
+    alert("Inside Catch Error");
+}
