@@ -1364,3 +1364,12 @@
 //     }
 // });
 // New Program Code For Canvas Drawing in JavaScript ------------------>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+ctx.lineWidth=3;
+ctx.strokeStyle = "black";
+ctx.strokeRect(10,10,385,285);
+
+ctx.fillStyle = "green";
+ctx.fillRect(12,12,380,280);
