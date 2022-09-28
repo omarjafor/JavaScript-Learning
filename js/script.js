@@ -1339,7 +1339,6 @@
 //     return i;
 //   }
 // New Program Code For Error Handaling in JavaScript ------------------>
-
 // try{
 //     alert("This is one");
 //     alert(x);
@@ -1350,18 +1349,18 @@
 // }finally{
 //     alert("Finally End This Program");
 // }
-
-var check = document.getElementById("check");
-var text = document.getElementById("text");
-check.addEventListener("click", function(){
-    var num = text.value;
-    try{
-        if(num<5){
-            throw "Input Number is Too Low"
-        }else if(num>10){
-            throw "Input Number is Too High"
-        }
-    }catch(err){
-        console.log(err);
-    }
-});
+// var check = document.getElementById("check");
+// var text = document.getElementById("text");
+// check.addEventListener("click", function(){
+//     var num = text.value;
+//     try{
+//         if(num<5){
+//             throw "Input Number is Too Low"
+//         }else if(num>10){
+//             throw "Input Number is Too High"
+//         }
+//     }catch(err){
+//         console.log(err);
+//     }
+// });
+// New Program Code For Canvas Drawing in JavaScript ------------------>
