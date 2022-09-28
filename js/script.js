@@ -1396,3 +1396,10 @@ function sum(x,y){
     console.log(sum);
 }
 sum(5,6);
+sum(10,2);
+
+const add = (x,y) => {
+    var sum = x+y;
+    console.log(sum);
+}
+add (20,30);
