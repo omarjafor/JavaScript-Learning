@@ -1384,10 +1384,15 @@
 // ctx.stroke();
 // New Program Code For variable and function in ES6------------------>
 // Variable in ES6
-let x = 5;
-let y = 7;
-document.write(`Sum is = ${x+y}<br>`);
-let sum = x+y;
-document.write("<br>Sum is = " + sum);
-document.write(`<br>Sum is = ${sum}`); //this is the way of ES6
+// let x = 5;
+// let y = 7;
+// document.write(`Sum is = ${x+y}<br>`);
+// let sum = x+y;
+// document.write("<br>Sum is = " + sum);
+// document.write(`<br>Sum is = ${sum}`); //this is the way of ES6
 // Function in ES6
+function sum(x,y){
+    var sum = x+y;
+    console.log(sum);
+}
+sum(5,6);
