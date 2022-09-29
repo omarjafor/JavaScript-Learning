@@ -1404,17 +1404,17 @@
 // }
 // add (20,30);
 // New Program Code For - in ES6------------------>
-x=5;
-console.log(x);
-var x; 
+// x=5;
+// console.log(x);
+// var x; 
 // Hoisting js default behaviour
-var x = 10;
-if(true){
-    y = 20;
-    console.log(`Y = ${y}`);
-    var y;
-}
-console.log(`X = ${x}`);
+// var x = 10;
+// if(true){
+//     y = 20;
+//     console.log(`Y = ${y}`);
+//     var y;
+// }
+// console.log(`X = ${x}`);
 
 "use strict"
 x = 20;
