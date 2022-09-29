@@ -1391,15 +1391,19 @@
 // document.write("<br>Sum is = " + sum);
 // document.write(`<br>Sum is = ${sum}`); //this is the way of ES6
 // Function in ES6
-function sum(x,y){
-    var sum = x+y;
-    console.log(sum);
-}
-sum(5,6);
-sum(10,2);
+// function sum(x,y){
+//     var sum = x+y;
+//     console.log(sum);
+// }
+// sum(5,6);
+// sum(10,2);
 
-const add = (x,y) => {
-    var sum = x+y;
-    console.log(sum);
-}
-add (20,30);
+// const add = (x,y) => {
+//     var sum = x+y;
+//     console.log(sum);
+// }
+// add (20,30);
+// New Program Code For - in ES6------------------>
+x=5;
+console.log(x);
+var x; // Hoisting js default behaviour
