@@ -1415,3 +1415,7 @@ if(true){
     var y;
 }
 console.log(`X = ${x}`);
+
+"use strict"
+x = 20;
+console.log(`X = ${x}`);
