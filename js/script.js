@@ -1403,7 +1403,7 @@
 //     console.log(sum);
 // }
 // add (20,30);
-// New Program Code For - in ES6------------------>
+// New Program Code For Hoisting and Strict in ES6------------------>
 // x=5;
 // console.log(x);
 // var x; 
@@ -1419,3 +1419,4 @@
 // "use strict"
 // x = 20;
 // console.log(`X = ${x}`);
+// New Program Code For  in ES6------------------>
