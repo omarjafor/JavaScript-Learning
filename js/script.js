@@ -1419,4 +1419,9 @@
 // "use strict"
 // x = 20;
 // console.log(`X = ${x}`);
-// New Program Code For  in ES6------------------>
+// New Program Code For Defualt and rest parameter in ES6------------------>
+function message(text = "This is JS <br>"){
+    document.write(text);
+}
+message();
+message("Hello I love JavaScript");
