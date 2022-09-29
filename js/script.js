@@ -1415,7 +1415,7 @@
 //     var y;
 // }
 // console.log(`X = ${x}`);
-
-"use strict"
-x = 20;
-console.log(`X = ${x}`);
+// when you use strict then can't run without variable diclare
+// "use strict"
+// x = 20;
+// console.log(`X = ${x}`);
