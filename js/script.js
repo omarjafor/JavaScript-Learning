@@ -1406,4 +1406,12 @@
 // New Program Code For - in ES6------------------>
 x=5;
 console.log(x);
-var x; // Hoisting js default behaviour
+var x; 
+// Hoisting js default behaviour
+var x = 10;
+if(true){
+    y = 20;
+    console.log(`Y = ${y}`);
+    var y;
+}
+console.log(`X = ${x}`);
