@@ -1431,11 +1431,15 @@
 // }
 // message2(10,20,30,40,50);
 // New Program Code For Spread Operator in ES6------------------>
-function addNumbers(x,y,z){
-    return x+y+z;
-}
-let number = [10,20,30];
+// function addNumbers(x,y,z){
+//     return x+y+z;
+// }
+// let number = [10,20,30];
 // document.write(addNumbers(...number));
 
-let number1 = [5, 6, ...number];
-document.write(number1);
+// let number1 = [5, 6, ...number, 7, 8]; // Concatination by spread operator
+// document.write(number1);
+let number1 = [1,2,3];
+let number2 = [4,5,6];
+let number = [...number1, ...number2];
+document.write(number);
