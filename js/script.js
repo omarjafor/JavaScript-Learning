@@ -1439,7 +1439,19 @@
 
 // let number1 = [5, 6, ...number, 7, 8]; // Concatination by spread operator
 // document.write(number1);
-let number1 = [1,2,3];
-let number2 = [4,5,6];
-let number = [...number1, ...number2];
-document.write(number);
+// Array Concatination
+// let number1 = [1,2,3];
+// let number2 = [4,5,6];
+// let number = [...number1, ...number2];
+// document.write(number);
+//Object concatination
+let p1 = {
+    name : 'Abidur Rahman',
+    age : 28
+}
+let p2 = {
+    address : 'Fatickchari',
+    mobile : '01828-456545'
+}
+let p = {...p1, ...p2}
+console.log(p);
