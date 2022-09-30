@@ -1431,3 +1431,8 @@
 // }
 // message2(10,20,30,40,50);
 // New Program Code For Spread Operator in ES6------------------>
+function addNumbers(x,y,z){
+    return x+y+z;
+}
+let number = [10,20,30];
+document.write(addNumbers(...number));
