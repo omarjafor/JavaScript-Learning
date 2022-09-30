@@ -1420,13 +1420,14 @@
 // x = 20;
 // console.log(`X = ${x}`);
 // New Program Code For Defualt and rest parameter in ES6------------------>
-function message(text = "This is JS <br>"){
-    document.write(text);
-}
-message();
-message("Hello I love JavaScript");
+// function message(text = "This is JS <br>"){
+//     document.write(text);
+// }
+// message();
+// message("Hello I love JavaScript");
 
-function message2(x,y, ...z){
-    document.write(`<br> X = ${x} <br> Y = ${y} <br> Z = ${z}`);
-}
-message2(10,20,30,40,50);
+// function message2(x,y, ...z){
+//     document.write(`<br> X = ${x} <br> Y = ${y} <br> Z = ${z}`);
+// }
+// message2(10,20,30,40,50);
+// New Program Code For Spread Operator in ES6------------------>
