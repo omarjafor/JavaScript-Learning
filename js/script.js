@@ -1435,4 +1435,7 @@ function addNumbers(x,y,z){
     return x+y+z;
 }
 let number = [10,20,30];
-document.write(addNumbers(...number));
+// document.write(addNumbers(...number));
+
+let number1 = [5, 6, ...number];
+document.write(number1);
