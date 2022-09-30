@@ -1425,3 +1425,8 @@ function message(text = "This is JS <br>"){
 }
 message();
 message("Hello I love JavaScript");
+
+function message2(x,y, ...z){
+    document.write(`<br> X = ${x} <br> Y = ${y} <br> Z = ${z}`);
+}
+message2(10,20,30,40,50);
