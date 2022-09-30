@@ -1445,13 +1445,14 @@
 // let number = [...number1, ...number2];
 // document.write(number);
 //Object concatination
-let p1 = {
-    name : 'Abidur Rahman',
-    age : 28
-}
-let p2 = {
-    address : 'Fatickchari',
-    mobile : '01828-456545'
-}
-let p = {...p1, ...p2}
-console.log(p);
+// let p1 = {
+//     name : 'Abidur Rahman',
+//     age : 28
+// }
+// let p2 = {
+//     address : 'Fatickchari',
+//     mobile : '01828-456545'
+// }
+// let p = {...p1, ...p2}
+// console.log(p);
+// New Program Code For Object Literals in ES6------------------>
