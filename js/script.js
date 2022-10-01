@@ -1486,3 +1486,10 @@ let message2 = {
     }
 }
 console.log(message2.body());
+
+let message3 = {
+    'just name' (){
+        return `Hi, This is object function in es6 again`;
+    }
+}
+console.log(message3['just name']());
