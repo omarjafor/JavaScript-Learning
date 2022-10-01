@@ -1456,3 +1456,11 @@
 // let p = {...p1, ...p2}
 // console.log(p);
 // New Program Code For Object Literals in ES6------------------>
+// Object Literal
+function personInfo(name, age){
+    return{
+        name : name,
+        age : age
+    } 
+}
+console.log(personInfo("Rakib Ullah", 25));
