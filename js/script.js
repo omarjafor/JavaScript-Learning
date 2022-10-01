@@ -1472,3 +1472,10 @@ function personInfo(name, age){
     } 
 }
 console.log(personInfo("Jahanara Khatun", 52));
+// return a message by object function
+let message = {
+    body : function(){
+        return `Hi, This is object function`;
+    }
+}
+console.log(message.body());
