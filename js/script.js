@@ -1495,11 +1495,11 @@
 // console.log(message3['just name']());
 // New Program Code - For of loop/ for in loop in ES6--------------------->
 // For of in es6
-const names = ["Shakib", "Rakib", "Akib"];
-for(let x of names){
-    console.log(x);
-}
-// For in loop
+// const names = ["Shakib", "Rakib", "Akib"];
+// for(let x of names){
+//     console.log(x);
+// }
+// For in loop - specially use in object
 let students = {
     ID : 12023,
     name : "Kalid Hossain",
@@ -1507,4 +1507,10 @@ let students = {
 }
 for(let x in students){
     console.log(x);
+}
+for(let x in students){
+    console.log(students[x]);
+}
+for(let x in students){
+    console.log(`${x} : ${students[x]}`);
 }
