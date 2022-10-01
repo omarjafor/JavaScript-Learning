@@ -1464,7 +1464,7 @@ function personInfo(name, age){
     } 
 }
 console.log(personInfo("Rakib Ullah", 25));
-// This is the difference with object literal effect
+// This is the difference with object literal effect in es6
 function personInfo(name, age){
     return{
         name,
@@ -1479,3 +1479,10 @@ let message = {
     }
 }
 console.log(message.body());
+// same object function in es6
+let message2 = {
+    body(){
+        return `Hi, This is object function in es6`;
+    }
+}
+console.log(message2.body());
