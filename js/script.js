@@ -1494,3 +1494,8 @@
 // }
 // console.log(message3['just name']());
 // New Program Code - For of loop/ for in loop in ES6--------------------->
+// For of in es6
+const names = ["Shakib", "Rakib", "Akib"];
+for(let x of names){
+    console.log(x);
+}
