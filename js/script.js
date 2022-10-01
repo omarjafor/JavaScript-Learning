@@ -1464,3 +1464,11 @@ function personInfo(name, age){
     } 
 }
 console.log(personInfo("Rakib Ullah", 25));
+// This is the difference with object literal effect
+function personInfo(name, age){
+    return{
+        name,
+        age
+    } 
+}
+console.log(personInfo("Jahanara Khatun", 52));
