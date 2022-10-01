@@ -1499,3 +1499,12 @@ const names = ["Shakib", "Rakib", "Akib"];
 for(let x of names){
     console.log(x);
 }
+// For in loop
+let students = {
+    ID : 12023,
+    name : "Kalid Hossain",
+    age : 28
+}
+for(let x in students){
+    console.log(x);
+}
