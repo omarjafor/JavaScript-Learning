@@ -1455,41 +1455,42 @@
 // }
 // let p = {...p1, ...p2}
 // console.log(p);
-// New Program Code For Object Literals in ES6------------------>
+// New Program Code For Object Literals in ES6--------------------->
 // Object Literal
-function personInfo(name, age){
-    return{
-        name : name,
-        age : age
-    } 
-}
-console.log(personInfo("Rakib Ullah", 25));
+// function personInfo(name, age){
+//     return{
+//         name : name,
+//         age : age
+//     } 
+// }
+// console.log(personInfo("Rakib Ullah", 25));
 // This is the difference with object literal effect in es6
-function personInfo(name, age){
-    return{
-        name,
-        age
-    } 
-}
-console.log(personInfo("Jahanara Khatun", 52));
+// function personInfo(name, age){
+//     return{
+//         name,
+//         age
+//     } 
+// }
+// console.log(personInfo("Jahanara Khatun", 52));
 // return a message by object function
-let message = {
-    body : function(){
-        return `Hi, This is object function`;
-    }
-}
-console.log(message.body());
+// let message = {
+//     body : function(){
+//         return `Hi, This is object function`;
+//     }
+// }
+// console.log(message.body());
 // same object function in es6
-let message2 = {
-    body(){
-        return `Hi, This is object function in es6`;
-    }
-}
-console.log(message2.body());
-
-let message3 = {
-    'just name' (){
-        return `Hi, This is object function in es6 again`;
-    }
-}
-console.log(message3['just name']());
+// let message2 = {
+//     body(){
+//         return `Hi, This is object function in es6`;
+//     }
+// }
+// console.log(message2.body());
+// function name using space
+// let message3 = {
+//     'just name' (){
+//         return `Hi, This is object function in es6 again`;
+//     }
+// }
+// console.log(message3['just name']());
+// New Program Code - For of loop/ for in loop in ES6--------------------->
