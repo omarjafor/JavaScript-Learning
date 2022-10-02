@@ -1515,6 +1515,14 @@
 //     console.log(`${x} : ${students[x]}`);
 // }
 // New Program Code ForEach vs For Loop in ES6--------------------->
+// For Loop 
 for (let i=0; i<10; i++){
     document.write(i);
+}
+// For Each Loop
+let num = [10, 20, 30, 40, 50];
+num.forEach(myFunction)
+
+function myFunction(x){
+    document.write(x);
 }
