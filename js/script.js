@@ -1532,9 +1532,15 @@
 //     document.write(x);
 // });
 // For each function for square
-let num = [2, 3, 4, 5, 6];
-let squareNum = [];
-num.forEach(function(x){
-    squareNum.push(x*x);
+// let num = [2, 3, 4, 5, 6];
+// let squareNum = [];
+// num.forEach(function(x){
+//     squareNum.push(x*x);
+// })
+// console.log(squareNum);
+// add num with foreach loop on a array
+let num = [10, 20, 30, 40, 50];
+num.forEach(function(x,index,arr){
+    arr[index] = x+5;
 })
-console.log(squareNum);
+console.log(num);
