@@ -1500,17 +1500,18 @@
 //     console.log(x);
 // }
 // For in loop - specially use in object
-let students = {
-    ID : 12023,
-    name : "Kalid Hossain",
-    age : 28
-}
-for(let x in students){
-    console.log(x);
-}
-for(let x in students){
-    console.log(students[x]);
-}
-for(let x in students){
-    console.log(`${x} : ${students[x]}`);
-}
+// let students = {
+//     ID : 12023,
+//     name : "Kalid Hossain",
+//     age : 28
+// }
+// for(let x in students){
+//     console.log(x);
+// }
+// for(let x in students){
+//     console.log(students[x]);
+// }
+// for(let x in students){
+//     console.log(`${x} : ${students[x]}`);
+// }
+// New Program Code - in ES6--------------------->
