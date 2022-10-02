@@ -1539,8 +1539,9 @@
 // })
 // console.log(squareNum);
 // add num with foreach loop on a array
-let num = [10, 20, 30, 40, 50];
-num.forEach(function(x,index,arr){
-    arr[index] = x+5;
-})
-console.log(num);
+// let num = [10, 20, 30, 40, 50];
+// num.forEach(function(x,index,arr){
+//     arr[index] = x+5;
+// })
+// console.log(num);
+// New Program Code Map and Filter Array in ES6 JavaScript--------------------->
