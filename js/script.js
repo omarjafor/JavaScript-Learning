@@ -1514,4 +1514,7 @@
 // for(let x in students){
 //     console.log(`${x} : ${students[x]}`);
 // }
-// New Program Code - in ES6--------------------->
+// New Program Code ForEach vs For Loop in ES6--------------------->
+for (let i=0; i<10; i++){
+    document.write(i);
+}
