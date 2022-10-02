@@ -1527,8 +1527,8 @@
 //     document.write(x);
 // }
 // For each loop way2
-let num = [10, 20, 30, 40, 50];
-num.forEach(function(x){
-    document.write(x);
-});
+// let num = [10, 20, 30, 40, 50];
+// num.forEach(function(x){
+//     document.write(x);
+// });
 
