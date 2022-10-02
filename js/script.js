@@ -1531,4 +1531,10 @@
 // num.forEach(function(x){
 //     document.write(x);
 // });
-
+// For each function for square
+let num = [2, 3, 4, 5, 6];
+let squareNum = [];
+num.forEach(function(x){
+    squareNum.push(x*x);
+})
+console.log(squareNum);
