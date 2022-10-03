@@ -1552,9 +1552,10 @@
 // })
 // console.log(squareNum);
 // Filter Array Function
-let num = [20, 30, 40, 5, 6, 22, 38];
-let squareNum = num.filter(function(x){
-    return x>10;
-})
-console.log(squareNum);
-console.log(squareNum.sort());
+// let num = [20, 30, 40, 5, 6, 22, 38];
+// let squareNum = num.filter(function(x){
+//     return x>10;
+// })
+// console.log(squareNum);
+// console.log(squareNum.sort());
+//New Program Code Array Function in ES6 JavaScript--------------------->
