@@ -1545,3 +1545,8 @@
 // })
 // console.log(num);
 // New Program Code Map and Filter Array in ES6 JavaScript--------------------->
+let num = [2, 3, 4, 5, 6];
+let squareNum = num.map(function(x){
+    return x*x;
+})
+console.log(squareNum);
