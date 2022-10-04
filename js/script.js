@@ -1609,6 +1609,11 @@
 // let number = [10, 20, 30, 40, 50]
 // let [num1, num2, num3, num4, num5] = number;
 // console.log(num1, num3);
-let number = [10, 20, 30, 40, 50]
-let [num1, num2, ...num3] = number;
-console.log(num1, num2, num3);
+// let number = [10, 20, 30, 40, 50]
+// let [num1, num2, ...num3] = number;
+// console.log(num1, num2, num3);
+//New Program Code Swap Variable in ES6 JavaScript--------------------->
+let a=10, b=20;
+[a,b] = [b,a]
+console.log(a);
+console.log(b);
