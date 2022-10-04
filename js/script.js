@@ -1618,17 +1618,28 @@
 // console.log(a);
 // console.log(b);
 //New Program Code Object Destructure in ES6 JavaScript--------------------->
+// var students = {
+//             id : 101,
+//             name : "Abul Hossain",
+//             age : 23,
+//             cgpa : 3.25,
+//             language : {
+//                 native : "Bangla",
+//                 beginner : "English"
+//             }
+//         }
+// const {id, name, age, cgpa, language} = students
+// console.log(id);
+// console.log(cgpa);
+// console.log(language.beginner);
+//New Program Code Function Destructure in ES6 JavaScript--------------------->
+const studentInfo = (student) => {
+    console.log(`${student.id}, ${student.name}`);
+}
 var students = {
-            id : 101,
-            name : "Abul Hossain",
-            age : 23,
-            cgpa : 3.25,
-            language : {
-                native : "Bangla",
-                beginner : "English"
+                id : 102,
+                name : "Ahsfiq Ahmed",
+                age : 23,
+                cgpa : 3.25
             }
-        }
-const {id, name, age, cgpa, language} = students
-console.log(id);
-console.log(cgpa);
-console.log(language.beginner);
+studentInfo(students);
