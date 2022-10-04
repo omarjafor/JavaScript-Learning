@@ -1592,3 +1592,9 @@ var students = [
         age : 24
     }
 ]
+function studentNames(){
+    return students.filter(function(x){
+       return x.age > 25
+    });
+}
+console.log(studentNames());
