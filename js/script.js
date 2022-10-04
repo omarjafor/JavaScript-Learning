@@ -1622,8 +1622,13 @@ var students = {
             id : 101,
             name : "Abul Hossain",
             age : 23,
-            cgpa : 3.25
+            cgpa : 3.25,
+            language : {
+                native : "Bangla",
+                beginner : "English"
+            }
         }
-const {id, name, age, cgpa} = students
+const {id, name, age, cgpa, language} = students
 console.log(id);
 console.log(cgpa);
+console.log(language.beginner);
