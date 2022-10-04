@@ -1633,8 +1633,20 @@
 // console.log(cgpa);
 // console.log(language.beginner);
 //New Program Code Function Destructure in ES6 JavaScript--------------------->
-const studentInfo = (student) => {
-    console.log(`${student.id}, ${student.name}`);
+// Traditional function
+// const studentInfo = (student) => {
+//     console.log(`${student.id}, ${student.name}`);
+// }
+// var students = {
+//                 id : 102,
+//                 name : "Ahsfiq Ahmed",
+//                 age : 23,
+//                 cgpa : 3.25
+//             }
+// studentInfo(students);
+// Function destruction
+const studentInfo = ({id, name, cgpa}) => {
+    console.log(`${id}, ${name}, ${cgpa}`);
 }
 var students = {
                 id : 102,
