@@ -1570,3 +1570,25 @@
 // Arrow Function in one line without 2nd bracket
 // const display2 = () => console.log("I am display Two");
 // display2();
+var students = [
+    {
+        id : 101,
+        name : "Abul Hossain",
+        age : 23
+    },
+    {
+        id : 102,
+        name : "Imam Hossain",
+        age : 28
+    },
+    {
+        id : 103,
+        name : "Rakib Hossain",
+        age : 27
+    },
+    {
+        id : 104,
+        name : "Korim Ullah",
+        age : 24
+    }
+]
