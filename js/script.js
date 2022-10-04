@@ -1558,7 +1558,7 @@
 // })
 // console.log(squareNum);
 // console.log(squareNum.sort());
-//New Program Code Array Function in ES6 JavaScript--------------------->
+//New Program Code Arrow Function in ES6 JavaScript--------------------->
 // function display(){
 //     console.log("I am display one");
 // }
@@ -1571,28 +1571,28 @@
 // const display2 = () => console.log("I am display Two");
 // display2();
 // Traditional function finding name
-var students = [
-    {
-        id : 101,
-        name : "Abul Hossain",
-        age : 23
-    },
-    {
-        id : 102,
-        name : "Imam Hossain",
-        age : 28
-    },
-    {
-        id : 103,
-        name : "Rakib Hossain",
-        age : 27
-    },
-    {
-        id : 104,
-        name : "Korim Ullah",
-        age : 24
-    }
-]
+// var students = [
+//     {
+//         id : 101,
+//         name : "Abul Hossain",
+//         age : 23
+//     },
+//     {
+//         id : 102,
+//         name : "Imam Hossain",
+//         age : 28
+//     },
+//     {
+//         id : 103,
+//         name : "Rakib Hossain",
+//         age : 27
+//     },
+//     {
+//         id : 104,
+//         name : "Korim Ullah",
+//         age : 24
+//     }
+// ]
 // function studentNames(){
 //     return students.filter(function(x){
 //        return x.age > 25
@@ -1602,6 +1602,7 @@ var students = [
 // }
 // console.log(studentNames());
 // Arrow function finding name from array
-const studentNames1 = () =>
-    students.filter((x) => x.age > 25).map((y) => y.name);
-console.log(studentNames1());
+// const studentNames1 = () =>
+//     students.filter((x) => x.age > 25).map((y) => y.name);
+// console.log(studentNames1());
+//New Program Code Arrary Destructure in ES6 JavaScript--------------------->
