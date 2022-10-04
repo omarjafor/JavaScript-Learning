@@ -1570,6 +1570,7 @@
 // Arrow Function in one line without 2nd bracket
 // const display2 = () => console.log("I am display Two");
 // display2();
+// Traditional function finding name
 var students = [
     {
         id : 101,
@@ -1592,11 +1593,20 @@ var students = [
         age : 24
     }
 ]
-function studentNames(){
+// function studentNames(){
+//     return students.filter(function(x){
+//        return x.age > 25
+//     }).map(function(y){
+//         return y.name;
+//     });
+// }
+// console.log(studentNames());
+// Arrow function finding name from array
+function studentNames1(){
     return students.filter(function(x){
        return x.age > 25
     }).map(function(y){
         return y.name;
     });
 }
-console.log(studentNames());
+console.log(studentNames1());
