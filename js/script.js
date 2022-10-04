@@ -1606,6 +1606,9 @@
 //     students.filter((x) => x.age > 25).map((y) => y.name);
 // console.log(studentNames1());
 //New Program Code Arrary Destructure in ES6 JavaScript--------------------->
+// let number = [10, 20, 30, 40, 50]
+// let [num1, num2, num3, num4, num5] = number;
+// console.log(num1, num3);
 let number = [10, 20, 30, 40, 50]
-let [num1, num2, num3, num4, num5] = number;
-console.log(num1, num3);
+let [num1, num2, ...num3] = number;
+console.log(num1, num2, num3);
