@@ -1602,11 +1602,6 @@ var students = [
 // }
 // console.log(studentNames());
 // Arrow function finding name from array
-function studentNames1(){
-    return students.filter(function(x){
-       return x.age > 25
-    }).map(function(y){
-        return y.name;
-    });
-}
+const studentNames1 = () =>
+    students.filter((x) => x.age > 25).map((y) => y.name);
 console.log(studentNames1());
