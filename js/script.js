@@ -1613,7 +1613,17 @@
 // let [num1, num2, ...num3] = number;
 // console.log(num1, num2, num3);
 //New Program Code Swap Variable in ES6 JavaScript--------------------->
-let a=10, b=20;
-[a,b] = [b,a]
-console.log(a);
-console.log(b);
+// let a=10, b=20;
+// [a,b] = [b,a]
+// console.log(a);
+// console.log(b);
+//New Program Code Object Destructure in ES6 JavaScript--------------------->
+var students = {
+            id : 101,
+            name : "Abul Hossain",
+            age : 23,
+            cgpa : 3.25
+        }
+const {id, name, age, cgpa} = students
+console.log(id);
+console.log(cgpa);
