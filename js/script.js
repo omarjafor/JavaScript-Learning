@@ -1559,14 +1559,14 @@
 // console.log(squareNum);
 // console.log(squareNum.sort());
 //New Program Code Array Function in ES6 JavaScript--------------------->
-function display(){
-    console.log("I am display one");
-}
-display();
+// function display(){
+//     console.log("I am display one");
+// }
+// display();
 // Traditional function vs arrow function
 // const display2 = () => {
 //     console.log("I am display Two");
 // }
 // Arrow Function in one line without 2nd bracket
-const display2 = () => console.log("I am display Two");
-display2();
+// const display2 = () => console.log("I am display Two");
+// display2();
