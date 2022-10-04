@@ -1595,6 +1595,8 @@ var students = [
 function studentNames(){
     return students.filter(function(x){
        return x.age > 25
+    }).map(function(y){
+        return y.name;
     });
 }
 console.log(studentNames());
