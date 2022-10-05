@@ -1657,5 +1657,16 @@
 // studentInfo(students);
 //New Program Code find or findIndex in ES6 JavaScript--------------------->
 let number = [11, 21, 32, 43, 52]
-let evenNumber = number.find(x => x%2==0);
+// let evenNumber = number.find(x => x%2==0);
+// console.log(evenNumber);
+// let evenNumberIn = number.findIndex(x => x%2==0);
+// console.log(evenNumberIn);
+
+function findNumber(value){
+    if(value%2==0)
+    return value;
+}
+let evenNumber = number.find(findNumber);
 console.log(evenNumber);
+let evenNumberIn = number.findIndex(findNumber);
+console.log(evenNumberIn);
