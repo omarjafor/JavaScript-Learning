@@ -1645,13 +1645,17 @@
 //             }
 // studentInfo(students);
 // Function destruction
-const studentInfo = ({id, name, cgpa}) => {
-    console.log(`${id}, ${name}, ${cgpa}`);
-}
-var students = {
-                id : 102,
-                name : "Ahsfiq Ahmed",
-                age : 23,
-                cgpa : 3.25
-            }
-studentInfo(students);
+// const studentInfo = ({id, name, cgpa}) => {
+//     console.log(`${id}, ${name}, ${cgpa}`);
+// }
+// var students = {
+//                 id : 102,
+//                 name : "Ahsfiq Ahmed",
+//                 age : 23,
+//                 cgpa : 3.25
+//             }
+// studentInfo(students);
+//New Program Code find or findIndex in ES6 JavaScript--------------------->
+let number = [11, 21, 32, 43, 52]
+let evenNumber = number.find(x => x%2==0);
+console.log(evenNumber);
