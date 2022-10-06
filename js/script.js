@@ -1676,3 +1676,4 @@ console.log(message.includes("Omar"));
 //because of string method is case sensetive it will be false
 console.log(message.includes("omar"));
 console.log(message.endsWith("Jafor"));
+//New Program Code ES6 Module and Class in ES6 JavaScript--------------------->
