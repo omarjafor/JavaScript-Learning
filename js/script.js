@@ -1677,3 +1677,5 @@
 // console.log(message.includes("omar"));
 // console.log(message.endsWith("Jafor"));
 //New Program Code ES6 Module and Class in ES6 JavaScript--------------------->
+import {text} from './myModule.js';
+console.log(text);
