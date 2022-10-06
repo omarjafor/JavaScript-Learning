@@ -1679,5 +1679,5 @@
 //New Program Code ES6 Module and Class in ES6 JavaScript--------------------->
 import {text, setText} from './myModule.js';
 console.log(text);
-setText("Good Bye From ES6");
-console.log(text);
+// setText("Good Bye From ES6");
+// console.log(text);
