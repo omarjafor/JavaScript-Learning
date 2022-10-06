@@ -1670,10 +1670,10 @@
 // let evenNumberIn = number.findIndex(findNumber);
 // console.log(evenNumberIn);
 //New Program Code String Method in ES6 JavaScript--------------------->
-let message = "My Name is Omar Jafor";
-console.log(message.startsWith("My"));
-console.log(message.includes("Omar"));
+// let message = "My Name is Omar Jafor";
+// console.log(message.startsWith("My"));
+// console.log(message.includes("Omar"));
 //because of string method is case sensetive it will be false
-console.log(message.includes("omar"));
-console.log(message.endsWith("Jafor"));
+// console.log(message.includes("omar"));
+// console.log(message.endsWith("Jafor"));
 //New Program Code ES6 Module and Class in ES6 JavaScript--------------------->
