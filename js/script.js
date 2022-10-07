@@ -1690,6 +1690,12 @@ class Student{
         this.id = id;
         this.name = name;
     }
+    set studentName(name){
+        this.name = name;
+    }
 }
 let std = new Student(101, "JaBed");
+console.log(std);
+
+std.studentName = "Jaber JaBed";
 console.log(std);
