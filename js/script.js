@@ -1677,9 +1677,19 @@
 // console.log(message.includes("omar"));
 // console.log(message.endsWith("Jafor"));
 //New Program Code ES6 Module and Class in ES6 JavaScript--------------------->
+// ES6 Module
 // import {text, setText} from './myModule.js';
 // console.log(text);
 // setText("Good Bye From ES6");
 // console.log(text);
-import {message} from './myModule.js';
-console.log(message);
+// import {message} from './myModule.js';
+// console.log(message);
+// ES6 Class
+class Student{
+    constructor(id, name){
+        this.id = id;
+        this.name = name;
+    }
+}
+let std = new Student(101, "JaBed");
+console.log(std);
