@@ -1707,8 +1707,11 @@
 const taskOne = () => {
     console.log("Task One");
 }
+const dataLoading = () => {
+    console.log("Task Two, Data Loading");
+}
 const taskTwo = () => {
-    console.log("Task Two");
+    setTimeout(dataLoading, 2000);
 }
 const taskThree = () => {
     console.log("Task Three");
