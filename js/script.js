@@ -1685,21 +1685,42 @@
 // import {message} from './myModule.js';
 // console.log(message);
 // ES6 Class
-class Student{
-    constructor(id, name){
-        this.id = id;
-        this.name = name;
-    }
-    set studentName(name){
-        this.name = name;
-    }
-    get studentInfo(){
-        return this.id + " " + this.name;
-    }
-}
-let std = new Student(101, "JaBed");
-console.log(std);
+// class Student{
+//     constructor(id, name){
+//         this.id = id;
+//         this.name = name;
+//     }
+//     set studentName(name){
+//         this.name = name;
+//     }
+//     get studentInfo(){
+//         return this.id + " " + this.name;
+//     }
+// }
+// let std = new Student(101, "JaBed");
+// console.log(std);
 
-std.studentName = "Jaber JaBed";
-console.log(std);
-console.log(std.studentInfo);
+// std.studentName = "Jaber JaBed";
+// console.log(std);
+// console.log(std.studentInfo);
+//New Program Code Synchronous Programming in ES6 JavaScript--------------------->
+const taskOne = () => {
+    console.log("Task One");
+}
+const taskTwo = () => {
+    console.log("Task Two");
+}
+const taskThree = () => {
+    console.log("Task Three");
+}
+const taskFour = () => {
+    console.log("Task Four");
+}
+const taskFive = () => {
+    console.log("Task Five");
+}
+taskOne();
+taskTwo();
+taskThree();
+taskFour();
+taskFive();
