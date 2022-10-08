@@ -1707,6 +1707,7 @@
 const taskOne = () => {
     console.log("Task One");
 }
+//Asynchronous Function
 const dataLoading = () => {
     console.log("Task Two, Data Loading");
 }
@@ -1727,3 +1728,4 @@ taskTwo();
 taskThree();
 taskFour();
 taskFive();
+//New Program Code callback and higher order function in ES6 JavaScript--------------------->
