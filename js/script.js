@@ -1762,10 +1762,10 @@ const taskFour = (callback) => {
 const taskFive = () => {
     console.log("Task Five");
 }
-taskOne(function t1(){
-    taskTwo(function t2(){
-        taskThree(function t3(){
-            taskFour(function t4(){
+taskOne(()=>{
+    taskTwo(()=>{
+        taskThree(()=>{
+            taskFour(()=>{
                 taskFive();
             });
         });
