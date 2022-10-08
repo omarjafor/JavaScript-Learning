@@ -1739,9 +1739,10 @@
 //     callback(num);
 // }
 // higherorder(7, square)
-// callback function
-const taskOne = () => {
+// callback function -------->
+const taskOne = (callback) => {
     console.log("Task One");
+    callback();
 }
 const dataLoading = () => {
     console.log("Task Two, Data Loading");
@@ -1750,13 +1751,23 @@ const taskTwo = (callback) => {
     setTimeout(dataLoading, 2000);
     callback();
 }
-const taskThree = () => {
+const taskThree = (callback) => {
     console.log("Task Three");
+    callback();
 }
-const taskFour = () => {
+const taskFour = (callback) => {
     console.log("Task Four");
+    callback();
 }
 const taskFive = () => {
     console.log("Task Five");
 }
-taskOne();
+taskOne(function t1(){
+    taskTwo(function t2(){
+        taskThree(function t3(){
+            taskFour(function t4(){
+                taskFive();
+            });
+        });
+    });
+});
