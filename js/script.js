@@ -1729,16 +1729,16 @@
 // taskFour();
 // taskFive();
 //New Program Code callback and higher order function in ES6 JavaScript--------------------->
-// function square(x){
-//     console.log(`square of ${x} : ${x*x}`);
-// }
-// square(5);
-// const y = square;
-// y(6);
-// function higherorder(num, callback){
-//     callback(num);
-// }
-// higherorder(7, square)
+function square(x){
+    console.log(`square of ${x} : ${x*x}`);
+}
+square(5);
+const y = square;
+y(6);
+function higherorder(num, callback){
+    callback(num);
+}
+higherorder(7, square)
 // callback function
 const taskOne = () => {
     console.log("Task One");
