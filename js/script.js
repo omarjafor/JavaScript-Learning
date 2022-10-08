@@ -1704,25 +1704,25 @@
 // console.log(std);
 // console.log(std.studentInfo);
 //New Program Code Synchronous Programming in ES6 JavaScript--------------------->
-const taskOne = () => {
-    console.log("Task One");
-}
+// const taskOne = () => {
+//     console.log("Task One");
+// }
 //Asynchronous Function
-const dataLoading = () => {
-    console.log("Task Two, Data Loading");
-}
-const taskTwo = () => {
-    setTimeout(dataLoading, 2000);
-}
-const taskThree = () => {
-    console.log("Task Three");
-}
-const taskFour = () => {
-    console.log("Task Four");
-}
-const taskFive = () => {
-    console.log("Task Five");
-}
+// const dataLoading = () => {
+//     console.log("Task Two, Data Loading");
+// }
+// const taskTwo = () => {
+//     setTimeout(dataLoading, 2000);
+// }
+// const taskThree = () => {
+//     console.log("Task Three");
+// }
+// const taskFour = () => {
+//     console.log("Task Four");
+// }
+// const taskFive = () => {
+//     console.log("Task Five");
+// }
 // taskOne();
 // taskTwo();
 // taskThree();
@@ -1739,3 +1739,22 @@ function higherorder(num, callback){
     callback(num);
 }
 higherorder(7, square)
+// callback function
+const taskOne = () => {
+    console.log("Task One");
+}
+const dataLoading = () => {
+    console.log("Task Two, Data Loading");
+}
+const taskTwo = () => {
+    setTimeout(dataLoading, 2000);
+}
+const taskThree = () => {
+    console.log("Task Three");
+}
+const taskFour = () => {
+    console.log("Task Four");
+}
+const taskFive = () => {
+    console.log("Task Five");
+}
