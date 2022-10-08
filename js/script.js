@@ -1771,3 +1771,4 @@ taskOne(()=>{
         });
     });
 });
+//New Program Code Promise in ES6 JavaScript--------------------->
