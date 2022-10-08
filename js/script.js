@@ -1723,9 +1723,13 @@ const taskFour = () => {
 const taskFive = () => {
     console.log("Task Five");
 }
-taskOne();
-taskTwo();
-taskThree();
-taskFour();
-taskFive();
+// taskOne();
+// taskTwo();
+// taskThree();
+// taskFour();
+// taskFive();
 //New Program Code callback and higher order function in ES6 JavaScript--------------------->
+function square(x){
+    console.log(`square of ${x} : ${x*x}`);
+}
+square(5);
