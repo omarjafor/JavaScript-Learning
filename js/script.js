@@ -1733,6 +1733,9 @@ function square(x){
     console.log(`square of ${x} : ${x*x}`);
 }
 square(5);
-
 const y = square;
 y(6);
+function higherorder(num, callback){
+    callback(num);
+}
+higherorder(7, square)
