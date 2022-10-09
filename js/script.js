@@ -1740,35 +1740,48 @@
 // }
 // higherorder(7, square)
 // callback function -------->
-const taskOne = (callback) => {
-    console.log("Task One");
-    callback();
-}
-const dataLoading = () => {
-    console.log("Task Two, Data Loading");
-}
-const taskTwo = (callback) => {
-    setTimeout(dataLoading, 2000);
-    callback();
-}
-const taskThree = (callback) => {
-    console.log("Task Three");
-    callback();
-}
-const taskFour = (callback) => {
-    console.log("Task Four");
-    callback();
-}
-const taskFive = () => {
-    console.log("Task Five");
-}
-taskOne(()=>{
-    taskTwo(()=>{
-        taskThree(()=>{
-            taskFour(()=>{
-                taskFive();
-            });
-        });
-    });
-});
+// const taskOne = (callback) => {
+//     console.log("Task One");
+//     callback();
+// }
+// const dataLoading = () => {
+//     console.log("Task Two, Data Loading");
+// }
+// const taskTwo = (callback) => {
+//     setTimeout(dataLoading, 2000);
+//     callback();
+// }
+// const taskThree = (callback) => {
+//     console.log("Task Three");
+//     callback();
+// }
+// const taskFour = (callback) => {
+//     console.log("Task Four");
+//     callback();
+// }
+// const taskFive = () => {
+//     console.log("Task Five");
+// }
+// taskOne(()=>{
+//     taskTwo(()=>{
+//         taskThree(()=>{
+//             taskFour(()=>{
+//                 taskFive();
+//             });
+//         });
+//     });
+// });
 //New Program Code Promise in ES6 JavaScript--------------------->
+const promise1 = new Promise((resolve, reject) => {
+    let completedPromise = true;
+    if(completedPromise){
+        resolve('completed promise 1');
+    }else{
+        reject('Not completed promise 1');
+    }
+});
+promise1.then((res)=>{
+    console.log(res);
+}).catch(err => {
+    console.log(err);
+})
