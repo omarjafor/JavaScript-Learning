@@ -1773,7 +1773,7 @@
 // });
 //New Program Code Promise in ES6 JavaScript--------------------->
 const promise1 = new Promise((resolve, reject) => {
-    let completedPromise = true;
+    let completedPromise = false;
     if(completedPromise){
         resolve('completed promise 1');
     }else{
