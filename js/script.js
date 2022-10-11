@@ -1772,14 +1772,31 @@
 //     });
 // });
 //New Program Code Promise in ES6 JavaScript--------------------->
+// const promise1 = new Promise((resolve, reject) => {
+//     let completedPromise = false;
+//     if(completedPromise){
+//         resolve('completed promise 1');
+//     }else{
+//         reject('Not completed promise 1');
+//     }
+// });
+// promise1.then((res)=>{
+//     console.log(res);
+// }).catch((err) => {
+//     console.log(err);
+// })
+// Promise Race Function ------------>
 const promise1 = new Promise((resolve, reject) => {
-    let completedPromise = false;
-    if(completedPromise){
+    setTimeout(()=>{
         resolve('completed promise 1');
-    }else{
-        reject('Not completed promise 1');
-    }
+    }, 2000);
 });
+const promise2 = new Promise((resolve, reject) => {
+    setTimeout(()=>{
+        resolve('completed promise 2');
+    }, 1000);
+});
+
 promise1.then((res)=>{
     console.log(res);
 }).catch((err) => {
