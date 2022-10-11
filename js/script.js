@@ -1796,6 +1796,11 @@ const promise2 = new Promise((resolve, reject) => {
         resolve('completed promise 2');
     }, 1000);
 });
-
 // Promise.all([promise1, promise2]).then((res) => console.log(res));
 Promise.race([promise1, promise2]).then((res) => console.log(res));
+// Promise Chaining Function ------------>
+const taskOne = () => {
+    return new Promise((resolve, reject) => {
+        resolve('Task One is Completed');
+    })
+}
