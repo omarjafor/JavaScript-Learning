@@ -1804,3 +1804,18 @@ const taskOne = () => {
         resolve('Task One is Completed');
     })
 }
+const taskTwo = () => {
+    return new Promise((resolve, reject) => {
+        resolve('Task Two is Completed');
+    })
+}
+const taskThree = () => {
+    return new Promise((resolve, reject) => {
+        resolve('Task Three is Completed');
+    })
+}
+const taskFour = () => {
+    return new Promise((resolve, reject) => {
+        resolve('Task Four is Completed');
+    })
+}
