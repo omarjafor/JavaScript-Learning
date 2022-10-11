@@ -1786,18 +1786,18 @@
 //     console.log(err);
 // })
 // Promise Race Function ------------>
-const promise1 = new Promise((resolve, reject) => {
-    setTimeout(()=>{
-        resolve('completed promise 1');
-    }, 2000);
-});
-const promise2 = new Promise((resolve, reject) => {
-    setTimeout(()=>{
-        resolve('completed promise 2');
-    }, 1000);
-});
+// const promise1 = new Promise((resolve, reject) => {
+//     setTimeout(()=>{
+//         resolve('completed promise 1');
+//     }, 2000);
+// });
+// const promise2 = new Promise((resolve, reject) => {
+//     setTimeout(()=>{
+//         resolve('completed promise 2');
+//     }, 1000);
+// });
 // Promise.all([promise1, promise2]).then((res) => console.log(res));
-Promise.race([promise1, promise2]).then((res) => console.log(res));
+// Promise.race([promise1, promise2]).then((res) => console.log(res));
 // Promise Chaining Function ------------>
 const taskOne = () => {
     return new Promise((resolve, reject) => {
@@ -1819,3 +1819,6 @@ const taskFour = () => {
         resolve('Task Four is Completed');
     })
 }
+taskOne().then((res)=>{
+    console.log(res);
+})
