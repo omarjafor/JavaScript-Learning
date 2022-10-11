@@ -1819,6 +1819,4 @@ const taskFour = () => {
         resolve('Task Four is Completed');
     })
 }
-taskOne().then((res)=>{
-    console.log(res);
-})
+taskOne().then((res)=>console.log(res))
