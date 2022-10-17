@@ -1819,13 +1819,13 @@ const taskFour = () => {
         resolve('Task Four is Completed');
     })
 }
-taskOne()
-    .then((res)=>console.log(res))
-    .then(taskTwo)
-    .then((res)=>console.log(res))
-    .then(taskThree)
-    .then((res)=>console.log(res))
-    .then(taskFour)
-    .then((res)=>console.log(res))
+// taskOne()
+//     .then((res)=>console.log(res))
+//     .then(taskTwo)
+//     .then((res)=>console.log(res))
+//     .then(taskThree)
+//     .then((res)=>console.log(res))
+//     .then(taskFour)
+//     .then((res)=>console.log(res))
 console.log("End");
-//New Program Code For Asyn and await in ES6 JavaScript--------------------->
+//New Program Code For Async and await in ES6 JavaScript--------------------->
