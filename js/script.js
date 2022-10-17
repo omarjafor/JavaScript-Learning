@@ -1827,3 +1827,5 @@ taskOne()
     .then((res)=>console.log(res))
     .then(taskFour)
     .then((res)=>console.log(res))
+console.log("End");
+//New Program Code For Asyn and await in ES6 JavaScript--------------------->
