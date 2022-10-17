@@ -1834,5 +1834,7 @@ async function callAllTask(){
     console.log(t1);
     const t2 = await taskTwo();
     console.log(t2);
+    const t3 = await taskThree();
+    console.log(t3);
 }
 callAllTask();
