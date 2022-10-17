@@ -1829,3 +1829,7 @@ const taskFour = () => {
 //     .then((res)=>console.log(res))
 console.log("End");
 //New Program Code For Async and await in ES6 JavaScript--------------------->
+function callAllTask(){
+    const t1 = await taskOne();
+    console.log(t1);
+}
