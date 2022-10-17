@@ -1832,5 +1832,7 @@ console.log("End");
 async function callAllTask(){
     const t1 = await taskOne();
     console.log(t1);
+    const t2 = await taskTwo();
+    console.log(t2);
 }
 callAllTask();
