@@ -1819,4 +1819,11 @@ const taskFour = () => {
         resolve('Task Four is Completed');
     })
 }
-taskOne().then((res)=>console.log(res))
+taskOne()
+    .then((res)=>console.log(res))
+    .then(taskTwo)
+    .then((res)=>console.log(res))
+    .then(taskThree)
+    .then((res)=>console.log(res))
+    .then(taskFour)
+    .then((res)=>console.log(res))
