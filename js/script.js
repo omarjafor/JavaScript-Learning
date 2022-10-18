@@ -1842,4 +1842,9 @@
 // callAllTask();
 //New Program Code For XMLHttpRequest Api in ES6 JavaScript--------------------->
 console.clear();
-console.log(window);
+
+const getData = () =>{
+    const xhr = new XMLHttpRequest();
+    console.log(xhr);
+}
+getData();
