@@ -1840,4 +1840,4 @@
 //     console.log(t4);
 // }
 // callAllTask();
-//New Program Code For in ES6 JavaScript--------------------->
+//New Program Code For XMLHttpRequest Api in ES6 JavaScript--------------------->
