@@ -1849,7 +1849,7 @@ const getData = () =>{
 
     xhr.onload = () => {
         let data = xhr.response;
-        console.log(data);
+        console.log(JSON.parse(data));
     }
 
     xhr.send();
