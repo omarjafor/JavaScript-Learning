@@ -1845,6 +1845,6 @@ console.clear();
 
 const getData = () =>{
     const xhr = new XMLHttpRequest();
-    console.log(xhr);
+    xhr.open('GET', '')
 }
 getData();
