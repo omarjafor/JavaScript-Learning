@@ -1842,9 +1842,11 @@
 // callAllTask();
 //New Program Code For XMLHttpRequest Api in ES6 JavaScript--------------------->
 console.clear();
-const makeReqst = (method, url) => {
+const makeReqst = (method, url, data) => {
     const xhr = new XMLHttpRequest();
     xhr.open(method, url);
+
+    xhr.setRequestHeader('Content-type','application/json; charset=UTF-8');
 
     xhr.onload = () => {
         let data = xhr.response;
@@ -1855,7 +1857,7 @@ const makeReqst = (method, url) => {
         console.log('Error is Here');
     }
 
-    xhr.send();
+    xhr.send(JSON.stringify(data));
 }
 
 const getData = () =>{
