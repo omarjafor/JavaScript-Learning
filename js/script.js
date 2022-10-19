@@ -1861,4 +1861,10 @@ const makeReqst = (method, url) => {
 const getData = () =>{
     makeReqst('GET', 'https://jsonplaceholder.typicode.com/posts');
 }
-getData();
+const sendData = () =>{
+    makeReqst('POST', 'https://jsonplaceholder.typicode.com/posts', {
+        title: 'foo',
+        body: 'bar',
+        userId: 1,
+      });
+}
