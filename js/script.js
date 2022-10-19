@@ -1851,6 +1851,10 @@ const getData = () =>{
         let data = xhr.response;
         console.log(JSON.parse(data));
     }
+    
+    xhr.onerror = () => {
+        console.log('Error is Here');
+    }
 
     xhr.send();
 }
