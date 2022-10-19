@@ -1845,7 +1845,7 @@ console.clear();
 
 const getData = () =>{
     const xhr = new XMLHttpRequest();
-    xhr.open('GET', 'https://jsonplaceholder.typicode.com/posts');
+    xhr.open('GET', 'https://jsonplaceholder.typicde.com/posts');
 
     xhr.onload = () => {
         let data = xhr.response;
