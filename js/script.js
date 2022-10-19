@@ -1842,10 +1842,9 @@
 // callAllTask();
 //New Program Code For XMLHttpRequest Api in ES6 JavaScript--------------------->
 console.clear();
-
-const getData = () =>{
+const makeReqst = (method, url) => {
     const xhr = new XMLHttpRequest();
-    xhr.open('GET', 'https://jsonplaceholder.typicode.com/posts');
+    xhr.open(method, url);
 
     xhr.onload = () => {
         let data = xhr.response;
@@ -1857,5 +1856,9 @@ const getData = () =>{
     }
 
     xhr.send();
+}
+
+const getData = () =>{
+    makeReqst('GET', 'https://jsonplaceholder.typicode.com/posts');
 }
 getData();
