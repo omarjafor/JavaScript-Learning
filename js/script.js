@@ -1870,3 +1870,4 @@ const sendData = () =>{
         userId: 1,
       });
 }
+sendData();
