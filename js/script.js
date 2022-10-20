@@ -1877,4 +1877,5 @@ const upDateData = () =>{
         userId: 12,
       });
 }
+sendData();
 upDateData();
