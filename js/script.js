@@ -1865,9 +1865,9 @@ const getData = () =>{
 }
 const sendData = () =>{
     makeReqst('POST', 'https://jsonplaceholder.typicode.com/posts', {
-        title: 'foo',
-        body: 'bar',
-        userId: 1,
+        title: 'fool',
+        body: 'baro',
+        userId: 10,
       });
 }
 sendData();
