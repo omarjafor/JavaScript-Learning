@@ -1872,9 +1872,9 @@ const sendData = () =>{
 }
 const upDateData = () =>{
     makeReqst('POST', 'https://jsonplaceholder.typicode.com/posts', {
-        title: '',
-        body: '',
-        userId: 1,
+        title: 'Jaber',
+        body: 'Large',
+        userId: 12,
       });
 }
-sendData();
+upDateData();
