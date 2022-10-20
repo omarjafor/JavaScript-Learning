@@ -1850,6 +1850,7 @@ const makeReqst = (method, url, data) => {
 
     xhr.onload = () => {
         let data = xhr.response;
+        console.log(xhr.status);
         console.log(JSON.parse(data));
     }
     
