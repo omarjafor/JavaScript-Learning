@@ -1870,4 +1870,11 @@ const sendData = () =>{
         userId: 10,
       });
 }
+const upDateData = () =>{
+    makeReqst('POST', 'https://jsonplaceholder.typicode.com/posts', {
+        title: '',
+        body: '',
+        userId: 1,
+      });
+}
 sendData();
