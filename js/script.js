@@ -1880,3 +1880,4 @@
 // }
 // sendData();
 // upDateData();
+//New Program Code For Validation Api in ES6 JavaScript--------------------->
