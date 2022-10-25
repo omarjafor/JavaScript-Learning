@@ -1881,7 +1881,7 @@
 // sendData();
 // upDateData();
 //New Program Code For Validation Api in ES6 JavaScript--------------------->
-function myFunction() {
+function validation() {
     const inpObj = document.getElementById("id1");
     if (!inpObj.checkValidity()) {
       document.getElementById("demo").innerHTML = inpObj.validationMessage;
