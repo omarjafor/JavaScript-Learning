@@ -1841,42 +1841,42 @@
 // }
 // callAllTask();
 //New Program Code For XMLHttpRequest Api in ES6 JavaScript--------------------->
-console.clear();
-const makeReqst = (method, url, data) => {
-    const xhr = new XMLHttpRequest();
-    xhr.open(method, url);
+// console.clear();
+// const makeReqst = (method, url, data) => {
+//     const xhr = new XMLHttpRequest();
+//     xhr.open(method, url);
 
-    xhr.setRequestHeader('Content-type','application/json; charset=UTF-8');
+//     xhr.setRequestHeader('Content-type','application/json; charset=UTF-8');
 
-    xhr.onload = () => {
-        let data = xhr.response;
-        console.log(xhr.status);
-        console.log(JSON.parse(data));
-    }
+//     xhr.onload = () => {
+//         let data = xhr.response;
+//         console.log(xhr.status);
+//         console.log(JSON.parse(data));
+//     }
     
-    xhr.onerror = () => {
-        console.log('Error is Here');
-    }
+//     xhr.onerror = () => {
+//         console.log('Error is Here');
+//     }
 
-    xhr.send(JSON.stringify(data));
-}
+//     xhr.send(JSON.stringify(data));
+// }
 
-const getData = () =>{
-    makeReqst('GET', 'https://jsonplaceholder.typicode.com/posts');
-}
-const sendData = () =>{
-    makeReqst('POST', 'https://jsonplaceholder.typicode.com/posts', {
-        title: 'foo',
-        body: 'bar',
-        userId: 1,
-      });
-}
-const upDateData = () =>{
-    makeReqst('POST', 'https://jsonplaceholder.typicode.com/posts', {
-        title: 'Jaber',
-        body: 'Large',
-        userId: 12,
-      });
-}
-sendData();
-upDateData();
+// const getData = () =>{
+//     makeReqst('GET', 'https://jsonplaceholder.typicode.com/posts');
+// }
+// const sendData = () =>{
+//     makeReqst('POST', 'https://jsonplaceholder.typicode.com/posts', {
+//         title: 'foo',
+//         body: 'bar',
+//         userId: 1,
+//       });
+// }
+// const upDateData = () =>{
+//     makeReqst('POST', 'https://jsonplaceholder.typicode.com/posts', {
+//         title: 'Jaber',
+//         body: 'Large',
+//         userId: 12,
+//       });
+// }
+// sendData();
+// upDateData();
