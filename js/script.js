@@ -1881,3 +1881,10 @@
 // sendData();
 // upDateData();
 //New Program Code For Validation Api in ES6 JavaScript--------------------->
+function validation(){
+    const inputObj = document.getElementById("id2");
+
+    if(!inputObj.checkValidity()){
+        document.getElementById("pa").innerHTML = inputObj.validationMessage;
+    }
+}
