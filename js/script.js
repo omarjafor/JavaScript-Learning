@@ -1881,15 +1881,4 @@
 // sendData();
 // upDateData();
 //New Program Code For Validation Api in ES6 JavaScript--------------------->
-function checkZIP() {
-    const country = document.getElementById("Country").value;
 
-  const ZIPField = document.getElementById("ZIP");
-  const constraint = new RegExp(constraints[country][0], "");
-  console.log(constraint);
-  if (constraint.test(ZIPField.value)) {
-    ZIPField.setCustomValidity("");
-  } else {
-    ZIPField.setCustomValidity(constraints[country][1]);
-  }
-}
