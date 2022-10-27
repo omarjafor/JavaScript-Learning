@@ -1880,6 +1880,13 @@
 // sendData();
 // upDateData();
 //New Program Code For Fetch Api in ES6 JavaScript--------------------->
-fetch('https://jsonplaceholder.typicode.com/posts/1')
-  .then((response) => response.json())
-  .then((json) => console.log(json));
+fetch('https://jsonplaceholder.typicode.com/posts/101')
+  .then((res) => {
+    if(!res.ok){
+        const message = 'Error : ${res.status}';
+        throw new Error(message);
+    }
+    return res.json();
+  })
+  .then((json) => console.log(json))
+  .catch((err) => console.log(err));
