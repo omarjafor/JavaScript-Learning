@@ -1841,7 +1841,6 @@
 // }
 // callAllTask();
 //New Program Code For XMLHttpRequest Api in ES6 JavaScript--------------------->
-// console.clear();
 // const makeReqst = (method, url, data) => {
 //     const xhr = new XMLHttpRequest();
 //     xhr.open(method, url);
@@ -1880,4 +1879,4 @@
 // }
 // sendData();
 // upDateData();
-//New Program Code For Validation Api in ES6 JavaScript--------------------->
+//New Program Code For Fetch Api in ES6 JavaScript--------------------->
