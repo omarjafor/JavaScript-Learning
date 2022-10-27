@@ -1900,3 +1900,4 @@ fetch('https://jsonplaceholder.typicode.com/posts', {
   })
   .then((json) => console.log(json))
   .catch((err) => console.log(err));
+//New Program Code For Fetch Api with async and await in ES6 JavaScript--------------------->
