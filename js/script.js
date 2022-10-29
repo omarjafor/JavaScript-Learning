@@ -1880,24 +1880,29 @@
 // sendData();
 // upDateData();
 //New Program Code For Fetch Api in ES6 JavaScript--------------------->
-fetch('https://jsonplaceholder.typicode.com/posts', {
-    method: 'POST',
-    body: JSON.stringify({
-      title: 'foo',
-      body: 'bar',
-      userId: 1,
-    }),
-    headers: {
-      'Content-type': 'application/json; charset=UTF-8',
-    },
-  })
-  .then((res) => {
-    if(!res.ok){
-        const message = 'Error : ${res.status}';
-        throw new Error(message);
-    }
-    return res.json();
-  })
-  .then((json) => console.log(json))
-  .catch((err) => console.log(err));
+// fetch('https://jsonplaceholder.typicode.com/posts', {
+//     method: 'POST',
+//     body: JSON.stringify({
+//       title: 'foo',
+//       body: 'bar',
+//       userId: 1,
+//     }),
+//     headers: {
+//       'Content-type': 'application/json; charset=UTF-8',
+//     },
+//   })
+//   .then((res) => {
+//     if(!res.ok){
+//         const message = 'Error : ${res.status}';
+//         throw new Error(message);
+//     }
+//     return res.json();
+//   })
+//   .then((json) => console.log(json))
+//   .catch((err) => console.log(err));
 //New Program Code For Fetch Api with async and await in ES6 JavaScript--------------------->
+const makeReqst = async () => {
+  const res = await fetch('https://jsonplaceholder.typicode.com/posts');
+  const data = await res.json();
+  return data;
+}
