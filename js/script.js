@@ -1901,8 +1901,8 @@
 //   .then((json) => console.log(json))
 //   .catch((err) => console.log(err));
 //New Program Code For Fetch Api with async and await in ES6 JavaScript--------------------->
-const makeReqst = async () => {
-  const res = await fetch('https://jsonplaceholder.typicode.com/posts');
+const makeReqst = async (url) => {
+  const res = await fetch(url);
   if(!res.ok){
     const message = 'Error : ${res.status}';
     throw new Error(message)
@@ -1911,7 +1911,7 @@ const makeReqst = async () => {
   return data;
 };
 const getData = () => {
-  makeReqst()
+  makeReqst('https://jsonplaceholder.typicode.com/posts')
   .then((res) => console.log(res))
   .catch((err) => console.log(err));
 };
