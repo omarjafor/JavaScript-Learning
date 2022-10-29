@@ -1901,37 +1901,35 @@
 //   .then((json) => console.log(json))
 //   .catch((err) => console.log(err));
 //New Program Code For Fetch Api with async and await in ES6 JavaScript--------------------->
-const makeReqst = async (url, config) => {
-  const res = await fetch(url, config);
-  if(!res.ok){
-    const message = 'Error : ${res.status}';
-    throw new Error(message)
-  }
-  const data = await res.json();
-  return data;
-};
-const sendData = () => {
-  makeReqst('https://jsonplaceholder.typicode.com/posts', {
-    method: 'POST',
-    body: JSON.stringify({
-      title: 'foo',
-      body: 'bar',
-      userId: 1,
-    }),
-    headers: {
-      'Content-type': 'application/json; charset=UTF-8',
-    },
-  })
-  .then((res) => console.log(res))
-  .catch((err) => console.log(err));
-};
-
-sendData();
+// const makeReqst = async (url, config) => {
+//   const res = await fetch(url, config);
+//   if(!res.ok){
+//     const message = 'Error : ${res.status}';
+//     throw new Error(message)
+//   }
+//   const data = await res.json();
+//   return data;
+// };
+// const sendData = () => {
+//   makeReqst('https://jsonplaceholder.typicode.com/posts', {
+//     method: 'POST',
+//     body: JSON.stringify({
+//       title: 'foo',
+//       body: 'bar',
+//       userId: 1,
+//     }),
+//     headers: {
+//       'Content-type': 'application/json; charset=UTF-8',
+//     },
+//   })
+//   .then((res) => console.log(res))
+//   .catch((err) => console.log(err));
+// };
+// sendData();
 
 // const getData = () => {
 //   makeReqst('https://jsonplaceholder.typicode.com/posts')
 //   .then((res) => console.log(res))
 //   .catch((err) => console.log(err));
 // };
-
 // getData();
