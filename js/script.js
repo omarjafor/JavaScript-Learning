@@ -1984,3 +1984,8 @@ const makeReqst = (config) => {
     return axios(config)
 }
 
+const getData = () =>{
+    makeReqst('https://jsonplaceholder.typicode.com/posts/')
+    .then((res) => console.log(res));
+}
+getData();
