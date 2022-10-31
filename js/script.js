@@ -1951,3 +1951,16 @@ axios
 })
 .then((res) => console.log(res.data))
 .catch((err) => console.log(err));
+
+axios
+.put('https://jsonplaceholder.typicode.com/posts/1', {
+    method: "POST",
+    body: JSON.stringify({
+        id: 1,
+        title: "JaBed",
+        body: "Good",
+        userID: 1,
+    }),
+})
+.then((res) => console.log(res.data))
+.catch((err) => console.log(err));
