@@ -1934,48 +1934,53 @@
 // };
 // getData();
 //New Program Code For Axios Api in ES6 JavaScript--------------------->
-console.log(window);
+// console.log(window);
 
-axios.get('https://jsonplaceholder.typicode.com/posts/102')
-.then((res) => console.log(res.data))
-.catch((err) => console.log(err));
+// axios.get('https://jsonplaceholder.typicode.com/posts/102')
+// .then((res) => console.log(res.data))
+// .catch((err) => console.log(err));
 
-axios
-.post('https://jsonplaceholder.typicode.com/posts', {
-    method: "POST",
-    body: JSON.stringify({
-        title: "JaBed",
-        body: "Good",
-        userID: 1,
-    }),
-})
-.then((res) => console.log(res.data))
-.catch((err) => console.log(err));
+// axios
+// .post('https://jsonplaceholder.typicode.com/posts', {
+//     method: "POST",
+//     body: JSON.stringify({
+//         title: "JaBed",
+//         body: "Good",
+//         userID: 1,
+//     }),
+// })
+// .then((res) => console.log(res.data))
+// .catch((err) => console.log(err));
 
-axios
-.put('https://jsonplaceholder.typicode.com/posts/1', {
-    method: "POST",
-    body: JSON.stringify({
-        id: 1,
-        title: "JaBed",
-        body: "Good",
-        userID: 1,
-    }),
-})
-.then((res) => console.log(res.data))
-.catch((err) => console.log(err));
+// axios
+// .put('https://jsonplaceholder.typicode.com/posts/1', {
+//     method: "POST",
+//     body: JSON.stringify({
+//         id: 1,
+//         title: "JaBed",
+//         body: "Good",
+//         userID: 1,
+//     }),
+// })
+// .then((res) => console.log(res.data))
+// .catch((err) => console.log(err));
 
-axios
-.patch('https://jsonplaceholder.typicode.com/posts/1', {
+// axios
+// .patch('https://jsonplaceholder.typicode.com/posts/1', {
     
-    body: JSON.stringify({
-        body: "Best",
-    }),
-})
-.then((res) => console.log(res.data))
-.catch((err) => console.log(err));
+//     body: JSON.stringify({
+//         body: "Best",
+//     }),
+// })
+// .then((res) => console.log(res.data))
+// .catch((err) => console.log(err));
 
-axios
-.delete('https://jsonplaceholder.typicode.com/posts/1')
-.then((res) => console.log(res.data))
-.catch((err) => console.log(err));
+// axios
+// .delete('https://jsonplaceholder.typicode.com/posts/1')
+// .then((res) => console.log(res.data))
+// .catch((err) => console.log(err));
+
+const makeReqst = (config) => {
+    return axios(config)
+}
+
