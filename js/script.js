@@ -1979,11 +1979,9 @@
 // .delete('https://jsonplaceholder.typicode.com/posts/1')
 // .then((res) => console.log(res.data))
 // .catch((err) => console.log(err));
-
-const makeReqst = (config) => {
-    return axios(config)
-}
-
+// const makeReqst = (config) => {
+//     return axios(config)
+// }
 const getData = () =>{
     makeReqst('https://jsonplaceholder.typicode.com/posts/')
     .then((res) => console.log(res));
