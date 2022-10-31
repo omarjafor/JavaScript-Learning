@@ -1934,3 +1934,9 @@
 // };
 // getData();
 //New Program Code For Axios Api in ES6 JavaScript--------------------->
+console.log(window);
+
+axios.get('https://jsonplaceholder.typicode.com/posts/102')
+.then((res) => console.log(res.data))
+.catch((err) => console.log(err));
+
