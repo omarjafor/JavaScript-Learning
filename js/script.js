@@ -2027,4 +2027,8 @@ const updateData = () => {
 }
 updateData();
 
-
+const deleteData = () => {
+    makeReqst("https://jsonplaceholder.typicode.com/posts/1", "DELETE")
+    .then ((res) => console.log(res));
+}
+deleteData();
