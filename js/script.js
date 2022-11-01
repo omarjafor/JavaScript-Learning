@@ -2032,3 +2032,4 @@ const deleteData = () => {
     .then ((res) => console.log(res));
 }
 deleteData();
+//New Program Code For Web Storage Api in ES6 JavaScript--------------------->
