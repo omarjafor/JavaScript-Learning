@@ -2017,6 +2017,14 @@ const createData = () => {
 }
 createData();
 
-
+const updateData = () => {
+    makeReqst("https://jsonplaceholder.typicode.com/posts/2", "PUT", {
+        id: 1,
+        title : 'Fooma',
+        body : 'Zooma',
+        userId: 2,
+    }).then ((res) => console.log(res));
+}
+updateData();
 
 
