@@ -1995,7 +1995,12 @@ const makeReqst = async (url, method, data) => {
             method : method,
             data : data,
         })
-
+        console.log(result);
+        return result;
+    }catch(err){
+        console.log(err);
+    }
+}
 
 
 
