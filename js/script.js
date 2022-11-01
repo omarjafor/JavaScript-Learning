@@ -1988,48 +1988,49 @@
 // }
 // getData();
 //New Program Code For Ajax Jquery Api in ES6 JavaScript--------------------->
-const makeReqst = async (url, method, data) => {
-    try{
-        const result = await $.ajax({
-            url : url,
-            method : method,
-            data : data,
-        })
-        console.log(result);
-        return result;
-    }catch(err){
-        console.log(err);
-    }
-}
+// const makeReqst = async (url, method, data) => {
+//     try{
+//         const result = await $.ajax({
+//             url : url,
+//             method : method,
+//             data : data,
+//         })
+//         console.log(result);
+//         return result;
+//     }catch(err){
+//         console.log(err);
+//     }
+// }
 
-const getData = () => {
-    makeReqst("https://jsonplaceholder.typicode.com/posts/1", "GET")
-    .then ((res) => console.log(res));
-}
-getData();
+// const getData = () => {
+//     makeReqst("https://jsonplaceholder.typicode.com/posts/1", "GET")
+//     .then ((res) => console.log(res));
+// }
+// getData();
 
-const createData = () => {
-    makeReqst("https://jsonplaceholder.typicode.com/posts/1", "POST", {
-        title : 'Foohad',
-        body : 'Baro',
-        userId: 1,
-    }).then ((res) => console.log(res));
-}
-createData();
+// const createData = () => {
+//     makeReqst("https://jsonplaceholder.typicode.com/posts/1", "POST", {
+//         title : 'Foohad',
+//         body : 'Baro',
+//         userId: 1,
+//     }).then ((res) => console.log(res));
+// }
+// createData();
 
-const updateData = () => {
-    makeReqst("https://jsonplaceholder.typicode.com/posts/2", "PUT", {
-        id: 1,
-        title : 'Fooma',
-        body : 'Zooma',
-        userId: 2,
-    }).then ((res) => console.log(res));
-}
-updateData();
+// const updateData = () => {
+//     makeReqst("https://jsonplaceholder.typicode.com/posts/2", "PUT", {
+//         id: 1,
+//         title : 'Fooma',
+//         body : 'Zooma',
+//         userId: 2,
+//     }).then ((res) => console.log(res));
+// }
+// updateData();
 
-const deleteData = () => {
-    makeReqst("https://jsonplaceholder.typicode.com/posts/1", "DELETE")
-    .then ((res) => console.log(res));
-}
-deleteData();
+// const deleteData = () => {
+//     makeReqst("https://jsonplaceholder.typicode.com/posts/1", "DELETE")
+//     .then ((res) => console.log(res));
+// }
+// deleteData();
 //New Program Code For Web Storage Api in ES6 JavaScript--------------------->
+console.log(localStorage);
