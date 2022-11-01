@@ -2002,6 +2002,11 @@ const makeReqst = async (url, method, data) => {
     }
 }
 
+const getData = () => {
+    makeReqst("https://jsonplaceholder.typicode.com/posts/1", "GET")
+    .then ((res) => console.log(res));
+}
+getData();
 
 
 
