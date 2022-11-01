@@ -1982,8 +1982,24 @@
 // const makeReqst = (config) => {
 //     return axios(config)
 // }
-const getData = () =>{
-    makeReqst('https://jsonplaceholder.typicode.com/posts/')
-    .then((res) => console.log(res));
-}
-getData();
+// const getData = () =>{
+//     makeReqst('https://jsonplaceholder.typicode.com/posts/')
+//     .then((res) => console.log(res));
+// }
+// getData();
+//New Program Code For Ajax Jquery Api in ES6 JavaScript--------------------->
+const makeReqst = async (url, method, data) => {
+    try{
+        const result = await $.ajax({
+            url : url,
+            method : method,
+            data : data,
+        })
+
+
+
+
+
+
+
+
