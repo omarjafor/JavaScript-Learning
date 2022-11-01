@@ -2008,7 +2008,14 @@ const getData = () => {
 }
 getData();
 
-
+const createData = () => {
+    makeReqst("https://jsonplaceholder.typicode.com/posts/1", "POST", {
+        title : 'Foohad',
+        body : 'Baro',
+        userId: 1,
+    }).then ((res) => console.log(res));
+}
+createData();
 
 
 
