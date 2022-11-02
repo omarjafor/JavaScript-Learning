@@ -2044,3 +2044,6 @@ console.log(userName, password);
 //removeItem(key)
 localStorage.removeItem("UserName");
 localStorage.removeItem("Password");
+//Update setItem(key, value)
+localStorage.setItem("UserName", "JaBed");
+localStorage.setItem("Password", "102030");
