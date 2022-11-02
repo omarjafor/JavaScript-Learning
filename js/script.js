@@ -2037,3 +2037,7 @@
 localStorage.setItem("UserName", "Jaber JaBed");
 localStorage.setItem("Password", "100200");
 console.log(localStorage);
+//getItem(key)
+const userName = localStorage.getItem("UserName");
+const password = localStorage.getItem("Password");
+console.log(userName, password);
