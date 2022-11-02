@@ -2050,3 +2050,7 @@ localStorage.setItem("Password", "102030");
 
 const countries = ["Bangladesh", "India", "Pakistan"];
 localStorage.setItem("Countries", JSON.stringify(countries));
+// get Item from JSON
+const country = JSON.parse(localStorage.getItem("Countries"));
+console.log(country);
+
