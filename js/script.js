@@ -2041,3 +2041,4 @@ console.log(localStorage);
 const userName = localStorage.getItem("UserName");
 const password = localStorage.getItem("Password");
 console.log(userName, password);
+//removeItem(key)
