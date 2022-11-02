@@ -2035,4 +2035,5 @@
 //New Program Code For Web Storage Api in ES6 JavaScript--------------------->
 //setItem(key, value)
 localStorage.setItem("UserName", "Jaber JaBed");
+localStorage.setItem("Password", "100200");
 console.log(localStorage);
