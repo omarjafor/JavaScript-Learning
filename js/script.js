@@ -2047,3 +2047,6 @@ localStorage.removeItem("Password");
 //Update setItem(key, value)
 localStorage.setItem("UserName", "JaBed");
 localStorage.setItem("Password", "102030");
+
+const countries = ["Bangladesh", "India", "Pakistan"];
+localStorage.setItem("Countries", JSON.stringify(countries));
