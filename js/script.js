@@ -2066,3 +2066,5 @@ const user = {
     age : 28
 }
 sessionStorage.setItem("user", JSON.stringify(user));
+const userJson = JSON.parse(sessionStorage.getItem("user"));
+console.log(userJson);
