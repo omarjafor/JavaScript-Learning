@@ -2054,9 +2054,9 @@
 // console.log(country);
 // localStorage.clear();
 //session Storage
-sessionStorage.setItem("UserName", "Jaber");
-sessionStorage.setItem("UserName2", "JaBed");
+sessionStorage.setItem("User1", "Jaber");
+sessionStorage.setItem("User2", "JaBed");
 const userName = sessionStorage.getItem("UserName");
 console.log(userName);
-
 sessionStorage.removeItem("UserName");
+sessionStorage.clear();
