@@ -2034,23 +2034,22 @@
 // deleteData();
 //New Program Code For Web Storage Api in ES6 JavaScript--------------------->
 //setItem(key, value)
-localStorage.setItem("UserName", "Jaber JaBed");
-localStorage.setItem("Password", "100200");
-console.log(localStorage);
+// localStorage.setItem("UserName", "Jaber JaBed");
+// localStorage.setItem("Password", "100200");
+// console.log(localStorage);
 //getItem(key)
-const userName = localStorage.getItem("UserName");
-const password = localStorage.getItem("Password");
-console.log(userName, password);
+// const userName = localStorage.getItem("UserName");
+// const password = localStorage.getItem("Password");
+// console.log(userName, password);
 //removeItem(key)
-localStorage.removeItem("UserName");
-localStorage.removeItem("Password");
+// localStorage.removeItem("UserName");
+// localStorage.removeItem("Password");
 //Update setItem(key, value)
-localStorage.setItem("UserName", "JaBed");
-localStorage.setItem("Password", "102030");
+// localStorage.setItem("UserName", "JaBed");
+// localStorage.setItem("Password", "102030");
 
-const countries = ["Bangladesh", "India", "Pakistan"];
-localStorage.setItem("Countries", JSON.stringify(countries));
+// const countries = ["Bangladesh", "India", "Pakistan"];
+// localStorage.setItem("Countries", JSON.stringify(countries));
 // get Item from JSON
-const country = JSON.parse(localStorage.getItem("Countries"));
-console.log(country);
-
+// const country = JSON.parse(localStorage.getItem("Countries"));
+// console.log(country);
