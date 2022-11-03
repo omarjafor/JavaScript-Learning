@@ -2055,3 +2055,5 @@
 // localStorage.clear();
 //session Storage
 sessionStorage.setItem("UserName", "JaberJabed");
+const userName = sessionStorage.getItem("UserName");
+console.log(userName);
