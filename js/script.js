@@ -2060,3 +2060,9 @@ const userName = sessionStorage.getItem("UserName");
 console.log(userName);
 sessionStorage.removeItem("UserName");
 sessionStorage.clear();
+const user = {
+    id : "101",
+    name : "Jaber",
+    age : 28
+}
+sessionStorage.setItem("user", JSON.stringify(user));
