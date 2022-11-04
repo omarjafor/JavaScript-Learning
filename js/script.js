@@ -2054,17 +2054,20 @@
 // console.log(country);
 // localStorage.clear();
 //session Storage
-sessionStorage.setItem("User1", "Jaber");
-sessionStorage.setItem("User2", "JaBed");
-const userName = sessionStorage.getItem("UserName");
-console.log(userName);
-sessionStorage.removeItem("UserName");
-sessionStorage.clear();
-const user = {
-    id : "101",
-    name : "Jaber",
-    age : 28
-}
-sessionStorage.setItem("user", JSON.stringify(user));
-const userJson = JSON.parse(sessionStorage.getItem("user"));
-console.log(userJson);
+// sessionStorage.setItem("User1", "Jaber");
+// sessionStorage.setItem("User2", "JaBed");
+// const userName = sessionStorage.getItem("UserName");
+// console.log(userName);
+// sessionStorage.removeItem("UserName");
+// sessionStorage.clear();
+// const user = {
+//     id : "101",
+//     name : "Jaber",
+//     age : 28
+// }
+// sessionStorage.setItem("user", JSON.stringify(user));
+// const userJson = JSON.parse(sessionStorage.getItem("user"));
+// console.log(userJson);
+// Cookie Set and Get
+document.cookie = 'username=JaBed; expires=Fri, 04 Nov 2022 10:53:00 GMT';
+console.log(document.cookie);
