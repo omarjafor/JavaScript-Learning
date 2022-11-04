@@ -2069,5 +2069,5 @@
 // const userJson = JSON.parse(sessionStorage.getItem("user"));
 // console.log(userJson);
 // Cookie Set and Get
-document.cookie = 'username=JaBed; expires=Fri, 04 Nov 2022 10:53:00 GMT';
+document.cookie = 'username=JaBed; expires=Fri, 05 Nov 2022 10:53:00 GMT';
 console.log(document.cookie);
