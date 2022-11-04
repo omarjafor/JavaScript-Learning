@@ -2079,3 +2079,8 @@ let y = 6;
 console.log(x+y);
 const myName = "jaberjabed";
 console.log(myName);
+function num(name){
+    let num2 = name*2;
+    console.log(num2);
+}
+num(6);
