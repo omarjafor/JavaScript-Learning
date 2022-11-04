@@ -2084,3 +2084,5 @@ function num(name){
     console.log(num2);
 }
 num(6);
+const numMul = (num,num2) => console.log(num*num2);
+numMul(5,4);
