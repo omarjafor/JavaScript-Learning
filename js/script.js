@@ -2073,4 +2073,6 @@ document.cookie = 'username=JaBed; expires=Fri, 05 Nov 2022 10:53:00 GMT';
 console.log(document.cookie);
 let x = 5;
 let y = 6;
-document.write(x+y);
+console.log(x+y);
+const myName = "jaberjabed";
+console.log(myName);
