@@ -2090,3 +2090,5 @@
 // numMul2(5,6);
 import {text, setText} from './myModule.js';
 console.log(text);
+setText("Welcome Back by JaBed");
+console.log(text);
