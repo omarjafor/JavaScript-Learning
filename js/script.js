@@ -2092,3 +2092,5 @@ import {text, setText} from './myModule.js';
 console.log(text);
 setText("Good Bye From ES6");
 console.log(text);
+import {message} from './myModule.js';
+console.log(message);
