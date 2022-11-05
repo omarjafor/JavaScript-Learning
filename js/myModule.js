@@ -5,3 +5,8 @@ export function setText(txt){
 }
 
 export {text as message}
+
+const person = {
+    name : "Omarjaber"
+}
+export default person;
