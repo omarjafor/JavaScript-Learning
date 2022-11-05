@@ -2092,5 +2092,6 @@ import {text, setText} from './myModule.js';
 console.log(text);
 setText("Good Bye From ES6");
 console.log(text);
+setText("Welcome Back by Jaberjabed");
 import {message} from './myModule.js';
 console.log(message);
