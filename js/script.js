@@ -827,7 +827,7 @@ function myAlert2(){
 
 var myVar = document.querySelector("#myPara");
 function myClick(){
-    myVar.innerHTML = "Hello Everyone Paragraph Button ONE";
+    myVar.innerHTML = "Hello Everyone! Paragraph Button ONE";
 }
 
 function myClick1(){
