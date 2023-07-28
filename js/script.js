@@ -834,18 +834,7 @@ function myClick1(){
     myVar.innerHTML = "See Change! This is Paragraph Button TWO";
 }
 
-var myVar = document.querySelector("#myImage");
-function myPic1(){
-    myVar.src = "images/jabed.jpg";
-}
 
-function myPic2(){
-    myVar.src = "images/shantu.jpg";
-}
-
-function myPic3(){
-    myVar.src = "images/couple.jpg";
-}
 // New Program Code For Find create add remove html element ------------------------>
 // var head = document.createElement("h1");
 // var text = document.createTextNode("This is new Heading");
