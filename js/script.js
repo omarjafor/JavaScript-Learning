@@ -836,28 +836,28 @@ function myClick1(){
 
 
 // New Program Code For Find create add remove html element ------------------------>
-// var head = document.createElement("h1");
-// var text = document.createTextNode("This is new Heading");
-// head.appendChild(text);
+var head = document.createElement("h1");
+var text = document.createTextNode("This is new Heading");
+head.appendChild(text);
 
-// var myDiv = document.getElementById("mydiv");
-// myDiv.appendChild(head);
+var myDiv = document.getElementById("mydiv");
+myDiv.appendChild(head);
 
-// var head1 = document.getElementsByTagName("h1")[1];
-// myDiv.removeChild(head1);
+var head1 = document.getElementsByTagName("h1")[1];
+myDiv.removeChild(head1);
 
-// // New program for add befor any element
-// var head0 = document.createElement("h1");
-// var text0 = document.createTextNode("This is befor Heading");
-// head0.appendChild(text0);
+// New program for add befor any element
+var head0 = document.createElement("h1");
+var text0 = document.createTextNode("This is befor Heading");
+head0.appendChild(text0);
 
-// var h10 = document.getElementsByTagName("h1")[0];
-// myDiv.insertBefore(head0, h10);
+var h10 = document.getElementsByTagName("h1")[0];
+myDiv.insertBefore(head0, h10);
 
-// // note for add, remove or check classname
-// document.getElementById("mydiv").classList;
-// document.getElementById("mydiv").classList.add("myClass");
-// document.getElementById("mydiv").classList.remove("myClass");
+// note for add, remove or check classname
+document.getElementById("mydiv").classList;
+document.getElementById("mydiv").classList.add("myClass");
+document.getElementById("mydiv").classList.remove("myClass");
 
 // New Program Code For How to Select html element ------------------------>
 // Select Downword parent then children
