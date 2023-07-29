@@ -5,6 +5,7 @@ var firstName = "Omar Jafor "
 var lastName = "Chy Jaber"
 var fullName = firstName + lastName ;
 console.log(fullName)
+console.log("My Name is = " + fullName );
 
 var num = 10;
 console.log(typeof(num));
