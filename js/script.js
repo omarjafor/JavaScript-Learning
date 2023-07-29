@@ -49,8 +49,24 @@ console.log(textA.concat(textB));
 var textC = textA.slice(3,7);
 console.log(textC);
 
-var input1 = prompt("Enter you first name :");
-var input2 = prompt("Enter your last name :");
+// Task Practice Problem ------------------------------------------------------------>
+// var input1 = prompt("Enter you first name :");
+// var input2 = prompt("Enter your last name :");
 
-var fullName = input1 + " " +input2;
-document.write("Your full Name is :" + fullName);
+// var fullName = input1 + " " +input2;
+// document.write("Your full Name is :" + fullName);
+
+// Practice Problem 1 -----------------------------------------------------------
+// var input1 = prompt("How Much Your Mom Given : ");
+// var input2 = prompt("Cost of 1kg orange and 1kg apple : ");
+// var output = input1 - input2;
+// document.write("Output is = " + output);
+// Practice Problem 2 -----------------------------------------------------------
+var sub1 = parseInt(prompt("Marks of your 1st Subject : "));
+var sub2 = parseInt(prompt("Marks of your 2nd Subject : "));
+var sub3 = parseInt(prompt("Marks of your 3rd Subject : "));
+var sub4 = parseInt(prompt("Marks of your 4th Subject : "));
+var sub5 = parseInt(prompt("Marks of your 5th Subject : "));
+var output = (sub1 + sub2 + sub3 + sub4 + sub5) / 5 ;
+output = output.toFixed(2);
+document.write("Output is = " + output);
