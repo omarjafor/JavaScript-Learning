@@ -62,11 +62,21 @@ console.log(textC);
 // var output = input1 - input2;
 // document.write("Output is = " + output);
 // Practice Problem 2 -----------------------------------------------------------
-var sub1 = parseInt(prompt("Marks of your 1st Subject : "));
-var sub2 = parseInt(prompt("Marks of your 2nd Subject : "));
-var sub3 = parseInt(prompt("Marks of your 3rd Subject : "));
-var sub4 = parseInt(prompt("Marks of your 4th Subject : "));
-var sub5 = parseInt(prompt("Marks of your 5th Subject : "));
-var output = (sub1 + sub2 + sub3 + sub4 + sub5) / 5 ;
-output = output.toFixed(2);
+// var sub1 = parseInt(prompt("Marks of your 1st Subject : "));
+// var sub2 = parseInt(prompt("Marks of your 2nd Subject : "));
+// var sub3 = parseInt(prompt("Marks of your 3rd Subject : "));
+// var sub4 = parseInt(prompt("Marks of your 4th Subject : "));
+// var sub5 = parseInt(prompt("Marks of your 5th Subject : "));
+// var output = (sub1 + sub2 + sub3 + sub4 + sub5) / 5 ;
+// output = output.toFixed(2);
+// document.write("Output is = " + output);
+// Practice Problem 3 -----------------------------------------------------------
+// var input1 = prompt("Enter first input : ");
+// var input2 = prompt("Enter second input : ");
+// var output = input1 + " " + input2;
+// document.write("Output is = " + output);
+// Practice Problem 4 -----------------------------------------------------------
+var input1 = prompt("Enter your moms number : ");
+var input2 = prompt("Divide the number by : ");
+var output = input1 % input2 ;
 document.write("Output is = " + output);
