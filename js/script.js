@@ -84,4 +84,4 @@ document.write("<br>2nd Position word of full Name is :" + fullName.charAt(2));
 // var input1 = prompt("Enter your moms number : ");
 // var input2 = prompt("Divide the number by : ");
 // var output = input1 % input2 ;
-// document.write("Output is = " + output);
+// document.write("Output is = " + output); 
