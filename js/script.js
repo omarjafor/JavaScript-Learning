@@ -85,7 +85,7 @@ console.log(textC);
 // var input2 = prompt("Divide the number by : ");
 // var output = input1 % input2 ;
 // document.write("Output is = " + output); 
-// Task Practice Problem 2------------------------------------------------------------>
+// Task Practice Problem 3 ------------------------------------------------------------>
 var input1 = parseInt(prompt("Enter you first number : "));
 var input2 = parseInt(prompt("Enter your second number : "));
 document.write("First Number is = " + input1);
