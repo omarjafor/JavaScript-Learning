@@ -18,3 +18,10 @@ num = parseFloat(num);
 console.log(num);
 num = parseInt(num);
 console.log(num);
+
+var num1 = 2.535754645;
+console.log(num1.toFixed(3));
+console.log(num1.toPrecision(3));
+console.log(typeof(Number("  12    ")));
+console.log(Number("  12   "));
+console.log(Number("  12.256464 "));
