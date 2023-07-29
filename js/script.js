@@ -50,11 +50,16 @@ var textC = textA.slice(3,7);
 console.log(textC);
 
 // Task Practice Problem ------------------------------------------------------------>
-// var input1 = prompt("Enter you first name :");
-// var input2 = prompt("Enter your last name :");
+var input1 = prompt("Enter you first name :");
+var input2 = prompt("Enter your last name :");
 
-// var fullName = input1 + " " +input2;
-// document.write("Your full Name is :" + fullName);
+var fullName = input1 + " " +input2;
+document.write("Your full Name is :" + fullName);
+fullName = fullName.toUpperCase();
+document.write("<br>Your full Name in UpperCase :" + fullName);
+document.write("<br>Total Length of full Name is :" + fullName.length);
+document.write("<br>2nd Position word of full Name is :" + fullName.charAt(2));
+
 
 // Practice Problem 1 -----------------------------------------------------------
 // var input1 = prompt("How Much Your Mom Given : ");
@@ -76,7 +81,7 @@ console.log(textC);
 // var output = input1 + " " + input2;
 // document.write("Output is = " + output);
 // Practice Problem 4 -----------------------------------------------------------
-var input1 = prompt("Enter your moms number : ");
-var input2 = prompt("Divide the number by : ");
-var output = input1 % input2 ;
-document.write("Output is = " + output);
+// var input1 = prompt("Enter your moms number : ");
+// var input2 = prompt("Divide the number by : ");
+// var output = input1 % input2 ;
+// document.write("Output is = " + output);
