@@ -1,5 +1,6 @@
 console.log("My Name is Omar Jafor Chy")
 document.write("My name is Omar jafor chy")
+document.write("<br>");
 
 var firstName = "Omar Jafor "
 var lastName = "Chy Jaber"
@@ -47,3 +48,9 @@ var textB = "Jabed";
 console.log(textA.concat(textB));
 var textC = textA.slice(3,7);
 console.log(textC);
+
+var input1 = prompt("Enter you first name :");
+var input2 = prompt("Enter your last name :");
+
+var fullName = input1 + " " +input2;
+document.write("Your full Name is :" + fullName);
