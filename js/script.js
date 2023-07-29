@@ -86,10 +86,18 @@ console.log(textC);
 // var output = input1 % input2 ;
 // document.write("Output is = " + output); 
 // Task Practice Problem 2------------------------------------------------------------>
-var input1 = prompt("Enter you first number : ");
-var input2 = prompt("Enter your second number : ");
+var input1 = parseInt(prompt("Enter you first number : "));
+var input2 = parseInt(prompt("Enter your second number : "));
 document.write("First Number is = " + input1);
 document.write("<br>Second Number is = " + input2); 
 
 var sum = input1 + input2;
-document.write("Your full Name is :" + sum);
+document.write("<br>"+input1 + " + " + input2 +" = "+ sum);
+var sub = input1 - input2;
+document.write("<br>"+input1 + " - " + input2 +" = "+ sub);
+var mul = input1 * input2;
+document.write("<br>"+input1 + " * " + input2 +" = "+ mul);
+var div = input1 / input2;
+document.write("<br>"+input1 + " / " + input2 +" = "+ div);
+var modul = input1 % input2;
+document.write("<br>"+input1 + " % " + input2 +" = "+ modul);
