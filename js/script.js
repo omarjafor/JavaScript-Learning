@@ -26,3 +26,24 @@ console.log(num1.toPrecision(3));
 console.log(typeof(Number("  12    ")));
 console.log(Number("  12   "));
 console.log(Number("  12.256464 "));
+
+var text = "Bangladesh";
+console.log(text.length);
+
+// var text = prompt("Enter You Name :");
+// console.log(text.length);
+console.log(text.charAt(2));
+
+var text = "bangladesh";
+var text1 = text.toUpperCase();
+console.log(text1);
+
+var text = "BANGLADESH";
+var text1 = text.toLowerCase();
+console.log(text1);
+
+var textA = "My Name is ";
+var textB = "Jabed";
+console.log(textA.concat(textB));
+var textC = textA.slice(3,7);
+console.log(textC);
