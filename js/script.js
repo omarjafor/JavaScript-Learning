@@ -124,14 +124,24 @@ console.log(fruits);
 //     document.write("Your Grade is F");
 // }
 // Practice Problem 6 -----------------------------------------------------------
+// var num1 = parseInt(prompt("Enter you Your 1st Number : "));
+// var num2 = parseInt(prompt("Enter you Your 2nd Number : "));
+// var num3 = parseInt(prompt("Enter you Your 3rd Number : "));
+
+// if(num1>num2 && num1>num3){
+//     document.write("The Largest Number is : " + num1);
+// }else if (num2>num1 && num2>num3){
+//     document.write("The Largest Number is : " + num2);
+// }else{
+//     document.write("The Largest Number is : " + num3);
+// }
+// Practice Problem 7 -----------------------------------------------------------
 var num1 = parseInt(prompt("Enter you Your 1st Number : "));
 var num2 = parseInt(prompt("Enter you Your 2nd Number : "));
 var num3 = parseInt(prompt("Enter you Your 3rd Number : "));
 
-if(num1>num2 && num1>num3){
-    document.write("The Largest Number is : " + num1);
-}else if (num2>num1 && num2>num3){
-    document.write("The Largest Number is : " + num2);
+if(num1==num2 || num1==num3 || num2==num3){
+    document.write("The Triangle is Isosceles");
 }else{
-    document.write("The Largest Number is : " + num3);
+    document.write("The Triangle is Not Isosceles");
 }
