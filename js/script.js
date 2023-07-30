@@ -102,13 +102,13 @@
 // var modul = input1 % input2;
 // document.write("<br>"+input1 + " % " + input2 +" = "+ modul);
 // Practice Problem 4 -----------------------------------------------------------
-// var fruits = ['Apple', 'Banana', 'Orange'];
-// console.log(fruits.indexOf('Banana'));
-// fruits[1] = 'Mango';
-// console.log(fruits);
-// fruits.pop();
-// fruits.push('Watermelon');
-// console.log(fruits);
+var fruits = ['Apple', 'Banana', 'Orange'];
+console.log(fruits.indexOf('Banana'));
+fruits[1] = 'Mango';
+console.log(fruits);
+fruits.pop();
+fruits.push('Watermelon');
+console.log(fruits);
 // Practice Problem 4 -----------------------------------------------------------
 var marks = parseInt(prompt("Enter you Your Total Number : "));
 
