@@ -140,11 +140,12 @@ console.log(fruits);
 // var num2 = parseInt(prompt("Enter you Your 2nd Number : "));
 // var num3 = parseInt(prompt("Enter you Your 3rd Number : "));
 
-// if(num1==num2 || num1==num3 || num2==num3){
-//     document.write("The Triangle is Isosceles");
-// }else{
-//     document.write("The Triangle is Not Isosceles");
-// }
+if(num1==num2 || num1==num3 || num2==num3){
+    document.write("The Triangle is Isosceles");
+}else{
+    document.write("The Triangle is Not Isosceles");
+}
+
 var i = 0;
 for (i=0; i<5; i++){};
 console.log(i);
