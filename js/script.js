@@ -136,12 +136,28 @@ console.log(fruits);
 //     document.write("The Largest Number is : " + num3);
 // }
 // Practice Problem 7 -----------------------------------------------------------
-var num1 = parseInt(prompt("Enter you Your 1st Number : "));
-var num2 = parseInt(prompt("Enter you Your 2nd Number : "));
-var num3 = parseInt(prompt("Enter you Your 3rd Number : "));
+// var num1 = parseInt(prompt("Enter you Your 1st Number : "));
+// var num2 = parseInt(prompt("Enter you Your 2nd Number : "));
+// var num3 = parseInt(prompt("Enter you Your 3rd Number : "));
 
-if(num1==num2 || num1==num3 || num2==num3){
-    document.write("The Triangle is Isosceles");
-}else{
-    document.write("The Triangle is Not Isosceles");
+// if(num1==num2 || num1==num3 || num2==num3){
+//     document.write("The Triangle is Isosceles");
+// }else{
+//     document.write("The Triangle is Not Isosceles");
+// }
+// var i = 0;
+// for (i=0; i<5; i++){};
+// console.log(i);
+
+// var marks = [ 13, 15, 14, 20, 18];
+// for(var i=0; i<marks.length; i++){
+//  if(marks[i] >=15){
+//   continue;
+//  }
+//  console.log(marks[i]);
+// };
+
+var i = 5;
+for (i = 5; i < 5; i++) {
+ console.log(i);
 }
