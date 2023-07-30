@@ -145,9 +145,9 @@ console.log(fruits);
 // }else{
 //     document.write("The Triangle is Not Isosceles");
 // }
-// var i = 0;
-// for (i=0; i<5; i++){};
-// console.log(i);
+var i = 0;
+for (i=0; i<5; i++){};
+console.log(i);
 
 var marks = [ 13, 15, 14, 20, 18];
 for(var i=0; i<marks.length; i++){
