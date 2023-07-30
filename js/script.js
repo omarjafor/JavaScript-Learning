@@ -109,17 +109,29 @@ console.log(fruits);
 fruits.pop();
 fruits.push('Watermelon');
 console.log(fruits);
-// Practice Problem 4 -----------------------------------------------------------
-var marks = parseInt(prompt("Enter you Your Total Number : "));
+// Practice Problem 5 -----------------------------------------------------------
+// var marks = parseInt(prompt("Enter you Your Total Number : "));
 
-if(marks >= 80){
-    document.write("Your Grade is A");
-}else if (marks >= 60){
-    document.write("Your Grade is B");
-}else if (marks >= 50){
-    document.write("Your Grade is C");
-}else if (marks >= 40){
-    document.write("Your Grade is D");
+// if(marks >= 80){
+//     document.write("Your Grade is A");
+// }else if (marks >= 60){
+//     document.write("Your Grade is B");
+// }else if (marks >= 50){
+//     document.write("Your Grade is C");
+// }else if (marks >= 40){
+//     document.write("Your Grade is D");
+// }else{
+//     document.write("Your Grade is F");
+// }
+// Practice Problem 6 -----------------------------------------------------------
+var num1 = parseInt(prompt("Enter you Your 1st Number : "));
+var num2 = parseInt(prompt("Enter you Your 2nd Number : "));
+var num3 = parseInt(prompt("Enter you Your 3rd Number : "));
+
+if(num1>num2 && num1>num3){
+    document.write("The Largest Number is : " + num1);
+}else if (num2>num1 && num2>num3){
+    document.write("The Largest Number is : " + num2);
 }else{
-    document.write("Your Grade is F");
+    document.write("The Largest Number is : " + num3);
 }
