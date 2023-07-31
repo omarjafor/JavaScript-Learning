@@ -202,3 +202,12 @@ for (i = 30; i <= 86; i++) {
     }
     document.write("<br> The Number is : " + i);
    }
+
+var bookPrice = [150, 120, 135, 140, 250, 99, 100, 225, 80, 125, 230];
+for (i = 0; i < bookPrice.length; i++) {
+    var price = bookPrice[i];
+    if(price > 200){
+        continue;
+    }
+    document.write("<br> The Book Price Under $200 is : " + price);
+   }
