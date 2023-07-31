@@ -102,13 +102,13 @@
 // var modul = input1 % input2;
 // document.write("<br>"+input1 + " % " + input2 +" = "+ modul);
 // Practice Problem 4 -----------------------------------------------------------
-var fruits = ['Apple', 'Banana', 'Orange'];
-console.log(fruits.indexOf('Banana'));
-fruits[1] = 'Mango';
-console.log(fruits);
-fruits.pop();
-fruits.push('Watermelon');
-console.log(fruits);
+// var fruits = ['Apple', 'Banana', 'Orange'];
+// console.log(fruits.indexOf('Banana'));
+// fruits[1] = 'Mango';
+// console.log(fruits);
+// fruits.pop();
+// fruits.push('Watermelon');
+// console.log(fruits);
 // Practice Problem 5 -----------------------------------------------------------
 // var marks = parseInt(prompt("Enter you Your Total Number : "));
 
@@ -140,11 +140,11 @@ console.log(fruits);
 // var num2 = parseInt(prompt("Enter you Your 2nd Number : "));
 // var num3 = parseInt(prompt("Enter you Your 3rd Number : "));
 
-if(num1==num2 || num1==num3 || num2==num3){
-    document.write("The Triangle is Isosceles");
-}else{
-    document.write("The Triangle is Not Isosceles");
-}
+// if(num1==num2 || num1==num3 || num2==num3){
+//     document.write("The Triangle is Isosceles");
+// }else{
+//     document.write("The Triangle is Not Isosceles");
+// }
 
 // var i = 0;
 // for (i=0; i<5; i++){};
