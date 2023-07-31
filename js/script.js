@@ -183,3 +183,8 @@
 //     document.write("<br> The Odd Number - " + x);
 //     x=x+2;
 // }
+
+var topicsLearn = ['Html', 'CSS', 'Tailwind', 'DaisyUI', 'Bootstrap', 'JavaScript'];
+for(i=0; i<topicsLearn.length; i++){
+    document.write(topicsLearn[i] + "<br>");
+}
