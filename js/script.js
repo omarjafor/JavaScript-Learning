@@ -145,7 +145,7 @@
 // }else{
 //     document.write("The Triangle is Not Isosceles");
 // }
-
+// Practice Problem 8 -----------------------------------------------------------
 // var i = 0;
 // for (i=0; i<5; i++){};
 // console.log(i);
@@ -162,3 +162,7 @@
 // for (i = 5; i < 5; i++) {
 //  console.log(i);
 // }
+// Practice Problem 9 -----------------------------------------------------------
+for (i = 1; i <= 39; i++) {
+ document.write("<br>Ajke Amar mon valo Nai -" + i);
+}
