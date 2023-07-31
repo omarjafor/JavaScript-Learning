@@ -195,3 +195,10 @@ while(i<topicsLearn.length){
     document.write(topicsLearn[i] + "<br>");
     i++
 }
+
+for (i = 30; i <= 86; i++) {
+    if(i > 44){
+        break;
+    }
+    document.write("<br> The Number is : " + i);
+   }
