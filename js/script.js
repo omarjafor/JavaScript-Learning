@@ -184,7 +184,14 @@
 //     x=x+2;
 // }
 
-var topicsLearn = ['Html', 'CSS', 'Tailwind', 'DaisyUI', 'Bootstrap', 'JavaScript'];
-for(i=0; i<topicsLearn.length; i++){
+// var topicsLearn = ['Html', 'CSS', 'Tailwind', 'DaisyUI', 'Bootstrap', 'JavaScript'];
+// for(i=0; i<topicsLearn.length; i++){
+//     document.write(topicsLearn[i] + "<br>");
+// }
+
+var topicsLearn = ['Nokia', 'Apple', 'Oppo', 'Vivo', 'Realme', 'Xiaomi'];
+var i = 0;
+while(i<topicsLearn.length){
     document.write(topicsLearn[i] + "<br>");
+    i++
 }
