@@ -211,3 +211,8 @@ for (i = 0; i < bookPrice.length; i++) {
     }
     document.write("<br> The Book Price Under $200 is : " + price);
    }
+
+
+var num = prompt("Enter Your Number : ");
+var result = num > 0 ? "Positive" : num < 0 ? "Negative" : "Zero";
+console.log(result);
