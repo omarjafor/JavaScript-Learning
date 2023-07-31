@@ -174,6 +174,12 @@
 // for (i = 412; i <= 456; i=i+2) {
 //     document.write("<br> The Even Number - " + i);
 //    }
-for (i = 581; i <= 623; i=i+2) {
-    document.write("<br> The Odd Number - " + i);
-   }
+// for (i = 581; i <= 623; i=i+2) {
+//     document.write("<br> The Odd Number - " + i);
+//    }
+
+// var x=581;
+// while(x<=623){
+//     document.write("<br> The Odd Number - " + x);
+//     x=x+2;
+// }
