@@ -163,6 +163,17 @@
 //  console.log(i);
 // }
 // Practice Problem 9 -----------------------------------------------------------
-for (i = 1; i <= 39; i++) {
- document.write("<br>Ajke Amar mon valo Nai -" + i);
-}
+// for (i = 1; i <= 39; i++) {
+//  document.write("<br>Ajke Amar mon valo Nai -" + i);
+// }
+
+// for (i = 58; i <= 98; i++) {
+//  document.write("<br> The Number - " + i);
+// }
+
+// for (i = 412; i <= 456; i=i+2) {
+//     document.write("<br> The Even Number - " + i);
+//    }
+for (i = 581; i <= 623; i=i+2) {
+    document.write("<br> The Odd Number - " + i);
+   }
