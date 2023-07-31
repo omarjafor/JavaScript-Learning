@@ -162,7 +162,7 @@
 // for (i = 5; i < 5; i++) {
 //  console.log(i);
 // }
-// Practice Problem 9 -----------------------------------------------------------
+// Practice Problem Loop -----------------------------------------------------------
 // for (i = 1; i <= 39; i++) {
 //  document.write("<br>Ajke Amar mon valo Nai -" + i);
 // }
@@ -189,19 +189,19 @@
 //     document.write(topicsLearn[i] + "<br>");
 // }
 
-var topicsLearn = ['Nokia', 'Apple', 'Oppo', 'Vivo', 'Realme', 'Xiaomi'];
-var i = 0;
-while(i<topicsLearn.length){
-    document.write(topicsLearn[i] + "<br>");
-    i++
-}
+// var topicsLearn = ['Nokia', 'Apple', 'Oppo', 'Vivo', 'Realme', 'Xiaomi'];
+// var i = 0;
+// while(i<topicsLearn.length){
+//     document.write(topicsLearn[i] + "<br>");
+//     i++
+// }
 
-for (i = 30; i <= 86; i++) {
-    if(i > 44){
-        break;
-    }
-    document.write("<br> The Number is : " + i);
-   }
+// for (i = 30; i <= 86; i++) {
+//     if(i > 44){
+//         break;
+//     }
+//     document.write("<br> The Number is : " + i);
+//    }
 
 var bookPrice = [150, 120, 135, 140, 250, 99, 100, 225, 80, 125, 230];
 for (i = 0; i < bookPrice.length; i++) {
