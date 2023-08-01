@@ -262,3 +262,16 @@ names.splice(1,0,'Joba', 'Jannar'); //adding new element
 console.log(names);
 names.splice(3,2); // removing element
 console.log(names);
+// 1D Array Library ..............................
+var numbers = [62, 45, 89, 95, 84, 33];
+function highestScore(scores){
+    var maxScore = scores[0];
+    for(var x=1; x<scores.length; x++){
+        if(maxScore < scores[x]){
+            maxScore = scores[x]
+        }
+    }
+    return maxScore;
+}
+var highScore =highestScore(numbers);
+console.log(highScore);
