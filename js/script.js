@@ -279,6 +279,6 @@
 // JavaScript Practice ..............................
 var names = ['Abul', 'Kabul', 'Pabul', 'Rahim', 'Karim'];
 var numbers = [62, 45, 89, 95, 84, 33];
-var nama = numbers.slice(2,4);
+var nama = numbers.slice(-4, -2);
 console.log(nama);
 console.log(numbers);
