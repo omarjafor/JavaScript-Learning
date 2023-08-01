@@ -277,3 +277,7 @@
 // var highScore =highestScore(numbers);
 // console.log("Highes Score is : " +highScore);
 // JavaScript Practice ..............................
+var names = ['Abul', 'Kabul', 'Pabul', 'Rahim', 'Karim'];
+var numbers = [62, 45, 89, 95, 84, 33];
+var nama = numbers.slice(2,4);
+console.log(nama);
