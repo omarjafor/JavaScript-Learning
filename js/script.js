@@ -218,36 +218,47 @@
 // console.log(result);
 
 // creating a function .......................................
-function addition (num1, num2){
-    var result = num1 + num2;
-    document.write(result + "<br>");
-}
-function subtraction (num1, num2){
-    var result = num1 - num2;
-    document.write(result + "<br>");
-}
-function multiple (num1, num2){
-    var result = num1 * num2;
-    document.write(result + "<br>");
-    return result;
-}
-function divided (num1, num2){
-    var result = num1 / num2;
-    document.write(result + "<br>");
-}
-addition(10, 30);
-subtraction(80, 29);
-var x = multiple(15, 3);
-divided(150, 5);
+// function addition (num1, num2){
+//     var result = num1 + num2;
+//     document.write(result + "<br>");
+// }
+// function subtraction (num1, num2){
+//     var result = num1 - num2;
+//     document.write(result + "<br>");
+// }
+// function multiple (num1, num2){
+//     var result = num1 * num2;
+//     document.write(result + "<br>");
+//     return result;
+// }
+// function divided (num1, num2){
+//     var result = num1 / num2;
+//     document.write(result + "<br>");
+// }
+// addition(10, 30);
+// subtraction(80, 29);
+// var x = multiple(15, 3);
+// divided(150, 5);
 // document.write(x);
 // Immediately Invokeable Function Expressions ...............
-(function addition (num1, num2){
-    var result = num1 + num2;
-    document.write(result + "<br>");
-})(120,130);
+// (function addition (num1, num2){
+//     var result = num1 + num2;
+//     document.write(result + "<br>");
+// })(120,130);
 
-var additional = function (num1, num2){
-    var result = num1 + num2;
-    document.write(result + "<br>");
-};
-additional (15,10)
+// var additional = function (num1, num2){
+//     var result = num1 + num2;
+//     document.write(result + "<br>");
+// };
+// additional (15,10)
+// Array Library .............................. 
+var names = ['Abul', 'Kabul', 'Pabul', 'Rahim', 'Karim'];
+console.log(names);
+names.shift();
+console.log(names);
+names.unshift('Abdul');
+console.log(names);
+names.splice(1,0,'Joba', 'Jannar'); //adding new element
+console.log(names);
+names.splice(3,2); // removing element
+console.log(names);
