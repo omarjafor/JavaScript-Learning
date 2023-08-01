@@ -282,3 +282,14 @@ var numbers = [62, 45, 89, 95, 84, 33];
 var nama = numbers.slice(-4, -2);
 console.log(nama);
 console.log(numbers);
+var student = {
+    name : 'Abul',
+    age : 22,
+    sec : 'A2',
+    status : 'Good'
+};
+console.log(student.age);
+console.log(student.name);
+console.log(student.status);
+student.age = 25;
+console.log(student.age);
