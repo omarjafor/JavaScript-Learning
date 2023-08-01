@@ -265,8 +265,9 @@ console.log(names);
 // 1D Array Library ..............................
 var numbers = [62, 45, 89, 95, 84, 33];
 function highestScore(scores){
-    var maxScore = scores[0];
-    for(var x=1; x<scores.length; x++){
+    var maxScore = 0;
+    for(var x=0; x<scores.length; x++){
+        console.log(scores[x]);
         if(maxScore < scores[x]){
             maxScore = scores[x]
         }
@@ -274,4 +275,4 @@ function highestScore(scores){
     return maxScore;
 }
 var highScore =highestScore(numbers);
-console.log(highScore);
+console.log("Highes Score is : " +highScore);
