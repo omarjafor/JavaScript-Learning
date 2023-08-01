@@ -277,11 +277,11 @@
 // var highScore =highestScore(numbers);
 // console.log("Highes Score is : " +highScore);
 // JavaScript Practice ..............................
-var names = ['Abul', 'Kabul', 'Pabul', 'Rahim', 'Karim'];
-var numbers = [62, 45, 89, 95, 84, 33];
-var nama = numbers.slice(-4, -2);
-console.log(nama);
-console.log(numbers);
+// var names = ['Abul', 'Kabul', 'Pabul', 'Rahim', 'Karim'];
+// var numbers = [62, 45, 89, 95, 84, 33];
+// var nama = numbers.slice(-4, -2);
+// console.log(nama);
+// console.log(numbers);
 var student = {
     name : 'Abul',
     age : 22,
@@ -292,4 +292,13 @@ console.log(student.age);
 console.log(student.name);
 console.log(student.status);
 student.age = 25;
-console.log(student.age);
+console.log(student);
+
+var shoppingCart = {
+    books : 3,
+    sunglass: 2,
+    keybord : 1,
+    mouse : 4,
+    pen : 5
+}
+console.log(shoppingCart);
