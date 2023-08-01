@@ -302,3 +302,7 @@ var shoppingCart = {
     pen : 5
 }
 console.log(shoppingCart);
+var properties = Object.keys(shoppingCart);
+console.log(properties);
+var properties = Object.values(shoppingCart);
+console.log(properties);
