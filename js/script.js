@@ -299,7 +299,9 @@ var shoppingCart = {
     sunglass: 2,
     keybord : 1,
     mouse : 4,
-    pen : 5
+    pen : 5,
+    shoes : 2,
+    shirt : 3
 }
 console.log(shoppingCart);
 var properties = Object.keys(shoppingCart);
