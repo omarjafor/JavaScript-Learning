@@ -203,16 +203,51 @@
 //     document.write("<br> The Number is : " + i);
 //    }
 
-var bookPrice = [150, 120, 135, 140, 250, 99, 100, 225, 80, 125, 230];
-for (i = 0; i < bookPrice.length; i++) {
-    var price = bookPrice[i];
-    if(price > 200){
-        continue;
-    }
-    document.write("<br> The Book Price Under $200 is : " + price);
-   }
+// var bookPrice = [150, 120, 135, 140, 250, 99, 100, 225, 80, 125, 230];
+// for (i = 0; i < bookPrice.length; i++) {
+//     var price = bookPrice[i];
+//     if(price > 200){
+//         continue;
+//     }
+//     document.write("<br> The Book Price Under $200 is : " + price);
+//    }
 
 
-var num = prompt("Enter Your Number : ");
-var result = num > 0 ? "Positive" : num < 0 ? "Negative" : "Zero";
-console.log(result);
+// var num = prompt("Enter Your Number : ");
+// var result = num > 0 ? "Positive" : num < 0 ? "Negative" : "Zero";
+// console.log(result);
+
+// creating a function .......................................
+function addition (num1, num2){
+    var result = num1 + num2;
+    document.write(result + "<br>");
+}
+function subtraction (num1, num2){
+    var result = num1 - num2;
+    document.write(result + "<br>");
+}
+function multiple (num1, num2){
+    var result = num1 * num2;
+    document.write(result + "<br>");
+    return result;
+}
+function divided (num1, num2){
+    var result = num1 / num2;
+    document.write(result + "<br>");
+}
+addition(10, 30);
+subtraction(80, 29);
+var x = multiple(15, 3);
+divided(150, 5);
+// document.write(x);
+// Immediately Invokeable Function Expressions ...............
+(function addition (num1, num2){
+    var result = num1 + num2;
+    document.write(result + "<br>");
+})(120,130);
+
+var additional = function (num1, num2){
+    var result = num1 + num2;
+    document.write(result + "<br>");
+};
+additional (15,10)
