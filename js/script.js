@@ -281,3 +281,4 @@ var names = ['Abul', 'Kabul', 'Pabul', 'Rahim', 'Karim'];
 var numbers = [62, 45, 89, 95, 84, 33];
 var nama = numbers.slice(2,4);
 console.log(nama);
+console.log(numbers);
