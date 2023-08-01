@@ -252,27 +252,28 @@
 // };
 // additional (15,10)
 // Array Library .............................. 
-var names = ['Abul', 'Kabul', 'Pabul', 'Rahim', 'Karim'];
-console.log(names);
-names.shift();
-console.log(names);
-names.unshift('Abdul');
-console.log(names);
-names.splice(1,0,'Joba', 'Jannar'); //adding new element
-console.log(names);
-names.splice(3,2); // removing element
-console.log(names);
+// var names = ['Abul', 'Kabul', 'Pabul', 'Rahim', 'Karim'];
+// console.log(names);
+// names.shift();
+// console.log(names);
+// names.unshift('Abdul');
+// console.log(names);
+// names.splice(1,0,'Joba', 'Jannar'); //adding new element
+// console.log(names);
+// names.splice(3,2); // removing element
+// console.log(names);
 // 1D Array Library ..............................
-var numbers = [62, 45, 89, 95, 84, 33];
-function highestScore(scores){
-    var maxScore = 0;
-    for(var x=0; x<scores.length; x++){
-        console.log(scores[x]);
-        if(maxScore < scores[x]){
-            maxScore = scores[x]
-        }
-    }
-    return maxScore;
-}
-var highScore =highestScore(numbers);
-console.log("Highes Score is : " +highScore);
+// var numbers = [62, 45, 89, 95, 84, 33];
+// function highestScore(scores){
+//     var maxScore = 0;
+//     for(var x=0; x<scores.length; x++){
+//         console.log(scores[x]);
+//         if(maxScore < scores[x]){
+//             maxScore = scores[x]
+//         }
+//     }
+//     return maxScore;
+// }
+// var highScore =highestScore(numbers);
+// console.log("Highes Score is : " +highScore);
+// JavaScript Practice ..............................
