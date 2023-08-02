@@ -444,14 +444,17 @@ isLeapYear(1993);
 // only for odd number sum with the same funtion ................................
 function getSumArray(number){
     let sum = 0;
+    const oddNumber = [];
     for(var x=0; x<number.length; x++){
         const index = x;
         const element = number[index];
         if(element%2 !== 0){
             sum = sum + element;
             console.log(index, element, sum)
+            oddNumber.push(element);
         }
     }
+    console.log(oddNumber);
     return sum;
 }
 let number = [12, 65, 45, 78, 32, 45, 91, 68];
