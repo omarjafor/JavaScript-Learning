@@ -389,3 +389,7 @@ student2.studentInfo();
 student1.studentInfo();
 
 // Inch To Feet Converter ................................................
+let inch = prompt("Enter Your Inch : ");
+inch = parseInt(inch);
+const feet = inch/12;
+console.log('Your Feet is = '+ feet);
