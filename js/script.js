@@ -367,29 +367,36 @@
 // console.log(student3);
 
 // Object constractor with function ................................
-function Student(name, age, cgpa, status){
-    this.name = name;
-    this.age = age;
-    this.cgpa = cgpa;
-    this.status = status;
+// function Student(name, age, cgpa, status){
+//     this.name = name;
+//     this.age = age;
+//     this.cgpa = cgpa;
+//     this.status = status;
 
-    this.studentInfo = function(){
-        console.log(this.name);
-        console.log(this.cgpa);
-        console.log(this.age);
-        console.log(this.status); 
-    }
-}
+//     this.studentInfo = function(){
+//         console.log(this.name);
+//         console.log(this.cgpa);
+//         console.log(this.age);
+//         console.log(this.status); 
+//     }
+// }
 
-var student1 = new Student('Abdullah', 24, 3.44, 'Best');
-var student2 = new Student('Rakib', 22, 2.92, 'Good');
-var student3 = new Student('Asif', 30, 2.74, 'Bad');
+// var student1 = new Student('Abdullah', 24, 3.44, 'Best');
+// var student2 = new Student('Rakib', 22, 2.92, 'Good');
+// var student3 = new Student('Asif', 30, 2.74, 'Bad');
 
-student2.studentInfo();
-student1.studentInfo();
+// student2.studentInfo();
+// student1.studentInfo();
 
 // Inch To Feet Converter ................................................
-let inch = prompt("Enter Your Inch : ");
-inch = parseInt(inch);
-const feet = inch/12;
-console.log('Your Feet is = '+ feet);
+// let inch = prompt("Enter Your Inch : ");
+// inch = parseInt(inch);
+// const feet = inch/12;
+// console.log('Your Feet is = '+ feet);
+
+function inchToFeet (inches){
+    const feet = inches / 12;
+    return feet;
+}
+const dadaFeet = inchToFeet(160);
+console.log(dadaFeet);
