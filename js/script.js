@@ -427,3 +427,17 @@ function isLeapYear(num){
 }
 isLeapYear(1296);
 isLeapYear(1993);
+// Funtion number an array and sum of them .................................
+function getSumArray(number){
+    let sum = 0;
+    for(var x=0; x<number.length; x++){
+        const index = x;
+        const element = number[index];
+        sum = sum + element;
+        console.log(index, element, sum)
+    }
+    return sum;
+}
+let number = [12, 65, 45, 78, 32, 45, 91, 68];
+var arraySum = getSumArray(number);
+console.log(arraySum);
