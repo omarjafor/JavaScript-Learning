@@ -340,15 +340,15 @@
 //    }
 // console.log(movie());
 
-var student = {
-        name : 'Abul',
-        age : 22,
-        sec : 'A2',
-        status : 'Good',
-        cgpa : 2.74,
-        lang : ['Bangla', 'Hindi', 'English']
-    };
-console.log(student);
+// var student = {
+//         name : 'Abul',
+//         age : 22,
+//         sec : 'A2',
+//         status : 'Good',
+//         cgpa : 2.74,
+//         lang : ['Bangla', 'Hindi', 'English']
+//     };
+// console.log(student);
 // Object Constractor ..................... 
 function Student(name, age, cgpa, status){
     this.name = name;
@@ -356,3 +356,7 @@ function Student(name, age, cgpa, status){
     this.cgpa = cgpa;
     this.status = status;
 }
+
+var student1 = new Student('Abdullah', 24, 3.44, 'Best');
+var student2 = new Student('Rakib', 22, 2.92, 'Good');
+var student3 = new Student('Asif', 30, 2.74, 'Bad');
