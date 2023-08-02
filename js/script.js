@@ -295,6 +295,7 @@ student.age = 25;
 console.log(student);
 
 var shoppingCart = {
+    name : 'Mr.Rakib',
     books : 3,
     sunglass: 2,
     keybord : 1,
@@ -308,3 +309,10 @@ var properties = Object.keys(shoppingCart);
 console.log(properties);
 var properties = Object.values(shoppingCart);
 console.log(properties);
+console.log(shoppingCart.name);
+function movie(){
+    return "Din-The day";
+    return "Poran";
+    return "Hawa";
+   }
+console.log(movie());
