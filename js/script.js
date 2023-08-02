@@ -405,5 +405,14 @@ function milesToKm (miles){
     const kilometer = miles*1.609;
     return kilometer;
 }
-const theKilometer = milesToKm(160);
+const theKilometer = milesToKm(100);
 console.log(theKilometer);
+// Even or odd number checking ..................................................
+function evenOrOdd(num){
+    if(num%2==0){
+        console.log('Even Number');
+    }else{
+        console.log('Odd Number');
+    }
+}
+evenOrOdd(22);
