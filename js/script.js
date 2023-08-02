@@ -278,16 +278,26 @@
 // console.log("Highes Score is : " +highScore);
 // 2D Array Library ..............................
 function highestRunScorer(playersInfo){
-    console.log(playersInfo);
+    var highName = playersInfo[0][0];
+    var highRun = playersInfo[0][1];
+    for(var x=1; x<playersInfo.length; x++){
+        if(highRun < playersInfo[x][1]){
+            highRun = playersInfo[x][1];
+            highName = playersInfo[x][0];
+        }
+    }
+    return highName;
 }
+
 var playersInfo = [
     ["Abul", 95],
-    ['Kabul', 15],
+    ['Kabul', 115],
     ['Chagol', 35],
-    ['Korim', 105],
-    ['Rakib', 52],
+    ['Korim', 15],
+    ['Rakib', 152],
 ];
-highestRunScorer(playersInfo);
+var highestName = highestRunScorer(playersInfo);
+console.log(highestName);
 // JavaScript Practice ..............................
 // var names = ['Abul', 'Kabul', 'Pabul', 'Rahim', 'Karim'];
 // var numbers = [62, 45, 89, 95, 84, 33];
