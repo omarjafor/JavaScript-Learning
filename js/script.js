@@ -276,43 +276,55 @@
 // }
 // var highScore =highestScore(numbers);
 // console.log("Highes Score is : " +highScore);
+// 2D Array Library ..............................
+function highestRunScorer(playersInfo){
+    console.log(playersInfo);
+}
+var playersInfo = [
+    ["Abul", 95],
+    ['Kabul', 15],
+    ['Chagol', 35],
+    ['Korim', 105],
+    ['Rakib', 52],
+];
+highestRunScorer(playersInfo);
 // JavaScript Practice ..............................
 // var names = ['Abul', 'Kabul', 'Pabul', 'Rahim', 'Karim'];
 // var numbers = [62, 45, 89, 95, 84, 33];
 // var nama = numbers.slice(-4, -2);
 // console.log(nama);
 // console.log(numbers);
-var student = {
-    name : 'Abul',
-    age : 22,
-    sec : 'A2',
-    status : 'Good'
-};
-console.log(student.age);
-console.log(student.name);
-console.log(student.status);
-student.age = 25;
-console.log(student);
+// var student = {
+//     name : 'Abul',
+//     age : 22,
+//     sec : 'A2',
+//     status : 'Good'
+// };
+// console.log(student.age);
+// console.log(student.name);
+// console.log(student.status);
+// student.age = 25;
+// console.log(student);
 
-var shoppingCart = {
-    name : 'Mr.Rakib',
-    books : 3,
-    sunglass: 2,
-    keybord : 1,
-    mouse : 4,
-    pen : 5,
-    shoes : 2,
-    shirt : 3
-}
-console.log(shoppingCart);
-var properties = Object.keys(shoppingCart);
-console.log(properties);
-var properties = Object.values(shoppingCart);
-console.log(properties);
-console.log(shoppingCart.name);
-function movie(){
-    return "Din-The day";
-    return "Poran";
-    return "Hawa";
-   }
-console.log(movie());
+// var shoppingCart = {
+//     name : 'Mr.Rakib',
+//     books : 3,
+//     sunglass: 2,
+//     keybord : 1,
+//     mouse : 4,
+//     pen : 5,
+//     shoes : 2,
+//     shirt : 3
+// }
+// console.log(shoppingCart);
+// var properties = Object.keys(shoppingCart);
+// console.log(properties);
+// var properties = Object.values(shoppingCart);
+// console.log(properties);
+// console.log(shoppingCart.name);
+// function movie(){
+//     return "Din-The day";
+//     return "Poran";
+//     return "Hawa";
+//    }
+// console.log(movie());
