@@ -400,3 +400,10 @@ function inchToFeet (inches){
 }
 const dadaFeet = inchToFeet(160);
 console.log(dadaFeet);
+// Miles To kilometer ......................................................
+function milesToKm (miles){
+    const kilometer = miles*1.609;
+    return kilometer;
+}
+const theKilometer = milesToKm(160);
+console.log(theKilometer);
