@@ -277,33 +277,34 @@
 // var highScore =highestScore(numbers);
 // console.log("Highes Score is : " +highScore);
 // 2D Array Library ..............................
-function highestRunScorer(playersInfo){
-    var highName = playersInfo[0][0];
-    var highRun = playersInfo[0][1];
-    for(var x=1; x<playersInfo.length; x++){
-        if(highRun < playersInfo[x][1]){
-            highRun = playersInfo[x][1];
-            highName = playersInfo[x][0];
-        }
-    }
-    return highName;
-}
+// function highestRunScorer(playersInfo){
+//     var highName = playersInfo[0][0];
+//     var highRun = playersInfo[0][1];
+//     for(var x=1; x<playersInfo.length; x++){
+//         if(highRun < playersInfo[x][1]){
+//             highRun = playersInfo[x][1];
+//             highName = playersInfo[x][0];
+//         }
+//     }
+//     return highName;
+// }
 
-var playersInfo = [
-    ["Abul", 95],
-    ['Kabul', 115],
-    ['Chagol', 35],
-    ['Korim', 15],
-    ['Rakib', 152],
-];
-var highestName = highestRunScorer(playersInfo);
-console.log(highestName);
-// JavaScript Practice ..............................
+// var playersInfo = [
+//     ["Abul", 95],
+//     ['Kabul', 115],
+//     ['Chagol', 35],
+//     ['Korim', 15],
+//     ['Rakib', 152],
+// ];
+// var highestName = highestRunScorer(playersInfo);
+// console.log(highestName);
+// JavaScript Practice Object..............................
 // var names = ['Abul', 'Kabul', 'Pabul', 'Rahim', 'Karim'];
 // var numbers = [62, 45, 89, 95, 84, 33];
 // var nama = numbers.slice(-4, -2);
 // console.log(nama);
 // console.log(numbers);
+
 // var student = {
 //     name : 'Abul',
 //     age : 22,
@@ -338,3 +339,20 @@ console.log(highestName);
 //     return "Hawa";
 //    }
 // console.log(movie());
+
+var student = {
+        name : 'Abul',
+        age : 22,
+        sec : 'A2',
+        status : 'Good',
+        cgpa : 2.74,
+        lang : ['Bangla', 'Hindi', 'English']
+    };
+console.log(student);
+// Object Constractor ..................... 
+function Student(name, age, cgpa, status){
+    this.name = name;
+    this.age = age;
+    this.cgpa = cgpa;
+    this.status = status;
+}
