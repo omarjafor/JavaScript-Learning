@@ -394,34 +394,34 @@
 // const feet = inch/12;
 // console.log('Your Feet is = '+ feet);
 
-function inchToFeet (inches){
+function inchToFeet(inches) {
     const feet = inches / 12;
     return feet;
 }
 const dadaFeet = inchToFeet(160);
 console.log(dadaFeet);
 // Miles To kilometer ......................................................
-function milesToKm (miles){
-    const kilometer = miles*1.609;
+function milesToKm(miles) {
+    const kilometer = miles * 1.609;
     return kilometer;
 }
 const theKilometer = milesToKm(100);
 console.log(theKilometer);
 // Even or odd number checking ..................................................
-function evenOrOdd(num){
-    if(num%2==0){
+function evenOrOdd(num) {
+    if (num % 2 == 0) {
         console.log('Even Number');
-    }else{
+    } else {
         console.log('Odd Number');
     }
 }
 evenOrOdd(22);
 evenOrOdd(35);
 // Leap Year Checking ..................................................
-function isLeapYear(num){
-    if(num%4==0){
+function isLeapYear(num) {
+    if (num % 4 == 0) {
         console.log('Leap Year');
-    }else{
+    } else {
         console.log('Not a Leap Year');
     }
 }
@@ -442,13 +442,13 @@ isLeapYear(1993);
 // var arraySum = getSumArray(number);
 // console.log(arraySum);
 // only for odd number sum with the same funtion ................................
-function getSumArray(number){
+function getSumArray(number) {
     let sum = 0;
     const oddNumber = [];
-    for(var x=0; x<number.length; x++){
+    for (var x = 0; x < number.length; x++) {
         const index = x;
         const element = number[index];
-        if(element%2 !== 0){
+        if (element % 2 !== 0) {
             sum = sum + element;
             console.log(index, element, sum)
             oddNumber.push(element);
