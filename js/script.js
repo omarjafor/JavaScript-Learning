@@ -416,3 +416,14 @@ function evenOrOdd(num){
     }
 }
 evenOrOdd(22);
+evenOrOdd(35);
+// Leap Year Checking ..................................................
+function isLeapYear(num){
+    if(num%4==0){
+        console.log('Leap Year');
+    }else{
+        console.log('Not a Leap Year');
+    }
+}
+isLeapYear(1296);
+isLeapYear(1993);
