@@ -495,11 +495,16 @@ isLeapYear(1993);
 // document.write("<br>Total Win "+ gameWon);
 // document.write("<br>Total Lost "+ gameLost);
 // Factorial Number  ................................
-function getFactorial(number) {
-    var factorial = 1;
-    for (var i = 1; i <= number; i++) {
-        factorial = factorial * i;
-    }
-    console.log(factorial);
-}
-getFactorial(prompt('Enter Your Number'));
+// function getFactorial(number) {
+//     var factorial = 1;
+//     for (var i = 1; i <= number; i++) {
+//         factorial = factorial * i;
+//     }
+//     document.write(factorial);
+// }
+// getFactorial(prompt('Enter Your Number'));
+// Date Object Method ............................................ 
+var date = new Date();
+console.log(date);
+var year = date.getFullYear();
+console.log(year);
