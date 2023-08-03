@@ -496,8 +496,10 @@ isLeapYear(1993);
 // document.write("<br>Total Lost "+ gameLost);
 // Factorial Number  ................................
 function getFactorial(number) {
-    var factorial = 0;
-    for (var i = 0; i <= number; i++) {
+    var factorial = 1;
+    for (var i = 1; i <= number; i++) {
         factorial = factorial * i;
     }
+    console.log(factorial);
 }
+getFactorial(8);
