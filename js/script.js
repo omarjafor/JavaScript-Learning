@@ -478,20 +478,26 @@ isLeapYear(1993);
 
 // }
 // Guessing Number Game With Math Function Library ................................
-var gameWon = 0;
-var gameLost = 0;
-for (var i = 0; i < 5; i++) {
-    var guessNum = parseInt(prompt("Enter Your Number 1 to 10 : "));
-    var randomNum = Math.floor(Math.random() * 10) + 1;
-    if (guessNum == randomNum) {
-        document.write('<br>You Have Won The Game <br>');
-        gameWon++;
-    } else {
-        document.write('<br> You Have Lost The Game <br>');
-        gameLost++;
-    }
-    document.write('Random Number Was : ' + randomNum);
-}
-document.write("<br>Total Win "+ gameWon);
-document.write("<br>Total Lost "+ gameLost);
+// var gameWon = 0;
+// var gameLost = 0;
+// for (var i = 0; i < 5; i++) {
+//     var guessNum = parseInt(prompt("Enter Your Number 1 to 10 : "));
+//     var randomNum = Math.floor(Math.random() * 10) + 1;
+//     if (guessNum == randomNum) {
+//         document.write('<br>You Have Won The Game <br>');
+//         gameWon++;
+//     } else {
+//         document.write('<br> You Have Lost The Game <br>');
+//         gameLost++;
+//     }
+//     document.write('Random Number Was : ' + randomNum);
+// }
+// document.write("<br>Total Win "+ gameWon);
+// document.write("<br>Total Lost "+ gameLost);
 // Factorial Number  ................................
+function getFactorial(number) {
+    var factorial = 0;
+    for (var i = 0; i <= number; i++) {
+        factorial = factorial * i;
+    }
+}
