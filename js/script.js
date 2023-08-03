@@ -494,3 +494,4 @@ for (var i = 0; i < 5; i++) {
 }
 document.write("<br>Total Win "+ gameWon);
 document.write("<br>Total Lost "+ gameLost);
+// Factorial Number  ................................
