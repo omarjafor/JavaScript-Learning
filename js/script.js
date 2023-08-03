@@ -442,38 +442,47 @@ isLeapYear(1993);
 // var arraySum = getSumArray(number);
 // console.log(arraySum);
 // only for odd number sum with the same funtion ................................
-function getSumArray(number) {
-    let sum = 0;
-    const oddNumber = [];
-    for (var x = 0; x < number.length; x++) {
-        const index = x;
-        const element = number[index];
-        if (element % 2 !== 0) {
-            sum = sum + element;
-            console.log(index, element, sum)
-            oddNumber.push(element);
-        }
-    }
-    console.log(oddNumber);
-    return sum;
-}
-let number = [12, 65, 45, 78, 32, 45, 91, 68];
-var arraySum = getSumArray(number);
-console.log(arraySum);
+// function getSumArray(number) {
+//     let sum = 0;
+//     const oddNumber = [];
+//     for (var x = 0; x < number.length; x++) {
+//         const index = x;
+//         const element = number[index];
+//         if (element % 2 !== 0) {
+//             sum = sum + element;
+//             console.log(index, element, sum)
+//             oddNumber.push(element);
+//         }
+//     }
+//     console.log(oddNumber);
+//     return sum;
+// }
+// let number = [12, 65, 45, 78, 32, 45, 91, 68];
+// var arraySum = getSumArray(number);
+// console.log(arraySum);
 
-for(let i = 10; i >= 1; i--){
-    console.log(i);
-}
-function print(a, b, c){
- return a+2;
- return a*b;
- return b*c+a;
-}
-console.log(print(1,2,3));
+// for(let i = 10; i >= 1; i--){
+//     console.log(i);
+// }
+// function print(a, b, c){
+//  return a+2;
+//  return a*b;
+//  return b*c+a;
+// }
+// console.log(print(1,2,3));
 
-let a =50;
-if(item => 50){}
-if(false){}
-for(let i=5; i<10; i=i+2){
+// let a =50;
+// if(item => 50){}
+// if(false){}
+// for(let i=5; i<10; i=i+2){
     
+// }
+// Guessing Number Game With Math Function Library ................................
+var guessNum = parseInt(prompt("Enter Your Number 1 to 10 : "));
+var randomNum = Math.floor(Math.random()*10) + 1;
+if(guessNum == randomNum){
+    document.write('You Have Won The Game <br>');
+}else{
+    document.write('You Have Lost The Game <br>')
 }
+document.write('Random Number Was : '+ randomNum);
