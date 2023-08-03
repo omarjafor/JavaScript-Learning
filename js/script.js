@@ -460,3 +460,7 @@ function getSumArray(number) {
 let number = [12, 65, 45, 78, 32, 45, 91, 68];
 var arraySum = getSumArray(number);
 console.log(arraySum);
+
+for(let i = 10; i >= 1; i--){
+    console.log(i);
+}
