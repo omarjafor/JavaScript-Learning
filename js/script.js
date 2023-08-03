@@ -502,4 +502,4 @@ function getFactorial(number) {
     }
     console.log(factorial);
 }
-getFactorial(8);
+getFactorial(prompt('Enter Your Number'));
