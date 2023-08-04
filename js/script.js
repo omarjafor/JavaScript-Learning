@@ -520,10 +520,15 @@ console.log(month);
 // for(var i=1; i<11; i ++){
 //     document.write("7 x "+ i + " = "+ 7*i +"<br>");
 // }
-function multiTable(num){
-    for(var i=1; i<11; i ++){
-        document.write(num +" x "+ i + " = "+ num*i +"<br>");
-    }
+// function multiTable(num){
+//     for(var i=1; i<11; i ++){
+//         document.write(num +" x "+ i + " = "+ num*i +"<br>");
+//     }
+// }
+// var number = parseInt(prompt("Enter Your Multiplication Number : "));
+// multiTable(number);
+var sum = 0;
+for(var i=1; i<=10; i++){
+    sum = sum + i;
 }
-var number = parseInt(prompt("Enter Your Multiplication Number : "));
-multiTable(number);
+document.write("Sum is = " + sum +"<br>");
