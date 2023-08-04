@@ -527,17 +527,23 @@ console.log(month);
 // }
 // var number = parseInt(prompt("Enter Your Multiplication Number : "));
 // multiTable(number);
-var sum = 0;
+// var sum = 0;
+// for(var i=1; i<=10; i++){
+//     sum = sum + i;
+// }
+// document.write("Sum is = " + sum +"<br>");
+// Any Number Factorial calculation ....................... 
+// function getFactorial(number) {
+//     var factorial = 1;
+//     for (var i = 1; i <= number; i++) {
+//         factorial = factorial * i;
+//     }
+//     document.write(factorial);
+// }
+// getFactorial(prompt('Enter Your Number'));
+
+sum = 0;
 for(var i=1; i<=10; i++){
     sum = sum + i;
 }
 document.write("Sum is = " + sum +"<br>");
-// Any Number Factorial calculation ....................... 
-function getFactorial(number) {
-    var factorial = 1;
-    for (var i = 1; i <= number; i++) {
-        factorial = factorial * i;
-    }
-    document.write(factorial);
-}
-getFactorial(prompt('Enter Your Number'));
