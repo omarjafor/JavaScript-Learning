@@ -533,3 +533,11 @@ for(var i=1; i<=10; i++){
 }
 document.write("Sum is = " + sum +"<br>");
 
+function getFactorial(number) {
+    var factorial = 1;
+    for (var i = 1; i <= number; i++) {
+        factorial = factorial * i;
+    }
+    document.write(factorial);
+}
+getFactorial(prompt('Enter Your Number'));
