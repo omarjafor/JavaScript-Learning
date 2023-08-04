@@ -553,3 +553,9 @@ if(userName.toLowerCase() == userInput.toLowerCase()){
 }else{
     console.log('InValid Text')
 }
+// Includes string searching any word .......................................... 
+const lyrics = 'Eswhar tumar amar milon ki likhte partona';
+const search = lyrics.includes('likte');
+console.log(search);
+const search1 = lyrics.indexOf('tumar');
+console.log(search1);
