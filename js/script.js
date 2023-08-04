@@ -394,39 +394,39 @@
 // const feet = inch/12;
 // console.log('Your Feet is = '+ feet);
 
-function inchToFeet(inches) {
-    const feet = inches / 12;
-    return feet;
-}
-const dadaFeet = inchToFeet(160);
-console.log(dadaFeet);
+// function inchToFeet(inches) {
+//     const feet = inches / 12;
+//     return feet;
+// }
+// const dadaFeet = inchToFeet(160);
+// console.log(dadaFeet);
 // Miles To kilometer ......................................................
-function milesToKm(miles) {
-    const kilometer = miles * 1.609;
-    return kilometer;
-}
-const theKilometer = milesToKm(100);
-console.log(theKilometer);
+// function milesToKm(miles) {
+//     const kilometer = miles * 1.609;
+//     return kilometer;
+// }
+// const theKilometer = milesToKm(100);
+// console.log(theKilometer);
 // Even or odd number checking ..................................................
-function evenOrOdd(num) {
-    if (num % 2 == 0) {
-        console.log('Even Number');
-    } else {
-        console.log('Odd Number');
-    }
-}
-evenOrOdd(22);
-evenOrOdd(35);
+// function evenOrOdd(num) {
+//     if (num % 2 == 0) {
+//         console.log('Even Number');
+//     } else {
+//         console.log('Odd Number');
+//     }
+// }
+// evenOrOdd(22);
+// evenOrOdd(35);
 // Leap Year Checking ..................................................
-function isLeapYear(num) {
-    if (num % 4 == 0) {
-        console.log('Leap Year');
-    } else {
-        console.log('Not a Leap Year');
-    }
-}
-isLeapYear(1296);
-isLeapYear(1993);
+// function isLeapYear(num) {
+//     if (num % 4 == 0) {
+//         console.log('Leap Year');
+//     } else {
+//         console.log('Not a Leap Year');
+//     }
+// }
+// isLeapYear(1296);
+// isLeapYear(1993);
 // Funtion number an array and sum of them .................................
 // function getSumArray(number){
 //     let sum = 0;
@@ -541,8 +541,8 @@ console.log(month);
 //     document.write(factorial);
 // }
 // getFactorial(prompt('Enter Your Number'));
-var sum =0;
-for(var i=1; i<=10; i +=2){
-    sum = sum + i;
-}
-document.write("Sum is = " + sum +"<br>");
+// var sum =0;
+// for(var i=1; i<=10; i +=2){
+//     sum = sum + i;
+// }
+// document.write("Sum is = " + sum +"<br>");
