@@ -559,3 +559,8 @@ const search = lyrics.includes('likte');
 console.log(search);
 const search1 = lyrics.indexOf('tumar');
 console.log(search1);
+// Math abs pow round ceil floor random .................................... 
+const num1 = 23;
+const num2 = 32;
+const gap = Math.abs(num1-num2); // -5 as the same as the value like 5 
+console.log(gap);
