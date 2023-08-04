@@ -510,6 +510,7 @@ var year = date.getFullYear();
 console.log(year);
 var month = date.getMonth();
 console.log(month);
+// Normal JS Practice ...........................................
 for(var i=1; i<=10; i++){
     document.write(i + "<br>");
 }
