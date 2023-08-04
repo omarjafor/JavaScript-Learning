@@ -541,9 +541,8 @@ console.log(month);
 //     document.write(factorial);
 // }
 // getFactorial(prompt('Enter Your Number'));
-
-sum = 0;
-for(var i=1; i<=10; i++){
+var sum =0;
+for(var i=1; i<=10; i +=2){
     sum = sum + i;
 }
 document.write("Sum is = " + sum +"<br>");
