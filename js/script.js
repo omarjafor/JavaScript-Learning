@@ -546,3 +546,10 @@ console.log(month);
 //     sum = sum + i;
 // }
 // document.write("Sum is = " + sum +"<br>");
+const userName = 'fastXvindasel'
+const userInput = 'fastXVinDasel'
+if(userName.toLowerCase() == userInput.toLowerCase()){
+    console.log('Valid Text')
+}else{
+    console.log('InValid Text')
+}
