@@ -518,5 +518,5 @@ console.log(month);
 //     document.write(i + "<br>");
 // }
 for(var i=1; i<11; i ++){
-    document.write(i + "<br>");
+    document.write("7 x "+ i + " = "+ 7*i +"<br>");
 }
