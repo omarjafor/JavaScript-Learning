@@ -571,3 +571,10 @@ function maxNumber (num1, num2, num3){
 }
 var maxNumbers = maxNumber(12,45,98);
 console.log(maxNumbers);
+
+function minNumber (num1, num2, num3){
+    min = Math.min(num1, num2, num3);
+    return min;
+}
+var minNumbers = minNumber(12,45,98);
+console.log(minNumbers);
