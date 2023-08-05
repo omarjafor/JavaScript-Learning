@@ -589,8 +589,10 @@ function maxInArray(num){
     }
     return maxNum;
 }
-var num = [103, 45, 90, 48, 15, 132, 205, 80, 61, 168, 78];
-var maxNumber = maxInArray(num);
+const inputString = prompt("Enter elements of the array separated by commas:");
+const inputArray = inputString.split(",");
+const numericArray = inputArray.map(item => Number(item));
+var maxNumber = maxInArray(numericArray);
 console.log("Max Number : " + maxNumber);
 // Find Minimum Number in an Array ...........................................
 function minInArray(num){
@@ -603,5 +605,5 @@ function minInArray(num){
     }
     return minNum;
 }
-var minNumber = minInArray(num);
+var minNumber = minInArray(numericArray);
 console.log("Minimum Number : " +minNumber);
