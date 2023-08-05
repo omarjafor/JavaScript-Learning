@@ -504,12 +504,12 @@
 // }
 // getFactorial(prompt('Enter Your Number'));
 // Date Object Method ............................................ 
-var date = new Date();
-console.log(date);
-var year = date.getFullYear();
-console.log(year);
-var month = date.getMonth();
-console.log(month);
+// var date = new Date();
+// console.log(date);
+// var year = date.getFullYear();
+// console.log(year);
+// var month = date.getMonth();
+// console.log(month);
 // Normal JS Practice ...........................................
 // for(var i=1; i<=10; i++){
 //     document.write(i + "<br>");
@@ -546,38 +546,38 @@ console.log(month);
 //     sum = sum + i;
 // }
 // document.write("Sum is = " + sum +"<br>");
-const userName = 'fastXvindasel'
-const userInput = 'fastXVinDasel'
-if(userName.toLowerCase() == userInput.toLowerCase()){
-    console.log('Valid Text')
-}else{
-    console.log('InValid Text')
-}
+// const userName = 'fastXvindasel'
+// const userInput = 'fastXVinDasel'
+// if(userName.toLowerCase() == userInput.toLowerCase()){
+//     console.log('Valid Text')
+// }else{
+//     console.log('InValid Text')
+// }
 // Includes string searching any word .......................................... 
-const lyrics = 'Eswhar tumar amar milon ki likhte partona';
-const search = lyrics.includes('likte');
-console.log(search);
-const search1 = lyrics.indexOf('tumar');
-console.log(search1);
+// const lyrics = 'Eswhar tumar amar milon ki likhte partona';
+// const search = lyrics.includes('likte');
+// console.log(search);
+// const search1 = lyrics.indexOf('tumar');
+// console.log(search1);
 // Math abs pow round ceil floor random .................................... 
-const num1 = 23;
-const num2 = 32;
-const gap = Math.abs(num1-num2); // -5 as the same as the value like 5 
-console.log(gap);
+// const num1 = 23;
+// const num2 = 32;
+// const gap = Math.abs(num1-num2); // -5 as the same as the value like 5 
+// console.log(gap);
 // Max Min number finding fucntion ...............
-function maxNumber (num1, num2, num3){
-    max = Math.max(num1, num2, num3);
-    return max;
-}
-var maxNumbers = maxNumber(12,45,98);
-console.log(maxNumbers);
+// function maxNumber (num1, num2, num3){
+//     max = Math.max(num1, num2, num3);
+//     return max;
+// }
+// var maxNumbers = maxNumber(12,45,98);
+// console.log(maxNumbers);
 
-function minNumber (num1, num2, num3){
-    min = Math.min(num1, num2, num3);
-    return min;
-}
-var minNumbers = minNumber(12,45,98);
-console.log(minNumbers);
+// function minNumber (num1, num2, num3){
+//     min = Math.min(num1, num2, num3);
+//     return min;
+// }
+// var minNumbers = minNumber(12,45,98);
+// console.log(minNumbers);
 // Find The Max number in an Array ...........................................
 function maxInArray(num){
     for(var i=0; i<num.length; i++){
@@ -585,5 +585,5 @@ function maxInArray(num){
         console.log(element);
     }
 }
-var num = [23, 45, 90, 48, 105, 132, 235, 80, 61, 68, 78];
+var num = [103, 45, 90, 48, 15, 132, 205, 80, 61, 168, 78];
 maxInArray(num);
