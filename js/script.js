@@ -564,3 +564,10 @@ const num1 = 23;
 const num2 = 32;
 const gap = Math.abs(num1-num2); // -5 as the same as the value like 5 
 console.log(gap);
+// Max number finding fucntion ...............
+function maxNumber (num1, num2, num3){
+    max = Math.max(num1, num2, num3);
+    return max;
+}
+var maxNumbers = maxNumber(12,45,98);
+console.log(maxNumbers);
