@@ -608,13 +608,21 @@
 // var minNumber = minInArray(numericArray);
 // console.log("Minimum Number : " +minNumber);
 // Reverse String and revers word in a sentence ...........................................
-function reverseString(strr){
-    let reversed = '';
-    for(let i = strr.length-1; i>=0; i--){
-        const element = strr[i];
-        reversed = reversed + element;
-        console.log(element, reversed);
-    }
-}
+// function reverseString(strr){
+//     let reversed = '';
+//     for(let i = strr.length-1; i>=0; i--){
+//         const element = strr[i];
+//         reversed = reversed + element;
+//         console.log(element, reversed);
+//     }
+// }
 const strr = 'I am mr omar jafor chy jaber';
-reverseString(strr);
+// reverseString(strr);
+
+function reversWord(strr){
+    const word = strr.split(' ');
+    const revers = word.reverse();
+    const reversSentence = revers.join(' ');
+    console.log(reversSentence);
+}
+reversWord(strr);
