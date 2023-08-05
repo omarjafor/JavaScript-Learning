@@ -579,31 +579,32 @@
 // var minNumbers = minNumber(12,45,98);
 // console.log(minNumbers);
 // Find The Max number in an Array take user input ...........................................
-function maxInArray(num){
-    let maxNum = num[0];
-    for(var i=0; i<num.length; i++){
-        const element = num[i];
-        if(element > maxNum){
-            maxNum = element;
-        }
-    }
-    return maxNum;
-}
-const inputString = prompt("Enter elements of the array separated by commas:");
-const inputArray = inputString.split(",");
-const numericArray = inputArray.map(item => Number(item));
-var maxNumber = maxInArray(numericArray);
-console.log("Max Number : " + maxNumber);
+// function maxInArray(num){
+//     let maxNum = num[0];
+//     for(var i=0; i<num.length; i++){
+//         const element = num[i];
+//         if(element > maxNum){
+//             maxNum = element;
+//         }
+//     }
+//     return maxNum;
+// }
+// const inputString = prompt("Enter elements of the array separated by commas:");
+// const inputArray = inputString.split(",");
+// const numericArray = inputArray.map(item => Number(item));
+// var maxNumber = maxInArray(numericArray);
+// console.log("Max Number : " + maxNumber);
 // Find Minimum Number in an Array taking the array from users...........................................
-function minInArray(num){
-    let minNum = num[0];
-    for(var i=0; i<num.length; i++){
-        const element = num[i];
-        if(element < minNum){
-            minNum = element;
-        }
-    }
-    return minNum;
-}
-var minNumber = minInArray(numericArray);
-console.log("Minimum Number : " +minNumber);
+// function minInArray(num){
+//     let minNum = num[0];
+//     for(var i=0; i<num.length; i++){
+//         const element = num[i];
+//         if(element < minNum){
+//             minNum = element;
+//         }
+//     }
+//     return minNum;
+// }
+// var minNumber = minInArray(numericArray);
+// console.log("Minimum Number : " +minNumber);
+// Reverse String and revers word in a sentence ...........................................
