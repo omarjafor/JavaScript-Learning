@@ -632,10 +632,10 @@ function reversWord(strr){
 reversWord(strr);
 
 // Method 2
-// function reversWord(strr){
-//     const word = strr.split(' ');
-//     const revers = word.reverse();
-//     const reversSentence = revers.join(' ');
-//     console.log(reversSentence);
-// }
-// reversWord(strr);
+function reversWord(strr){
+    const word = strr.split(' ');
+    const revers = word.reverse();
+    const reversSentence = revers.join(' ');
+    console.log(reversSentence);
+}
+reversWord(strr);
