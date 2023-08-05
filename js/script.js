@@ -591,4 +591,17 @@ function maxInArray(num){
 }
 var num = [103, 45, 90, 48, 15, 132, 205, 80, 61, 168, 78];
 var maxNumber = maxInArray(num);
-console.log(maxNumber);
+console.log("Max Number : " + maxNumber);
+// Find Minimum Number in an Array ...........................................
+function minInArray(num){
+    let minNum = num[0];
+    for(var i=0; i<num.length; i++){
+        const element = num[i];
+        if(element < minNum){
+            minNum = element;
+        }
+    }
+    return minNum;
+}
+var minNumber = minInArray(num);
+console.log("Minimum Number : " +minNumber);
