@@ -580,10 +580,15 @@
 // console.log(minNumbers);
 // Find The Max number in an Array ...........................................
 function maxInArray(num){
+    let maxNum = num[0];
     for(var i=0; i<num.length; i++){
         const element = num[i];
-        console.log(element);
+        if(element > maxNum){
+            maxNum = element;
+        }
     }
+    return maxNum;
 }
 var num = [103, 45, 90, 48, 15, 132, 205, 80, 61, 168, 78];
-maxInArray(num);
+var maxNumber = maxInArray(num);
+console.log(maxNumber);
