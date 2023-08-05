@@ -564,7 +564,7 @@ const num1 = 23;
 const num2 = 32;
 const gap = Math.abs(num1-num2); // -5 as the same as the value like 5 
 console.log(gap);
-// Max number finding fucntion ...............
+// Max Min number finding fucntion ...............
 function maxNumber (num1, num2, num3){
     max = Math.max(num1, num2, num3);
     return max;
@@ -578,3 +578,12 @@ function minNumber (num1, num2, num3){
 }
 var minNumbers = minNumber(12,45,98);
 console.log(minNumbers);
+// Find The Max number in an Array ...........................................
+function maxInArray(num){
+    for(var i=0; i<num.length; i++){
+        const element = num[i];
+        console.log(element);
+    }
+}
+var num = [23, 45, 90, 48, 105, 132, 235, 80, 61, 68, 78];
+maxInArray(num);
