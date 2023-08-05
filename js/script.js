@@ -618,11 +618,24 @@
 // }
 const strr = 'I am mr omar jafor chy jaber';
 // reverseString(strr);
-
+// Reverse Word in a sentence Method 1 .........................
 function reversWord(strr){
     const word = strr.split(' ');
-    const revers = word.reverse();
+    const revers = [];
+    for(let i = word.length - 1; i>=0; i--){
+        const element = word[i];
+        revers.push(element);
+    }
     const reversSentence = revers.join(' ');
     console.log(reversSentence);
 }
 reversWord(strr);
+
+// Method 2
+// function reversWord(strr){
+//     const word = strr.split(' ');
+//     const revers = word.reverse();
+//     const reversSentence = revers.join(' ');
+//     console.log(reversSentence);
+// }
+// reversWord(strr);
