@@ -706,3 +706,12 @@
 // }
 // const uniqueArray = removeDuplicate(names);
 // console.log(uniqueArray);
+
+for(let i =1; i<8; i++){
+    if(i != 5){
+        console.log(i);
+        
+    }else{
+        break;
+    }
+}
