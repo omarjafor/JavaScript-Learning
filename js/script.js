@@ -688,3 +688,7 @@ console.log(sub(nam1, nam2));
 console.log(mal(nam1, nam2));
 console.log(divide(nam1, nam2));
 console.log(modulas(nam1, nam2));
+
+const country = 'Bangladesh';
+const age = 24;
+const isIndependent = true;
