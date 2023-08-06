@@ -655,54 +655,54 @@
 // 	console.log("Hello");
 // }
 // Problem Solving Task Module 22 ............................................... 
-var string = 'Name';
-var boolean = true;
-var numbers = 25;
+// var string = 'Name';
+// var boolean = true;
+// var numbers = 25;
 
-let num = 25;
-num = 5;
-console.log(num);
+// let num = 25;
+// num = 5;
+// console.log(num);
 
-const num1 = 25;
-console.log(num1);
+// const num1 = 25;
+// console.log(num1);
 
-function sum(nam1, nam2){
-    return nam1+nam2;
-}
-function sub(nam1, nam2){
-    return Math.abs(nam1-nam2);
-}
-function mal(nam1, nam2){
-    return nam1*nam2;
-}
-function divide(nam1, nam2){
-    return nam1/nam2;
-}
-function modulas(nam1, nam2){
-    return nam1%nam2;
-}
-let nam1 = 120;
-let nam2 = 12;
-console.log(sum(nam1, nam2));
-console.log(sub(nam1, nam2));
-console.log(mal(nam1, nam2));
-console.log(divide(nam1, nam2));
-console.log(modulas(nam1, nam2));
+// function sum(nam1, nam2){
+//     return nam1+nam2;
+// }
+// function sub(nam1, nam2){
+//     return Math.abs(nam1-nam2);
+// }
+// function mal(nam1, nam2){
+//     return nam1*nam2;
+// }
+// function divide(nam1, nam2){
+//     return nam1/nam2;
+// }
+// function modulas(nam1, nam2){
+//     return nam1%nam2;
+// }
+// let nam1 = 120;
+// let nam2 = 12;
+// console.log(sum(nam1, nam2));
+// console.log(sub(nam1, nam2));
+// console.log(mal(nam1, nam2));
+// console.log(divide(nam1, nam2));
+// console.log(modulas(nam1, nam2));
 
-const country = 'Bangladesh';
-const age = 24;
-const isIndependent = true;
+// const country = 'Bangladesh';
+// const age = 24;
+// const isIndependent = true;
 
-var names = ['German', 'Norwegian', 'Danish', 'Icelandic', 'Dutch', 'Bulgarian', 'Russian', 'Swedish', 'Norwegian', 'Danish', 'Icelandic', 'Dutch', 'Bulgarian', 'Ukrainian', 'Belarusian', 'Slovene', 'Slovak', 'Macedonian', 'Croatian', 'Romanian'];
-function removeDuplicate(names){
-    const uniqueArray = [];
-    for(var i=0; i<names.length; i++){
-        var name = names[i];
-        if(uniqueArray.includes(name) == false){
-            uniqueArray.push(name);
-        }
-    }
-    return uniqueArray;
-}
-const uniqueArray = removeDuplicate(names);
-console.log(uniqueArray);
+// var names = ['German', 'Norwegian', 'Danish', 'Icelandic', 'Dutch', 'Bulgarian', 'Russian', 'Swedish', 'Norwegian', 'Danish', 'Icelandic', 'Dutch', 'Bulgarian', 'Ukrainian', 'Belarusian', 'Slovene', 'Slovak', 'Macedonian', 'Croatian', 'Romanian'];
+// function removeDuplicate(names){
+//     const uniqueArray = [];
+//     for(var i=0; i<names.length; i++){
+//         var name = names[i];
+//         if(uniqueArray.includes(name) == false){
+//             uniqueArray.push(name);
+//         }
+//     }
+//     return uniqueArray;
+// }
+// const uniqueArray = removeDuplicate(names);
+// console.log(uniqueArray);
