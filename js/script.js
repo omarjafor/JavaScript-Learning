@@ -692,3 +692,17 @@ console.log(modulas(nam1, nam2));
 const country = 'Bangladesh';
 const age = 24;
 const isIndependent = true;
+
+var names = ['German', 'Norwegian', 'Danish', 'Icelandic', 'Dutch', 'Bulgarian', 'Russian', 'Swedish', 'Norwegian', 'Danish', 'Icelandic', 'Dutch', 'Bulgarian', 'Ukrainian', 'Belarusian', 'Slovene', 'Slovak', 'Macedonian', 'Croatian', 'Romanian'];
+function removeDuplicate(names){
+    const uniqueArray = [];
+    for(var i=0; i<names.length; i++){
+        var name = names[i];
+        if(uniqueArray.includes(name) == false){
+            uniqueArray.push(name);
+        }
+    }
+    return uniqueArray;
+}
+const uniqueArray = removeDuplicate(names);
+console.log(uniqueArray);
