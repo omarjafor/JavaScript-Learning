@@ -725,14 +725,45 @@
 // else{
 //     console.log('Number is Nothing')
 // }
-// Question NO- 05
-let num1 = 80;
-let num2 = 408;
-let num3 = 506;
-if(num1 > num2 && num1 > num3){
-    console.log('Largest Number is : ' + num1);
-}else if (num2 > num1 && num2 > num3){
-    console.log('Largest Number is :'+ num2)
-}else{
-    console.log('Largest Number is :'+ num3)
+// Question NO- 05 & Question NO - 6
+// let num1 = 480;
+// let num2 = 408;
+// let num3 = 506;
+// if(num1 > num2 && num1 > num3){
+//     console.log('Largest Number is : ' + num1);
+// }else if (num2 > num1 && num2 > num3){
+//     console.log('Largest Number is :'+ num2)
+// }else{
+//     console.log('Largest Number is :'+ num3)
+// }
+
+// if(num1 > num2 || num1 > num3){
+//     console.log('Number one is not last');
+// }else{
+//     console.log('Number one is last');
+// }
+// Question No - 07
+var i = 7;
+while(i<19){
+    console.log(i);
+    i+=2;
+}
+//Question No - 08
+var number = [12, 105, 48, 42, 81, 68, 50, 98];
+console.log(Array.isArray(number));
+console.log(number.length);
+number[3] = 100;
+console.log(number);
+number.splice(3, 1, 65, 80);
+console.log(number);
+//Question No - 09
+for(var nam of number){
+    console.log(nam);
+}
+//Question No - 10
+for(var i = 0; i<number.length; i++){
+    const element = number[i]
+    if(element > 80){
+        console.log(element);
+    }
 }
