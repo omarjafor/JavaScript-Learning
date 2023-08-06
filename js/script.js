@@ -743,35 +743,35 @@
 //     console.log('Number one is last');
 // }
 // Question No - 07
-var i = 7;
-while(i<19){
-    console.log(i);
-    i+=2;
-}
+// var i = 7;
+// while(i<19){
+//     console.log(i);
+//     i+=2;
+// }
 //Question No - 08
-var number = [12, 105, 48, 42, 81, 68, 50, 98];
-console.log(Array.isArray(number));
-console.log(number.length);
-number[3] = 100;
-console.log(number);
-number.splice(3, 1, 65, 80);
-console.log(number);
+// var number = [12, 105, 48, 42, 81, 68, 50, 98];
+// console.log(Array.isArray(number));
+// console.log(number.length);
+// number[3] = 100;
+// console.log(number);
+// number.splice(3, 1, 65, 80);
+// console.log(number);
 //Question No - 09
-for(var nam of number){
-    console.log(nam);
-}
+// for(var nam of number){
+//     console.log(nam);
+// }
 //Question No - 10
-for(var i = 0; i<number.length; i++){
-    const element = number[i]
-    if(element > 80){
-        console.log(element);
-    }
-}
+// for(var i = 0; i<number.length; i++){
+//     const element = number[i]
+//     if(element > 80){
+//         console.log(element);
+//     }
+// }
 //Question No - 11
-function multipleMath(num1, num2, num3){
-    return num1*num2*num3;
-}
-console.log(multipleMath(10,2,32));
+// function multipleMath(num1, num2, num3){
+//     return num1*num2*num3;
+// }
+// console.log(multipleMath(10,2,32));
 
 // var student = {
 //     name : 'Abul',
@@ -794,3 +794,23 @@ var person = {
 console.log(person);
 person.age = 30;
 console.log(person);
+//Question NO - 13
+function feetToInch(feet){
+    return feet * 12;
+}
+console.log(feetToInch(5));
+//Question NO - 14
+function centimeterToMeter(centimeter){
+    return centimeter / 100;
+}
+console.log(centimeterToMeter(50000));
+//Question NO - 15
+function paperRequirements(book1, book2, book3){
+    var paperForB1 = book1 * 100;
+    var paperForB2 = book2 * 200;
+    var paperForB3 = book3 * 300;
+    return paperForB1 + paperForB2 + paperForB3;
+}
+var totalPage = paperRequirements(2, 1, 2);
+console.log('Number of Total Page is : ', totalPage);
+//Question NO - 16
