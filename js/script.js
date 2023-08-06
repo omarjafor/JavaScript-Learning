@@ -767,3 +767,30 @@ for(var i = 0; i<number.length; i++){
         console.log(element);
     }
 }
+//Question No - 11
+function multipleMath(num1, num2, num3){
+    return num1*num2*num3;
+}
+console.log(multipleMath(10,2,32));
+
+// var student = {
+//     name : 'Abul',
+//     age : 22,
+//     sec : 'A2',
+//     status : 'Good'
+// };
+// console.log(student.age);
+// console.log(student.name);
+// console.log(student.status);
+// student.age = 25;
+// console.log(student);
+
+//Question No - 12
+var person = {
+    name : 'Omar Jafor',
+    age : 28,
+    blood : 'O+'
+}
+console.log(person);
+person.age = 30;
+console.log(person);
