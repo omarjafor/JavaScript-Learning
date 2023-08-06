@@ -616,26 +616,45 @@
 //         console.log(element, reversed);
 //     }
 // }
-const strr = 'I am mr omar jafor chy jaber';
+// const strr = 'I am mr omar jafor chy jaber';
 // reverseString(strr);
 // Reverse Word in a sentence Method 1 .........................
-function reversWord(strr){
-    const word = strr.split(' ');
-    const revers = [];
-    for(let i = word.length - 1; i>=0; i--){
-        const element = word[i];
-        revers.push(element);
-    }
-    const reversSentence = revers.join(' ');
-    console.log(reversSentence);
-}
-reversWord(strr);
+// function reversWord(strr){
+//     const word = strr.split(' ');
+//     const revers = [];
+//     for(let i = word.length - 1; i>=0; i--){
+//         const element = word[i];
+//         revers.push(element);
+//     }
+//     const reversSentence = revers.join(' ');
+//     console.log(reversSentence);
+// }
+// reversWord(strr);
 
 // Method 2
-function reversWord(strr){
-    const word = strr.split(' ');
-    const revers = word.reverse();
-    const reversSentence = revers.join(' ');
-    console.log(reversSentence);
-}
-reversWord(strr);
+// function reversWord(strr){
+//     const word = strr.split(' ');
+//     const revers = word.reverse();
+//     const reversSentence = revers.join(' ');
+//     console.log(reversSentence);
+// }
+// reversWord(strr);
+
+// function add(a, b) {
+//     return a + b;
+// }
+// console.log(add("adam" + "eve"));
+
+// const number = -78;
+// const answer = Math.abs(number);
+// console.log(answer);
+
+// var a=2; 
+// var b=3; 
+// if(a<b){
+// 	console.log("Hello");
+// }
+// Problem Solving Task Module 22 ............................................... 
+var string = 'Name';
+var boolean = true;
+var numbers = 25;
