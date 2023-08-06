@@ -814,3 +814,16 @@ function paperRequirements(book1, book2, book3){
 var totalPage = paperRequirements(2, 1, 2);
 console.log('Number of Total Page is : ', totalPage);
 //Question NO - 16
+var names = ['German', 'Norwegian', 'Afghanistan', 'Danish', 'Icelandic', 'Dutch', 'Bulgarian']
+function bestFriend(names){
+    let myBestFrnd = names[0]
+    for(let i = 0; i<names.length; i++){
+        let element = names[i]
+        if(myBestFrnd.length < element.length){
+            myBestFrnd = element;
+        }
+    }
+    return myBestFrnd;
+}
+let myBestFrnd = bestFriend(names);
+console.log(myBestFrnd);
