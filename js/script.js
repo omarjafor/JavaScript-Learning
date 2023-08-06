@@ -787,25 +787,25 @@
 
 //Question No - 12
 var person = {
-    name : 'Omar Jafor',
-    age : 28,
-    blood : 'O+'
+    name: 'Omar Jafor',
+    age: 28,
+    blood: 'O+'
 }
 console.log(person);
 person.age = 30;
 console.log(person);
 //Question NO - 13
-function feetToInch(feet){
+function feetToInch(feet) {
     return feet * 12;
 }
 console.log(feetToInch(5));
 //Question NO - 14
-function centimeterToMeter(centimeter){
+function centimeterToMeter(centimeter) {
     return centimeter / 100;
 }
 console.log(centimeterToMeter(50000));
 //Question NO - 15
-function paperRequirements(book1, book2, book3){
+function paperRequirements(book1, book2, book3) {
     var paperForB1 = book1 * 100;
     var paperForB2 = book2 * 200;
     var paperForB3 = book3 * 300;
@@ -814,32 +814,50 @@ function paperRequirements(book1, book2, book3){
 var totalPage = paperRequirements(2, 1, 2);
 console.log('Number of Total Page is : ', totalPage);
 //Question NO - 16
-var names = ['German', 'Norwegian', 'Afghanistan', 'Danish', 'Icelandic', 'Dutch', 'Bulgarian']
-function bestFriend(names){
-    let myBestFrnd = names[0]
-    for(let i = 0; i<names.length; i++){
-        let element = names[i]
-        if(myBestFrnd.length < element.length){
-            myBestFrnd = element;
-        }
-    }
-    return myBestFrnd;
-}
-let myBestFrnd = bestFriend(names);
-console.log(myBestFrnd);
+// var names = ['German', 'Norwegian', 'Afghanistan', 'Danish', 'Icelandic', 'Dutch', 'Bulgarian']
+// function bestFriend(names){
+//     let myBestFrnd = names[0]
+//     for(let i = 0; i<names.length; i++){
+//         let element = names[i]
+//         if(myBestFrnd.length < element.length){
+//             myBestFrnd = element;
+//         }
+//     }
+//     return myBestFrnd;
+// }
+// let myBestFrnd = bestFriend(names);
+// console.log(myBestFrnd);
 //Question NO - 17
-var number = [12, 105, 48, 42, 81, -68, -50, 98];
-function positiveVsNegative(numbers){
-    let positiveNumber = [];
-    for(let i = 0; i < numbers.length; i++){
-        let element = numbers[i];
-        if(element >= 0){
-            positiveNumber.push(element);
-        }else{
-            break;
-        }
-    }
-    return positiveNumber;
+// var number = [12, 105, 48, 42, 81, -68, -50, 98];
+// function positiveVsNegative(numbers){
+//     let positiveNumber = [];
+//     for(let i = 0; i < numbers.length; i++){
+//         let element = numbers[i];
+//         if(element >= 0){
+//             positiveNumber.push(element);
+//         }else{
+//             break;
+//         }
+//     }
+//     return positiveNumber;
+// }
+// let positiveNumber = positiveVsNegative(number);
+// console.log(positiveNumber);
+//Question No - 18
+// var names = ['German', 'Norwegian', 'Afghanistan', 'Danish', 'Icelandic', 'Dutch', 'Bulgarian', 'Afghanistan', 'Danish', 'German', 'Norwegian',];
+// function duplicateName(names) {
+//     let uniqueName = [];
+//     for (let i = 0; i < names.length; i++) {
+//         let element = names[i]
+//         if (uniqueName.includes(element) === false) {
+//             uniqueName.push(element);
+//         }
+//     }
+//     return uniqueName;
+// }
+// const uniqueNames = duplicateName(names);
+// console.log(uniqueNames);
+//Question No - 19
+for(let i=0; i<=50; i++){
+    console.log(i);
 }
-let positiveNumber = positiveVsNegative(number);
-console.log(positiveNumber);
