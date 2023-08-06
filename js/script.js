@@ -681,3 +681,10 @@ function divide(nam1, nam2){
 function modulas(nam1, nam2){
     return nam1%nam2;
 }
+let nam1 = 120;
+let nam2 = 12;
+console.log(sum(nam1, nam2));
+console.log(sub(nam1, nam2));
+console.log(mal(nam1, nam2));
+console.log(divide(nam1, nam2));
+console.log(modulas(nam1, nam2));
