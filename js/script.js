@@ -827,3 +827,19 @@ function bestFriend(names){
 }
 let myBestFrnd = bestFriend(names);
 console.log(myBestFrnd);
+//Question NO - 17
+var number = [12, 105, 48, 42, 81, -68, -50, 98];
+function positiveVsNegative(numbers){
+    let positiveNumber = [];
+    for(let i = 0; i < numbers.length; i++){
+        let element = numbers[i];
+        if(element >= 0){
+            positiveNumber.push(element);
+        }else{
+            break;
+        }
+    }
+    return positiveNumber;
+}
+let positiveNumber = positiveVsNegative(number);
+console.log(positiveNumber);
