@@ -720,3 +720,20 @@ const nayoks=['Bangla Bhai','English Bhai','Korean Bhai','Turkish Bhai'];
 for(const nayok of nayoks){
     console.log(nayok);
 }
+
+let sum=0; 
+for( let i = 0; i<=3;i++){ 
+sum = sum + i; 
+}
+console.log(sum);
+var myString = 'I am a sonababo';
+myString[3]= 'J';
+console.log(myString.length);
+
+var person = {
+    name : 'Omar Jafor',
+    age : 28,
+    weight : 70
+}
+delete person.age;
+console.log(person);
