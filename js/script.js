@@ -658,3 +658,7 @@
 var string = 'Name';
 var boolean = true;
 var numbers = 25;
+
+let num = 25;
+num = 5;
+console.log(num);
