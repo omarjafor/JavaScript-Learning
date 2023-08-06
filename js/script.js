@@ -662,3 +662,22 @@ var numbers = 25;
 let num = 25;
 num = 5;
 console.log(num);
+
+const num1 = 25;
+console.log(num1);
+
+function sum(nam1, nam2){
+    return nam1+nam2;
+}
+function sub(nam1, nam2){
+    return Math.abs(nam1-nam2);
+}
+function mal(nam1, nam2){
+    return nam1*nam2;
+}
+function divide(nam1, nam2){
+    return nam1/nam2;
+}
+function modulas(nam1, nam2){
+    return nam1%nam2;
+}
