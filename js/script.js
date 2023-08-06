@@ -706,21 +706,33 @@
 // }
 // const uniqueArray = removeDuplicate(names);
 // console.log(uniqueArray);
-let nam1 = 0;
-let nam2 = 0;
-if(nam1 < nam2){
-    console.log('Number Two is Big');
-}else if (nam1 > nam2){
-    console.log('Number One is Big')
-}else if (nam1 == nam2){
-    console.log('Number One Two is Equal')
-}else if (nam1 != nam2){
-    console.log('Number One is not Equal')
-}else if (nam1 <= nam2){
-    console.log('Number one is ')
-}else if (nam1 >= nam2){
-    console.log('Number two is')
-}
-else{
-    console.log('Number is Nothing')
+// Question NO - 4
+// let nam1 = 0;
+// let nam2 = 0;
+// if(nam1 < nam2){
+//     console.log('Number Two is Big');
+// }else if (nam1 > nam2){
+//     console.log('Number One is Big')
+// }else if (nam1 == nam2){
+//     console.log('Number One Two is Equal')
+// }else if (nam1 != nam2){
+//     console.log('Number One is not Equal')
+// }else if (nam1 <= nam2){
+//     console.log('Number one is ')
+// }else if (nam1 >= nam2){
+//     console.log('Number two is')
+// }
+// else{
+//     console.log('Number is Nothing')
+// }
+// Question NO- 05
+let num1 = 80;
+let num2 = 408;
+let num3 = 506;
+if(num1 > num2 && num1 > num3){
+    console.log('Largest Number is : ' + num1);
+}else if (num2 > num1 && num2 > num3){
+    console.log('Largest Number is :'+ num2)
+}else{
+    console.log('Largest Number is :'+ num3)
 }
