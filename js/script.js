@@ -715,3 +715,8 @@ for(let i =1; i<8; i++){
         break;
     }
 }
+
+const nayoks=['Bangla Bhai','English Bhai','Korean Bhai','Turkish Bhai'];
+for(const nayok of nayoks){
+    console.log(nayok);
+}
