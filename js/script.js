@@ -946,3 +946,11 @@
 // var totalCost = shopingCost(phoneShoping);
 // console.log(totalCost);
 //Discount Shopping Cart With Discount Total Price Calculation ..........................
+function ticketPrice(ticketQuantity){
+    if(ticketQuantity <= 100){
+        const price = ticketQuantity * 100;
+        return price;
+    }
+}
+let ticketPrices = ticketPrice(1);
+console.log(ticketPrices);
