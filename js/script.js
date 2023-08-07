@@ -858,6 +858,14 @@ console.log('Number of Total Page is : ', totalPage);
 // const uniqueNames = duplicateName(names);
 // console.log(uniqueNames);
 //Question No - 19
-for(let i=0; i<=50; i++){
-    console.log(i);
+for(let i=1; i<=50; i++){
+    if(i % 3 == 0 && i % 5 == 0){
+        console.log('Foomar');
+    }else if (i % 3 == 0){
+        console.log('Foo');
+    }else if (i % 5 == 0){
+        console.log('Mar');
+    }else{
+        console.log(i);
+    }
 }
