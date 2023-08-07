@@ -948,9 +948,18 @@
 //Discount Shopping Cart With Discount Total Price Calculation ..........................
 function ticketPrice(ticketQuantity){
     if(ticketQuantity <= 100){
-        const price = ticketQuantity * 100;
-        return price;
+        const firstPrice = ticketQuantity * 100;
+        return firstPrice;
+    }else if (ticketQuantity <= 200){
+        let firstPrice = 100*100;
+        const secondPrice = (ticketQuantity - 100)*90 + firstPrice;
+        return secondPrice;
+    }else{
+        let firstPrice = 100*100;
+        let secondPrice = 100*90;
+        const thirdPrice = (ticketQuantity - 200)*80 + firstPrice + secondPrice;
+        return thirdPrice;
     }
 }
-let ticketPrices = ticketPrice(1);
+let ticketPrices = ticketPrice(300);
 console.log(ticketPrices);
