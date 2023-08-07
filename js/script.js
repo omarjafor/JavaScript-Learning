@@ -888,3 +888,13 @@ const phones = [
     {name: 'Samsung', Network: '5G', camera:'64', storage:'256gb', price: 82000, color:'Red'},
     {name: 'OnePlus', Network: '5G', camera:'64', storage:'512gb', price: 52000, color:'Blue'}
 ];
+function cheapestPhone(phones){
+    let cheapestPhoneis = phones[0];
+    for(let i=0; i<phones.length; i++){
+        let phone = phones[i];
+        if(phone.price < cheapestPhoneis.price){
+            cheapestPhoneis = phone;
+        }
+    }
+    return cheapestPhoneis;
+}
