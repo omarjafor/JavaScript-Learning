@@ -786,33 +786,33 @@
 // console.log(student);
 
 //Question No - 12
-var person = {
-    name: 'Omar Jafor',
-    age: 28,
-    blood: 'O+'
-}
-console.log(person);
-person.age = 30;
-console.log(person);
+// var person = {
+//     name: 'Omar Jafor',
+//     age: 28,
+//     blood: 'O+'
+// }
+// console.log(person);
+// person.age = 30;
+// console.log(person);
 //Question NO - 13
-function feetToInch(feet) {
-    return feet * 12;
-}
-console.log(feetToInch(5));
+// function feetToInch(feet) {
+//     return feet * 12;
+// }
+// console.log(feetToInch(5));
 //Question NO - 14
-function centimeterToMeter(centimeter) {
-    return centimeter / 100;
-}
-console.log(centimeterToMeter(50000));
+// function centimeterToMeter(centimeter) {
+//     return centimeter / 100;
+// }
+// console.log(centimeterToMeter(50000));
 //Question NO - 15
-function paperRequirements(book1, book2, book3) {
-    var paperForB1 = book1 * 100;
-    var paperForB2 = book2 * 200;
-    var paperForB3 = book3 * 300;
-    return paperForB1 + paperForB2 + paperForB3;
-}
-var totalPage = paperRequirements(2, 1, 2);
-console.log('Number of Total Page is : ', totalPage);
+// function paperRequirements(book1, book2, book3) {
+//     var paperForB1 = book1 * 100;
+//     var paperForB2 = book2 * 200;
+//     var paperForB3 = book3 * 300;
+//     return paperForB1 + paperForB2 + paperForB3;
+// }
+// var totalPage = paperRequirements(2, 1, 2);
+// console.log('Number of Total Page is : ', totalPage);
 //Question NO - 16
 // var names = ['German', 'Norwegian', 'Afghanistan', 'Danish', 'Icelandic', 'Dutch', 'Bulgarian']
 // function bestFriend(names){
@@ -858,14 +858,15 @@ console.log('Number of Total Page is : ', totalPage);
 // const uniqueNames = duplicateName(names);
 // console.log(uniqueNames);
 //Question No - 19
-for(let i=1; i<=50; i++){
-    if(i % 3 == 0 && i % 5 == 0){
-        console.log('Foomar');
-    }else if (i % 3 == 0){
-        console.log('Foo');
-    }else if (i % 5 == 0){
-        console.log('Mar');
-    }else{
-        console.log(i);
-    }
-}
+// for(let i=1; i<=50; i++){
+//     if(i % 3 == 0 && i % 5 == 0){
+//         console.log('Foomar');
+//     }else if (i % 3 == 0){
+//         console.log('Foo');
+//     }else if (i % 5 == 0){
+//         console.log('Mar');
+//     }else{
+//         console.log(i);
+//     }
+// }
+//Question No - 20
