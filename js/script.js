@@ -961,5 +961,5 @@ function ticketPrice(ticketQuantity){
         return thirdPrice;
     }
 }
-let ticketPrices = ticketPrice(120);
+let ticketPrices = ticketPrice(320);
 console.log(ticketPrices);
