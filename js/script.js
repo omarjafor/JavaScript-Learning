@@ -923,8 +923,13 @@ const phoneShoping = [
     {name: 'Samsung', Network: '5G', camera:64, storage:'256gb', price: 82000, color:'Red', quantity:2},
     {name: 'OnePlus', Network: '5G', camera:64, storage:'512gb', price: 52000, color:'Blue', quantity:3},
 ];
-function shopingCost(product){
-    console.log(product);
+function shopingCost(products){
+    let totalCost = 0;
+    for(let i=0; i<products.length; i++){
+        let product = products[i];
+        totalCost = totalCost + product.price;
+    }
+    return totalCost;
 }
 var totalCost = shopingCost(phoneShoping);
 console.log(totalCost);
