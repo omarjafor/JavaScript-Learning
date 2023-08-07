@@ -870,3 +870,11 @@
 //     }
 // }
 //Question No - 20
+function woodCalculator(chairQ, tableQ, bedQ){
+    var perChairQ = chairQ * 3;
+    var perTableQ = tableQ * 10;
+    var perBedQ = bedQ * 20;
+    return perBedQ+perChairQ+perTableQ;
+}
+var totalWood = woodCalculator(1, 1, 1);
+console.log('Total Woos Need is : ', totalWood);
