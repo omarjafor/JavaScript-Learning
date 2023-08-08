@@ -901,18 +901,18 @@
 // var cheapPhone = cheapestPhone(phones);
 // console.log(cheapPhone);
 //For Cheap Camera Phone..........................
-// function cheapestPhone(phones){
-//     let cheapestPhoneis = phones[0];
-//     for(let i=0; i<phones.length; i++){
-//         let phone = phones[i];
-//         if(phone.camera < cheapestPhoneis.camera){
-//             cheapestPhoneis = phone;
-//         }
-//     }
-//     return cheapestPhoneis;
-// }
-// var cheapPhone = cheapestPhone(phones);
-// console.log(cheapPhone);
+function cheapestPhone(phones){
+    let cheapestPhoneis = phones[0];
+    for(let i=0; i<phones.length; i++){
+        let phone = phones[i];
+        if(phone.camera < cheapestPhoneis.camera){
+            cheapestPhoneis = phone;
+        }
+    }
+    return cheapestPhoneis;
+}
+var cheapPhone = cheapestPhone(phones);
+console.log(cheapPhone);
 //Shopping Cart Total Price Calculation ..........................
 const phoneShoping = [
     {name: 'Xiaomi', Network: '5G', camera:108, storage:'128gb', price: 62000, color:'Black', quantity:5},
