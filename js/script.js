@@ -914,25 +914,25 @@
 // var cheapPhone = cheapestPhone(phones);
 // console.log(cheapPhone);
 //Shopping Cart Total Price Calculation ..........................
-// const phoneShoping = [
-//     {name: 'Xiaomi', Network: '5G', camera:108, storage:'128gb', price: 62000, color:'Black', quantity:5},
-//     {name: 'Realme', Network: '4G', camera:64, storage:'128gb', price: 20000, color:'Silver', quantity:2},
-//     {name: 'Vivo', Network: '4G', camera:48, storage:'64gb', price: 15000, color:'Gray', quantity:3},
-//     {name: 'Apple', Network: '5G', camera:48, storage:'256gb', price: 120000, color:'Gold', quantity:4},
-//     {name: 'Oppo', Network: '4G', camera:12, storage:'64gb', price: 16000, color:'Black', quantity:6},
-//     {name: 'Samsung', Network: '5G', camera:64, storage:'256gb', price: 82000, color:'Red', quantity:2},
-//     {name: 'OnePlus', Network: '5G', camera:64, storage:'512gb', price: 52000, color:'Blue', quantity:3},
-// ];
-// function shopingCost(products){
-//     let totalCost = 0;
-//     for(let i=0; i<products.length; i++){
-//         let product = products[i];
-//         totalCost = totalCost + product.price;
-//     }
-//     return totalCost;
-// }
-// var totalCost = shopingCost(phoneShoping);
-// console.log(totalCost);
+const phoneShoping = [
+    {name: 'Xiaomi', Network: '5G', camera:108, storage:'128gb', price: 62000, color:'Black', quantity:5},
+    {name: 'Realme', Network: '4G', camera:64, storage:'128gb', price: 20000, color:'Silver', quantity:2},
+    {name: 'Vivo', Network: '4G', camera:48, storage:'64gb', price: 15000, color:'Gray', quantity:3},
+    {name: 'Apple', Network: '5G', camera:48, storage:'256gb', price: 120000, color:'Gold', quantity:4},
+    {name: 'Oppo', Network: '4G', camera:12, storage:'64gb', price: 16000, color:'Black', quantity:6},
+    {name: 'Samsung', Network: '5G', camera:64, storage:'256gb', price: 82000, color:'Red', quantity:2},
+    {name: 'OnePlus', Network: '5G', camera:64, storage:'512gb', price: 52000, color:'Blue', quantity:3},
+];
+function shopingCost(products){
+    let totalCost = 0;
+    for(let i=0; i<products.length; i++){
+        let product = products[i];
+        totalCost = totalCost + product.price;
+    }
+    return totalCost;
+}
+var totalCost = shopingCost(phoneShoping);
+console.log(totalCost);
 //For All Price with Also Quantity Calculated......................................
 function shopingCost(products){
     let totalCost = 0;
