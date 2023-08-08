@@ -964,17 +964,17 @@
 // let ticketPrices = ticketPrice(320);
 // console.log(ticketPrices);
 //String Type Check Binary or decimal .......................................................
-function positiveVsNegative(strings){
-    let positiveNumber;
-    for(let i = 0; i < strings.length; i++){
-        let element = strings[i];
-        if(element == 0 || element == 1){
-            positiveNumber = true;
-        }else{
-            positiveNumber = false;
-            break;
-        }
-    }
-    return positiveNumber;
-}
-console.log(positiveVsNegative("01110101110010"));
+// function positiveVsNegative(strings){
+//     let positiveNumber;
+//     for(let i = 0; i < strings.length; i++){
+//         let element = strings[i];
+//         if(element == 0 || element == 1){
+//             positiveNumber = true;
+//         }else{
+//             positiveNumber = false;
+//             break;
+//         }
+//     }
+//     return positiveNumber;
+// }
+// console.log(positiveVsNegative("01110101110010"));
