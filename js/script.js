@@ -946,23 +946,23 @@
 // var totalCost = shopingCost(phoneShoping);
 // console.log(totalCost);
 //Discount Shopping Cart With Discount Total Price Calculation ..........................
-// function ticketPrice(ticketQuantity){
-//     if(ticketQuantity <= 100){
-//         const firstPrice = ticketQuantity * 100;
-//         return firstPrice;
-//     }else if (ticketQuantity <= 200){
-//         let firstPrice = 100*100;
-//         const secondPrice = (ticketQuantity - 100)*90 + firstPrice;
-//         return secondPrice;
-//     }else{
-//         let firstPrice = 100*100;
-//         let secondPrice = 100*90;
-//         const thirdPrice = (ticketQuantity - 200)*80 + firstPrice + secondPrice;
-//         return thirdPrice;
-//     }
-// }
-// let ticketPrices = ticketPrice(320);
-// console.log(ticketPrices);
+function ticketPrice(ticketQuantity){
+    if(ticketQuantity <= 100){
+        const firstPrice = ticketQuantity * 100;
+        return firstPrice;
+    }else if (ticketQuantity <= 200){
+        let firstPrice = 100*100;
+        const secondPrice = (ticketQuantity - 100)*90 + firstPrice;
+        return secondPrice;
+    }else{
+        let firstPrice = 100*100;
+        let secondPrice = 100*90;
+        const thirdPrice = (ticketQuantity - 200)*80 + firstPrice + secondPrice;
+        return thirdPrice;
+    }
+}
+let ticketPrices = ticketPrice(320);
+console.log(ticketPrices);
 //String Type Check Binary or decimal .......................................................
 function positiveVsNegative(strings){
     let positiveNumber;
