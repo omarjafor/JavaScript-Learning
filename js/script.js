@@ -946,20 +946,36 @@
 // var totalCost = shopingCost(phoneShoping);
 // console.log(totalCost);
 //Discount Shopping Cart With Discount Total Price Calculation ..........................
-function ticketPrice(ticketQuantity){
-    if(ticketQuantity <= 100){
-        const firstPrice = ticketQuantity * 100;
-        return firstPrice;
-    }else if (ticketQuantity <= 200){
-        let firstPrice = 100*100;
-        const secondPrice = (ticketQuantity - 100)*90 + firstPrice;
-        return secondPrice;
-    }else{
-        let firstPrice = 100*100;
-        let secondPrice = 100*90;
-        const thirdPrice = (ticketQuantity - 200)*80 + firstPrice + secondPrice;
-        return thirdPrice;
+// function ticketPrice(ticketQuantity){
+//     if(ticketQuantity <= 100){
+//         const firstPrice = ticketQuantity * 100;
+//         return firstPrice;
+//     }else if (ticketQuantity <= 200){
+//         let firstPrice = 100*100;
+//         const secondPrice = (ticketQuantity - 100)*90 + firstPrice;
+//         return secondPrice;
+//     }else{
+//         let firstPrice = 100*100;
+//         let secondPrice = 100*90;
+//         const thirdPrice = (ticketQuantity - 200)*80 + firstPrice + secondPrice;
+//         return thirdPrice;
+//     }
+// }
+// let ticketPrices = ticketPrice(320);
+// console.log(ticketPrices);
+//String Type Check Binary or decimal .......................................................
+function checkString(str) {
+    let isBinary = false;
+    for (let i = 0; i < str.length; i++) {
+        if (str[i] == "0" || str[i] == "1") {
+            isBinary = true;
+        } else {
+            isBinary = false;
+        }
     }
+    return isBinary;
 }
-let ticketPrices = ticketPrice(320);
-console.log(ticketPrices);
+const isBinary = checkString("01100100110010");
+console.log(isBinary);
+const isBinary2 = checkString("1212221002214");
+console.log(isBinary);
