@@ -879,27 +879,27 @@
 // var totalWood = woodCalculator(1, 1, 1);
 // console.log('Total Woos Need is : ', totalWood);
 //Question No - 21
-// const phones = [
-//     {name: 'Xiaomi', Network: '5G', camera:108, storage:'128gb', price: 62000, color:'Black'},
-//     {name: 'Realme', Network: '4G', camera:64, storage:'128gb', price: 20000, color:'Silver'},
-//     {name: 'Vivo', Network: '4G', camera:48, storage:'64gb', price: 15000, color:'Gray'},
-//     {name: 'Apple', Network: '5G', camera:48, storage:'256gb', price: 120000, color:'Gold'},
-//     {name: 'Oppo', Network: '4G', camera:12, storage:'64gb', price: 16000, color:'Black'},
-//     {name: 'Samsung', Network: '5G', camera:64, storage:'256gb', price: 82000, color:'Red'},
-//     {name: 'OnePlus', Network: '5G', camera:64, storage:'512gb', price: 52000, color:'Blue'}
-// ];
-// function cheapestPhone(phones){
-//     let cheapestPhoneis = phones[0];
-//     for(let i=0; i<phones.length; i++){
-//         let phone = phones[i];
-//         if(phone.price < cheapestPhoneis.price){
-//             cheapestPhoneis = phone;
-//         }
-//     }
-//     return cheapestPhoneis;
-// }
-// var cheapPhone = cheapestPhone(phones);
-// console.log(cheapPhone);
+const phones = [
+    {name: 'Xiaomi', Network: '5G', camera:108, storage:'128gb', price: 62000, color:'Black'},
+    {name: 'Realme', Network: '4G', camera:64, storage:'128gb', price: 20000, color:'Silver'},
+    {name: 'Vivo', Network: '4G', camera:48, storage:'64gb', price: 15000, color:'Gray'},
+    {name: 'Apple', Network: '5G', camera:48, storage:'256gb', price: 120000, color:'Gold'},
+    {name: 'Oppo', Network: '4G', camera:12, storage:'64gb', price: 16000, color:'Black'},
+    {name: 'Samsung', Network: '5G', camera:64, storage:'256gb', price: 82000, color:'Red'},
+    {name: 'OnePlus', Network: '5G', camera:64, storage:'512gb', price: 52000, color:'Blue'}
+];
+function cheapestPhone(phones){
+    let cheapestPhoneis = phones[0];
+    for(let i=0; i<phones.length; i++){
+        let phone = phones[i];
+        if(phone.price < cheapestPhoneis.price){
+            cheapestPhoneis = phone;
+        }
+    }
+    return cheapestPhoneis;
+}
+var cheapPhone = cheapestPhone(phones);
+console.log(cheapPhone);
 //For Cheap Camera Phone..........................
 function cheapestPhone(phones){
     let cheapestPhoneis = phones[0];
