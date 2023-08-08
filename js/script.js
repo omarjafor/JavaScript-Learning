@@ -870,111 +870,111 @@
 //     }
 // }
 //Question No - 20
-function woodCalculator(chairQ, tableQ, bedQ){
-    var perChairQ = chairQ * 3;
-    var perTableQ = tableQ * 10;
-    var perBedQ = bedQ * 20;
-    return perBedQ+perChairQ+perTableQ;
-}
-var totalWood = woodCalculator(1, 1, 1);
-console.log('Total Woos Need is : ', totalWood);
+// function woodCalculator(chairQ, tableQ, bedQ){
+//     var perChairQ = chairQ * 3;
+//     var perTableQ = tableQ * 10;
+//     var perBedQ = bedQ * 20;
+//     return perBedQ+perChairQ+perTableQ;
+// }
+// var totalWood = woodCalculator(1, 1, 1);
+// console.log('Total Woos Need is : ', totalWood);
 //Question No - 21
-const phones = [
-    {name: 'Xiaomi', Network: '5G', camera:108, storage:'128gb', price: 62000, color:'Black'},
-    {name: 'Realme', Network: '4G', camera:64, storage:'128gb', price: 20000, color:'Silver'},
-    {name: 'Vivo', Network: '4G', camera:48, storage:'64gb', price: 15000, color:'Gray'},
-    {name: 'Apple', Network: '5G', camera:48, storage:'256gb', price: 120000, color:'Gold'},
-    {name: 'Oppo', Network: '4G', camera:12, storage:'64gb', price: 16000, color:'Black'},
-    {name: 'Samsung', Network: '5G', camera:64, storage:'256gb', price: 82000, color:'Red'},
-    {name: 'OnePlus', Network: '5G', camera:64, storage:'512gb', price: 52000, color:'Blue'}
-];
-function cheapestPhone(phones){
-    let cheapestPhoneis = phones[0];
-    for(let i=0; i<phones.length; i++){
-        let phone = phones[i];
-        if(phone.price < cheapestPhoneis.price){
-            cheapestPhoneis = phone;
-        }
-    }
-    return cheapestPhoneis;
-}
-var cheapPhone = cheapestPhone(phones);
-console.log(cheapPhone);
+// const phones = [
+//     {name: 'Xiaomi', Network: '5G', camera:108, storage:'128gb', price: 62000, color:'Black'},
+//     {name: 'Realme', Network: '4G', camera:64, storage:'128gb', price: 20000, color:'Silver'},
+//     {name: 'Vivo', Network: '4G', camera:48, storage:'64gb', price: 15000, color:'Gray'},
+//     {name: 'Apple', Network: '5G', camera:48, storage:'256gb', price: 120000, color:'Gold'},
+//     {name: 'Oppo', Network: '4G', camera:12, storage:'64gb', price: 16000, color:'Black'},
+//     {name: 'Samsung', Network: '5G', camera:64, storage:'256gb', price: 82000, color:'Red'},
+//     {name: 'OnePlus', Network: '5G', camera:64, storage:'512gb', price: 52000, color:'Blue'}
+// ];
+// function cheapestPhone(phones){
+//     let cheapestPhoneis = phones[0];
+//     for(let i=0; i<phones.length; i++){
+//         let phone = phones[i];
+//         if(phone.price < cheapestPhoneis.price){
+//             cheapestPhoneis = phone;
+//         }
+//     }
+//     return cheapestPhoneis;
+// }
+// var cheapPhone = cheapestPhone(phones);
+// console.log(cheapPhone);
 //For Cheap Camera Phone..........................
-function cheapestPhone(phones){
-    let cheapestPhoneis = phones[0];
-    for(let i=0; i<phones.length; i++){
-        let phone = phones[i];
-        if(phone.camera < cheapestPhoneis.camera){
-            cheapestPhoneis = phone;
-        }
-    }
-    return cheapestPhoneis;
-}
-var cheapPhone = cheapestPhone(phones);
-console.log(cheapPhone);
+// function cheapestPhone(phones){
+//     let cheapestPhoneis = phones[0];
+//     for(let i=0; i<phones.length; i++){
+//         let phone = phones[i];
+//         if(phone.camera < cheapestPhoneis.camera){
+//             cheapestPhoneis = phone;
+//         }
+//     }
+//     return cheapestPhoneis;
+// }
+// var cheapPhone = cheapestPhone(phones);
+// console.log(cheapPhone);
 //Shopping Cart Total Price Calculation ..........................
-const phoneShoping = [
-    {name: 'Xiaomi', Network: '5G', camera:108, storage:'128gb', price: 62000, color:'Black', quantity:5},
-    {name: 'Realme', Network: '4G', camera:64, storage:'128gb', price: 20000, color:'Silver', quantity:2},
-    {name: 'Vivo', Network: '4G', camera:48, storage:'64gb', price: 15000, color:'Gray', quantity:3},
-    {name: 'Apple', Network: '5G', camera:48, storage:'256gb', price: 120000, color:'Gold', quantity:4},
-    {name: 'Oppo', Network: '4G', camera:12, storage:'64gb', price: 16000, color:'Black', quantity:6},
-    {name: 'Samsung', Network: '5G', camera:64, storage:'256gb', price: 82000, color:'Red', quantity:2},
-    {name: 'OnePlus', Network: '5G', camera:64, storage:'512gb', price: 52000, color:'Blue', quantity:3},
-];
-function shopingCost(products){
-    let totalCost = 0;
-    for(let i=0; i<products.length; i++){
-        let product = products[i];
-        totalCost = totalCost + product.price;
-    }
-    return totalCost;
-}
-var totalCost = shopingCost(phoneShoping);
-console.log(totalCost);
+// const phoneShoping = [
+//     {name: 'Xiaomi', Network: '5G', camera:108, storage:'128gb', price: 62000, color:'Black', quantity:5},
+//     {name: 'Realme', Network: '4G', camera:64, storage:'128gb', price: 20000, color:'Silver', quantity:2},
+//     {name: 'Vivo', Network: '4G', camera:48, storage:'64gb', price: 15000, color:'Gray', quantity:3},
+//     {name: 'Apple', Network: '5G', camera:48, storage:'256gb', price: 120000, color:'Gold', quantity:4},
+//     {name: 'Oppo', Network: '4G', camera:12, storage:'64gb', price: 16000, color:'Black', quantity:6},
+//     {name: 'Samsung', Network: '5G', camera:64, storage:'256gb', price: 82000, color:'Red', quantity:2},
+//     {name: 'OnePlus', Network: '5G', camera:64, storage:'512gb', price: 52000, color:'Blue', quantity:3},
+// ];
+// function shopingCost(products){
+//     let totalCost = 0;
+//     for(let i=0; i<products.length; i++){
+//         let product = products[i];
+//         totalCost = totalCost + product.price;
+//     }
+//     return totalCost;
+// }
+// var totalCost = shopingCost(phoneShoping);
+// console.log(totalCost);
 //For All Price with Also Quantity Calculated......................................
-function shopingCost(products){
-    let totalCost = 0;
-    for(let i=0; i<products.length; i++){
-        let product = products[i];
-        let productTotalPrice = product.price * product.quantity;
-        totalCost += productTotalPrice;
-    }
-    return totalCost;
-}
-var totalCost = shopingCost(phoneShoping);
-console.log(totalCost);
+// function shopingCost(products){
+//     let totalCost = 0;
+//     for(let i=0; i<products.length; i++){
+//         let product = products[i];
+//         let productTotalPrice = product.price * product.quantity;
+//         totalCost += productTotalPrice;
+//     }
+//     return totalCost;
+// }
+// var totalCost = shopingCost(phoneShoping);
+// console.log(totalCost);
 //Discount Shopping Cart With Discount Total Price Calculation ..........................
-function ticketPrice(ticketQuantity){
-    if(ticketQuantity <= 100){
-        const firstPrice = ticketQuantity * 100;
-        return firstPrice;
-    }else if (ticketQuantity <= 200){
-        let firstPrice = 100*100;
-        const secondPrice = (ticketQuantity - 100)*90 + firstPrice;
-        return secondPrice;
-    }else{
-        let firstPrice = 100*100;
-        let secondPrice = 100*90;
-        const thirdPrice = (ticketQuantity - 200)*80 + firstPrice + secondPrice;
-        return thirdPrice;
-    }
-}
-let ticketPrices = ticketPrice(320);
-console.log(ticketPrices);
+// function ticketPrice(ticketQuantity){
+//     if(ticketQuantity <= 100){
+//         const firstPrice = ticketQuantity * 100;
+//         return firstPrice;
+//     }else if (ticketQuantity <= 200){
+//         let firstPrice = 100*100;
+//         const secondPrice = (ticketQuantity - 100)*90 + firstPrice;
+//         return secondPrice;
+//     }else{
+//         let firstPrice = 100*100;
+//         let secondPrice = 100*90;
+//         const thirdPrice = (ticketQuantity - 200)*80 + firstPrice + secondPrice;
+//         return thirdPrice;
+//     }
+// }
+// let ticketPrices = ticketPrice(320);
+// console.log(ticketPrices);
 //String Type Check Binary or decimal .......................................................
-function positiveVsNegative(strings){
-    let positiveNumber;
-    for(let i = 0; i < strings.length; i++){
-        let element = strings[i];
-        if(element == 0 || element == 1){
-            positiveNumber = true;
-        }else{
-            positiveNumber = false;
-            break;
-        }
-    }
-    return positiveNumber;
-}
-console.log(positiveVsNegative("01110101110010"));
+// function positiveVsNegative(strings){
+//     let positiveNumber;
+//     for(let i = 0; i < strings.length; i++){
+//         let element = strings[i];
+//         if(element == 0 || element == 1){
+//             positiveNumber = true;
+//         }else{
+//             positiveNumber = false;
+//             break;
+//         }
+//     }
+//     return positiveNumber;
+// }
+// console.log(positiveVsNegative("01110101110010"));
