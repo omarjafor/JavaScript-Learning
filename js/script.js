@@ -934,17 +934,17 @@
 // var totalCost = shopingCost(phoneShoping);
 // console.log(totalCost);
 //For All Price with Also Quantity Calculated......................................
-// function shopingCost(products){
-//     let totalCost = 0;
-//     for(let i=0; i<products.length; i++){
-//         let product = products[i];
-//         let productTotalPrice = product.price * product.quantity;
-//         totalCost += productTotalPrice;
-//     }
-//     return totalCost;
-// }
-// var totalCost = shopingCost(phoneShoping);
-// console.log(totalCost);
+function shopingCost(products){
+    let totalCost = 0;
+    for(let i=0; i<products.length; i++){
+        let product = products[i];
+        let productTotalPrice = product.price * product.quantity;
+        totalCost += productTotalPrice;
+    }
+    return totalCost;
+}
+var totalCost = shopingCost(phoneShoping);
+console.log(totalCost);
 //Discount Shopping Cart With Discount Total Price Calculation ..........................
 function ticketPrice(ticketQuantity){
     if(ticketQuantity <= 100){
