@@ -317,22 +317,22 @@
 // student.age = 25;
 // console.log(student);
 
-var shoppingCart = {
-    name : 'Mr.Rakib',
-    books : 3,
-    sunglass: 2,
-    keybord : 1,
-    mouse : 4,
-    pen : 5,
-    shoes : 2,
-    shirt : 3
-}
-console.log(shoppingCart);
-var properties = Object.keys(shoppingCart);
-console.log(properties);
-var properties = Object.values(shoppingCart);
-console.log(properties);
-console.log(shoppingCart.name);
+// var shoppingCart = {
+//     name : 'Mr.Rakib',
+//     books : 3,
+//     sunglass: 2,
+//     keybord : 1,
+//     mouse : 4,
+//     pen : 5,
+//     shoes : 2,
+//     shirt : 3
+// }
+// console.log(shoppingCart);
+// var properties = Object.keys(shoppingCart);
+// console.log(properties);
+// var properties = Object.values(shoppingCart);
+// console.log(properties);
+// console.log(shoppingCart.name);
 // function movie(){
 //     return "Din-The day";
 //     return "Poran";

@@ -40,6 +40,3 @@ function sortMaker(arr) {
 }
 let arrIs = [0,1]
 console.log(sortMaker(arrIs));
-
-function findAddress(obj) {
-}
