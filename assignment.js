@@ -73,6 +73,6 @@ let obj = {
 }
 console.log(findAddress(obj));
 
-// let newarr = [];
-// const result = canPay(newarr, 10);
-// console.log(result);
+let newarr = [];
+const result = canPay(newarr, 10);
+console.log(result);
