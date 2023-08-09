@@ -53,3 +53,22 @@ let obj = {
     society: 'Earth Perfect'
 }
 console.log(findAddress(obj));
+
+function canPay(changeArray, totalDue) {
+    if(changeArray.length == 0){
+        return 'Empty Array! Enter Valid Input';
+    }
+    let sum = 0;
+    for(let i=0; i<changeArray.length; i++){
+        let element = changeArray[i];
+        sum = sum + element;
+    }
+    if(sum >= totalDue){
+        return true;
+    }else{
+        return false;
+    }
+}
+let newarr = [];
+const result = canPay(newarr, 10);
+console.log(result);
