@@ -1,6 +1,6 @@
 function cubeNumber(number) {
     if(typeof(number) !== 'number'){
-        console.log('Please Enter Valid Number');
+        return 'Please Enter Valid Number';
     }else{
         let cube = number*number*number;
         return cube;
@@ -59,7 +59,7 @@ function canPay(changeArray, totalDue) {
     }
 }
 
-console.log(cubeNumber(4));
+console.log(cubeNumber(''));
 
 console.log(matchFinder('Peter Parker', 'Pet'));
 
