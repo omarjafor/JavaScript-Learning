@@ -5,9 +5,7 @@ function cubeNumber(number) {
         let cube = number*number*number;
         return cube;
     }
-    
 }
-console.log(cubeNumber(4));
 
 function matchFinder(string1, string2) {
     if(typeof(string1) !== 'string' || typeof(string2) !== 'string'){
@@ -20,7 +18,6 @@ function matchFinder(string1, string2) {
         return false;
     }
 }
-console.log(matchFinder('Peter Parker', 'Pet'));
 
 function sortMaker(arr) {
     if(arr[0] === arr[1]){
@@ -38,8 +35,6 @@ function sortMaker(arr) {
         return 'Invalid Input';
     }
 }
-let arrIs = [2,-1]
-console.log(sortMaker(arrIs));
 
 function findAddress(obj) {
         const street = obj.street || '__';
@@ -47,12 +42,6 @@ function findAddress(obj) {
         const society = obj.society || '__';
         return street +','+ house +','+ society;
 }
-let obj = {
-    street: 10,
-    house: '15A',
-    society: 'Earth Perfect'
-}
-console.log(findAddress(obj));
 
 function canPay(changeArray, totalDue) {
     if(changeArray.length == 0){
@@ -69,6 +58,21 @@ function canPay(changeArray, totalDue) {
         return false;
     }
 }
+
+console.log(cubeNumber(4));
+
+console.log(matchFinder('Peter Parker', 'Pet'));
+
+let arrIs = [2,-1]
+console.log(sortMaker(arrIs));
+
+let obj = {
+    street: 10,
+    house: '15A',
+    society: 'Earth Perfect'
+}
+console.log(findAddress(obj));
+
 let newarr = [];
 const result = canPay(newarr, 10);
 console.log(result);
