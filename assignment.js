@@ -38,5 +38,5 @@ function sortMaker(arr) {
         return 'Invalid Input';
     }
 }
-let arrIs = [0,1]
+let arrIs = [2,-1]
 console.log(sortMaker(arrIs));
