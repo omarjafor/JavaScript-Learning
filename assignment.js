@@ -9,7 +9,7 @@ function cubeNumber(number) {
 
 function matchFinder(string1, string2) {
     if(typeof(string1) !== 'string' || typeof(string2) !== 'string'){
-        console.log('Please Enter Valid Input');
+        return 'Please Enter Valid Input';
     }
     else if(string1.includes(string2) == true){
         return true;
@@ -20,19 +20,19 @@ function matchFinder(string1, string2) {
 }
 
 function sortMaker(arr) {
-    if(arr[0] === arr[1]){
+    if(arr[0] < 0 || arr[1] < 0){
+        return 'Invalid Input';
+    }
+    else if(arr[0] === arr[1]){
         return 'equal';
     }
-    else if(arr[0] >= 0 && arr[1] >= 0){
+    else{
         if(arr[1] > arr[0]){
             let temp = arr[0];
             arr[0] = arr[1];
             arr[1] = temp;
         }
         return arr;
-    }
-    else{
-        return 'Invalid Input';
     }
 }
 
@@ -61,9 +61,9 @@ function canPay(changeArray, totalDue) {
 
 console.log(cubeNumber(''));
 
-console.log(matchFinder('Peter Parker', 'Pet'));
+console.log(matchFinder('Peter Parker', 2));
 
-let arrIs = [2,-1]
+let arrIs = [2,2]
 console.log(sortMaker(arrIs));
 
 let obj = {
