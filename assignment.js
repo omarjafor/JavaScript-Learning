@@ -63,16 +63,16 @@ console.log(cubeNumber(4));
 
 console.log(matchFinder('Peter Parker', 'pet'));
 
-let arrIs = [0,1]
+let arrIs = [4,5]
 console.log(sortMaker(arrIs));
 
 let obj = {
     street: 10,
-    house: '15A',
+    // house: '15A',
     society: 'Earth Perfect'
 }
 console.log(findAddress(obj));
 
-let newarr = [];
+let newarr = [5,3,2];
 const result = canPay(newarr, 10);
 console.log(result);
