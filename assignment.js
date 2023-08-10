@@ -59,20 +59,25 @@ function canPay(changeArray, totalDue) {
     }
 }
 
-console.log(cubeNumber(4));
+// console.log(cubeNumber(4));
 
-console.log(matchFinder('Peter Parker', 'pet'));
+// console.log(matchFinder('Peter Parker', 'pet'));
 
-let arrIs = [4,5]
-console.log(sortMaker(arrIs));
+// let arrIs = [4,5]
+// console.log(sortMaker(arrIs));
 
-let obj = {
-    street: 10,
-    // house: '15A',
-    society: 'Earth Perfect'
+// let obj = {
+//     street: 10,
+//     // house: '15A',
+//     society: 'Earth Perfect'
+// }
+// console.log(findAddress(obj));
+
+// let newarr = [5,3,2];
+// const result = canPay(newarr, 10);
+// console.log(result);
+
+let a = 10;
+if(a!=null){
+    console.log('working');
 }
-console.log(findAddress(obj));
-
-let newarr = [5,3,2];
-const result = canPay(newarr, 10);
-console.log(result);
