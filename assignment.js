@@ -59,53 +59,20 @@ function canPay(changeArray, totalDue) {
     }
 }
 
-// console.log(cubeNumber(4));
+console.log(cubeNumber(4));
 
-// console.log(matchFinder('Peter Parker', 'pet'));
+console.log(matchFinder('Peter Parker', 'pet'));
 
-// let arrIs = [4,5]
-// console.log(sortMaker(arrIs));
+let arrIs = [4,5]
+console.log(sortMaker(arrIs));
 
-// let obj = {
-//     street: 10,
-//     // house: '15A',
-//     society: 'Earth Perfect'
-// }
-// console.log(findAddress(obj));
+let obj = {
+    street: 10,
+    // house: '15A',
+    society: 'Earth Perfect'
+}
+console.log(findAddress(obj));
 
-// let newarr = [5,3,2];
-// const result = canPay(newarr, 10);
-// console.log(result);
-
-// let a = 10;
-// if(a!=null){
-//     console.log('working');
-// }
-
-// function compare(a, b) {
-//     if (a == b) {
-//     return true;
-//     } else {
-//     return false;
-//     }
-//    }
-//    const result = compare(15, "15");
-//    console.log(result);
-
-// function compare(a, b) {
-//     if (a.toString() === b) {
-//     return true;
-//     } else {
-//     return false;
-//     }
-//    }
-//    const result = compare(25, 25);
-//    console.log(result);
-//    console.log("123" + 123);
-// let a='hi'
-// let b='there'
-// console.log(a+b)
-
-// for(let i=5; i<=100; i++){
-//     document.write(i+'<br>');
-// }
+let newarr = [5,3,2];
+const result = canPay(newarr, 10);
+console.log(result);
