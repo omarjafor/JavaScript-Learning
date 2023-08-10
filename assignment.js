@@ -99,12 +99,12 @@ function compare(a, b) {
     return false;
     }
    }
-   const result = compare(25, 25);
-   console.log(result);
-   console.log("123" + 123);
-let a='hi'
-let b='there'
-console.log(a+b)
+//    const result = compare(25, 25);
+//    console.log(result);
+//    console.log("123" + 123);
+// let a='hi'
+// let b='there'
+// console.log(a+b)
 
 // for(let i=5; i<=100; i++){
 //     document.write(i+'<br>');
