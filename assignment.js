@@ -81,3 +81,11 @@ let a = 10;
 if(a!=null){
     console.log('working');
 }
+
+function compare(a, b) {
+    if (a == b) {
+    return true;
+    } else {
+    return false;
+    }
+   }
