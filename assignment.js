@@ -92,13 +92,13 @@ function canPay(changeArray, totalDue) {
 //    const result = compare(15, "15");
 //    console.log(result);
 
-function compare(a, b) {
-    if (a.toString() === b) {
-    return true;
-    } else {
-    return false;
-    }
-   }
+// function compare(a, b) {
+//     if (a.toString() === b) {
+//     return true;
+//     } else {
+//     return false;
+//     }
+//    }
 //    const result = compare(25, 25);
 //    console.log(result);
 //    console.log("123" + 123);
