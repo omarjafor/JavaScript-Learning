@@ -89,8 +89,8 @@ function compare(a, b) {
     return false;
     }
    }
-   const result = compare(15, "15");
-   console.log(result);
+//    const result = compare(15, "15");
+//    console.log(result);
 
 function compare(a, b) {
     if (a.toString() === b) {
@@ -99,3 +99,6 @@ function compare(a, b) {
     return false;
     }
    }
+   const result = compare(25, 25);
+   console.log(result);
+   console.log("123" + 123);
