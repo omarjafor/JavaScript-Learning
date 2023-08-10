@@ -106,6 +106,6 @@ let a='hi'
 let b='there'
 console.log(a+b)
 
-for(let i=5; i<=100; i++){
-    document.write(i+'<br>');
-}
+// for(let i=5; i<=100; i++){
+//     document.write(i+'<br>');
+// }
