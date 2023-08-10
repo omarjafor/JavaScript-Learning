@@ -77,10 +77,10 @@ function canPay(changeArray, totalDue) {
 // const result = canPay(newarr, 10);
 // console.log(result);
 
-let a = 10;
-if(a!=null){
-    console.log('working');
-}
+// let a = 10;
+// if(a!=null){
+//     console.log('working');
+// }
 
 function compare(a, b) {
     if (a == b) {
@@ -102,3 +102,10 @@ function compare(a, b) {
    const result = compare(25, 25);
    console.log(result);
    console.log("123" + 123);
+let a='hi'
+let b='there'
+console.log(a+b)
+
+for(let i=5; i<=100; i++){
+    document.write(i+'<br>');
+}
