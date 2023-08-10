@@ -68,7 +68,7 @@ console.log(sortMaker(arrIs));
 
 let obj = {
     street: 10,
-    // house: '15A',
+    house: '15A',
     society: 'Earth Perfect'
 }
 console.log(findAddress(obj));
