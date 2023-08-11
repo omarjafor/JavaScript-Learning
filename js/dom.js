@@ -1,2 +1,2 @@
-document.querySelector('#head').innerHTML="Hello Dom";
-document.querySelector('#head1').innerHTML="Hello Dom New";
+document.querySelector('#head').innerHTML="Good Bye";
+document.querySelector('#head1').innerHTML="Good Bye Bye";
