@@ -12,3 +12,6 @@ function myMessage1(){
 function myMessage2(){
     alert('Hello Switch OFF');
 }
+
+const sections = document.querySelectorAll('h1');
+console.log(sections);
