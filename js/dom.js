@@ -14,4 +14,6 @@ function myMessage2(){
 }
 
 const sections = document.querySelectorAll('h1');
-console.log(sections);
+for(const sec of sections){
+    sec.style.border = '2px solid red';
+}
