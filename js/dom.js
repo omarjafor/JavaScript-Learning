@@ -28,7 +28,12 @@ lisection.classList.add('newClass3');
 lisection.classList.add('newClass4');
 lisection.classList.remove('newClass');
 
-// function textChange(){
-//     let sectionH2 = document.getElementById('sectionH2');
-//     sectionH2.innerHTML='Cricket List Football';
-// }
+function textChange(){
+    let sectionH2 = document.getElementById('sectionH2');
+    sectionH2.innerHTML='Cricket List Football';
+}
+
+document.getElementById('changeButton').addEventListener('click', function(){
+    const headText = document.getElementById('headtext');
+    headText.innerText = 'Changed The Heading Now By OmarJafor';
+})
