@@ -36,4 +36,13 @@ function textChange(){
 document.getElementById('changeButton').addEventListener('click', function(){
     const headText = document.getElementById('headtext');
     headText.innerText = 'Changed The Heading Now By OmarJafor';
+});
+
+document.getElementById('btn-upd').addEventListener('click', function(){
+    const inputField = document.getElementById('inputField');
+    const inputText = inputField.value;
+    
+    const headText = document.getElementById('headtext');
+    headText.innerText = inputText;
+    inputField.value = '';
 })
