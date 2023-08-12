@@ -27,3 +27,8 @@ lisection.classList.add('newClass2');
 lisection.classList.add('newClass3');
 lisection.classList.add('newClass4');
 lisection.classList.remove('newClass');
+
+function textChange(){
+    let sectionH2 = document.getElementById('sectionH2');
+    sectionH2.innerHTML='Cricket List Football';
+}
