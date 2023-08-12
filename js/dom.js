@@ -3,15 +3,15 @@
 
 // document.getElementById('para').innerHTML='Hello I am paragraph';
 // document.querySelector('#para').innerHTML='Hello I am paragraph';
-// function myMessage(){
-//     alert('Hello Switch ON');
-// }
+function myMessage(){
+    alert('Hello Switch ON');
+}
 // function myMessage1(){
 //     document.querySelector('#para').innerHTML='Hello I am Paragraph By On Click';
 // }
-// function myMessage2(){
-//     alert('Hello Switch OFF');
-// }
+function myMessage2(){
+    alert('Hello Switch OFF');
+}
 
 // const sections = document.querySelectorAll('h1');
 // for(const sec of sections){
