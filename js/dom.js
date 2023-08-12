@@ -20,3 +20,6 @@ for(const sec of sections){
     sec.style.padding = '5px';
     sec.style.backgroundColor = 'blue';
 }
+
+const lisection = document.getElementById('lisection');
+lisection.classList.add('newClass');
