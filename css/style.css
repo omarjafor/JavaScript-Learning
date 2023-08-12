@@ -19,3 +19,9 @@ marquee{
     margin-right: 50px;
     transition: 0.5s;
 }
+.newClass{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+}

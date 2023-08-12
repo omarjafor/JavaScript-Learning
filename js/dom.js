@@ -23,4 +23,3 @@ for(const sec of sections){
 
 const lisection = document.getElementById('lisection');
 lisection.classList.add('newClass');
-lisection.classList.remove('newClass');
