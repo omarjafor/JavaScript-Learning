@@ -83,3 +83,10 @@ document.getElementById('btn-delete').addEventListener('click', function(){
     const inputBox = document.getElementById('inputBox');
     inputBox.value = '';
 })
+
+document.getElementById('li-2').addEventListener('click', function(){
+    console.log('list 2 clicked');
+})
+document.getElementById('list-ul').addEventListener('click', function(){
+    console.log('UL clicked');
+})
