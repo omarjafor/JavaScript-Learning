@@ -47,13 +47,16 @@ document.getElementById('btn-upd').addEventListener('click', function(){
     inputField.value = '';
 })
 
-document.getElementById('textInp').addEventListener('focus', function(){
-    console.log('Inside The input Field');
-})
-document.getElementById('textInp').addEventListener('blur', function(){
-    console.log('Outside The input Field blur');
+// document.getElementById('textInp').addEventListener('focus', function(){
+//     console.log('Inside The input Field');
+// })
+// document.getElementById('textInp').addEventListener('blur', function(){
+//     console.log('Outside The input Field blur');
+// })
+document.getElementById('textInp').addEventListener('keydown', function(event){
+    console.log(event.target.value);
 })
 
-document.getElementById('btn-more').addEventListener('mousemove', function(){
-    console.log('btn clicked');
-})
+// document.getElementById('btn-more').addEventListener('mousemove', function(){
+//     console.log('btn clicked');
+// })
