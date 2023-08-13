@@ -67,7 +67,6 @@ document.getElementById('btn-upd').addEventListener('click', function(){
 //     console.log('btn clicked');
 // })
 
-
 document.getElementById('inputBox').addEventListener('keyup', function(event){
     const text = event.target.value;
     const deleteButton = document.getElementById('btn-delete');
