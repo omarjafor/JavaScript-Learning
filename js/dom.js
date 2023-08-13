@@ -53,7 +53,13 @@ document.getElementById('btn-upd').addEventListener('click', function(){
 // document.getElementById('textInp').addEventListener('blur', function(){
 //     console.log('Outside The input Field blur');
 // })
-document.getElementById('textInp').addEventListener('keydown', function(event){
+// document.getElementById('textInp').addEventListener('keydown', function(event){
+//     console.log(event.target.value);
+// })
+// document.getElementById('textInp').addEventListener('keypress', function(event){
+//     console.log(event.target.value);
+// })
+document.getElementById('textInp').addEventListener('keyup', function(event){
     console.log(event.target.value);
 })
 
