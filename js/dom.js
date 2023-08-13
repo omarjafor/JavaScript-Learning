@@ -46,3 +46,14 @@ document.getElementById('btn-upd').addEventListener('click', function(){
     headText.innerText = inputText;
     inputField.value = '';
 })
+
+document.getElementById('textInp').addEventListener('focus', function(){
+    console.log('Inside The input Field');
+})
+document.getElementById('textInp').addEventListener('blur', function(){
+    console.log('Outside The input Field blur');
+})
+
+// document.getElementById('btn-more').addEventListener('mousemove', function(){
+//     console.log('btn clicked');
+// })
