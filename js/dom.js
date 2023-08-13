@@ -67,16 +67,20 @@ document.getElementById('btn-upd').addEventListener('click', function(){
 //     console.log('btn clicked');
 // })
 
-document.getElementById('btn-delete').addEventListener('click', function(){
-    const secret = document.getElementById('secretinfo');
-    secret.style.display = 'none';
-})
+
 document.getElementById('inputBox').addEventListener('keyup', function(event){
     const text = event.target.value;
     const deleteButton = document.getElementById('btn-delete');
-    if(text == 'delete'){
+    if(text.toLowerCase() == 'delete'){
         deleteButton.removeAttribute('disabled')
+        
     }else{
         deleteButton.setAttribute('disabled', true)
     }
+})
+document.getElementById('btn-delete').addEventListener('click', function(){
+    const secret = document.getElementById('secretinfo');
+    secret.style.display = 'none';
+    const inputBox = document.getElementById('inputBox');
+    inputBox.value = '';
 })
