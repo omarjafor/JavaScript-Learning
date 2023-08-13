@@ -54,6 +54,6 @@ document.getElementById('textInp').addEventListener('blur', function(){
     console.log('Outside The input Field blur');
 })
 
-// document.getElementById('btn-more').addEventListener('mousemove', function(){
-//     console.log('btn clicked');
-// })
+document.getElementById('btn-more').addEventListener('mousemove', function(){
+    console.log('btn clicked');
+})
