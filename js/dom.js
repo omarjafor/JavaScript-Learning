@@ -96,9 +96,21 @@ document.getElementById('btn-delete').addEventListener('click', function () {
 //     console.log('FULL Section clicked');
 // })
 
-const items = document.getElementsByClassName('item');
-for (const item of items) {
-    item.addEventListener('click', function (event) {
-        event.target.parentNode.removeChild(event.target);
-    })
-}
+// const items = document.getElementsByClassName('item');
+// for (const item of items) {
+//     item.addEventListener('click', function (event) {
+//         event.target.parentNode.removeChild(event.target);
+//     })
+// }
+
+document.getElementById('list-ul').addEventListener('click', function(event){
+    event.target.parentNode.removeChild(event.target);
+})
+
+document.getElementById('btn-li').addEventListener('click', function(){
+    const listUl = document.getElementById('list-ul');
+    const li = document.createElement('li');
+    li.classList.add('item');
+    li.innerText = 'This is new line added for js';
+    listUl.appendChild(li);
+})
