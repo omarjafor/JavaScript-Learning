@@ -59,9 +59,9 @@ document.getElementById('btn-upd').addEventListener('click', function(){
 // document.getElementById('textInp').addEventListener('keypress', function(event){
 //     console.log(event.target.value);
 // })
-document.getElementById('textInp').addEventListener('keyup', function(event){
-    console.log(event.target.value);
-})
+// document.getElementById('textInp').addEventListener('keyup', function(event){
+//     console.log(event.target.value);
+// })
 
 // document.getElementById('btn-more').addEventListener('mousemove', function(){
 //     console.log('btn clicked');
