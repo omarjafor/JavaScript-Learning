@@ -84,9 +84,14 @@ document.getElementById('btn-delete').addEventListener('click', function(){
     inputBox.value = '';
 })
 
-document.getElementById('li-2').addEventListener('click', function(){
+document.getElementById('li-2').addEventListener('click', function(event){
     console.log('list 2 clicked');
+    event.stopPropagation();
+    event.stopImmediatePropagation();
 })
 document.getElementById('list-ul').addEventListener('click', function(){
     console.log('UL clicked');
+})
+document.getElementById('sec-li').addEventListener('click', function(){
+    console.log('FULL Section clicked');
 })
