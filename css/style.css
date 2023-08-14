@@ -28,3 +28,7 @@ marquee{
 ul li{
     list-style: decimal;
 }
+div{
+    width: 40%;
+    text-align: center;
+}
