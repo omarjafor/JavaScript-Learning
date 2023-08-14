@@ -118,3 +118,8 @@ document.getElementById('btn-li').addEventListener('click', function(){
 function upperName(name){
     console.log(name.toUpperCase());
 }
+function fullName(name1, name2, callBack){
+    const fullName = name1 +' '+name2;
+    callBack(fullName);
+}
+fullName('Jaber', 'Jabed', upperName);
