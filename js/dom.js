@@ -112,18 +112,18 @@ document.getElementById('btn-delete').addEventListener('click', function () {
 // }
 // fullName('abdulmalik', 'khairulbasar', upperName);
 
-document.getElementById('list-ul').addEventListener('click', function(event){
-    if(event.target.value === 0){
+document.getElementById('list-ul').addEventListener('click', function (event) {
+    if (event.target.value === 0) {
         event.target.parentNode.removeChild(event.target);
     }
 })
 const newLineText = document.getElementById('newLineText');
-document.getElementById('btn-li').addEventListener('click', function(){
+document.getElementById('btn-li').addEventListener('click', function () {
     const listUl = document.getElementById('list-ul');
     const li = document.createElement('li');
     li.classList.add('item');
     const lineText = newLineText.value.trim();
-    if(lineText !== ''){
+    if (lineText !== '') {
         li.innerText = lineText;
         listUl.appendChild(li);
     }

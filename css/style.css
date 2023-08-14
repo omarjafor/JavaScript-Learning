@@ -25,3 +25,6 @@ marquee{
     font-weight: bold;
     text-decoration: underline;
 }
+ul li{
+    list-style: decimal;
+}
