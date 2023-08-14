@@ -142,3 +142,12 @@ document.getElementById('minus-btn').addEventListener('click', function () {
         count.innerText = sum;
     }
 })
+
+document.getElementById('sbm-btn').addEventListener('click', function(){
+    const textArea = document.getElementById('areaText');
+    const p = document.createElement('p');
+    p.innerText = textArea.value;
+    
+    const reviews = document.getElementById('reviews');
+    reviews.appendChild(p);
+})
