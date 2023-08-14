@@ -114,3 +114,7 @@ document.getElementById('btn-li').addEventListener('click', function(){
     li.innerText = 'This is new line added for js';
     listUl.appendChild(li);
 })
+
+function upperName(name){
+    console.log(name.toUpperCase());
+}
