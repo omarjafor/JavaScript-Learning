@@ -122,4 +122,4 @@ function fullName(name1, name2, callBack){
     const fullName = name1 +' '+name2;
     callBack(fullName);
 }
-fullName('Jaber', 'Jabed', upperName);
+fullName('abdulmalik', 'khairulbasar', upperName);
