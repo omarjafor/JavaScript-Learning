@@ -128,3 +128,14 @@ document.getElementById('btn-li').addEventListener('click', function () {
         listUl.appendChild(li);
     }
 })
+let sum = 0;
+document.getElementById('plus-btn').addEventListener('click', function(){
+    const count = document.getElementById('countNumber');
+    sum += 1;
+    count.innerText = sum;
+})
+document.getElementById('plus-btn').addEventListener('click', function(){
+    const count = document.getElementById('countNumber');
+    sum += 1;
+    count.innerText = sum;
+})
