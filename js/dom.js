@@ -103,8 +103,19 @@ document.getElementById('btn-delete').addEventListener('click', function () {
 //     })
 // }
 
+function upperName(name){
+    console.log(name.toUpperCase());
+}
+function fullName(name1, name2, callBack){
+    const fullName = name1 +' '+name2;
+    callBack(fullName);
+}
+fullName('abdulmalik', 'khairulbasar', upperName);
+
 document.getElementById('list-ul').addEventListener('click', function(event){
-    event.target.parentNode.removeChild(event.target);
+    if(event.target.value === 0){
+        event.target.parentNode.removeChild(event.target);
+    }
 })
 
 document.getElementById('btn-li').addEventListener('click', function(){
@@ -115,11 +126,22 @@ document.getElementById('btn-li').addEventListener('click', function(){
     listUl.appendChild(li);
 })
 
-function upperName(name){
-    console.log(name.toUpperCase());
-}
-function fullName(name1, name2, callBack){
-    const fullName = name1 +' '+name2;
-    callBack(fullName);
-}
-fullName('abdulmalik', 'khairulbasar', upperName);
+
+const addButton = document.getElementById('addButton');
+const newLineText = document.getElementById('newLineText');
+const lineList = document.getElementById('lineList');
+
+addButton.addEventListener('click', () => {
+  const lineText = newLineText.value.trim();
+  if (lineText !== '') {
+    const listItem = document.createElement('li');
+    listItem.textContent = lineText;
+    
+    lineList.appendChild(listItem);
+    newLineText.value = '';
+
+    listItem.addEventListener('click', () => {
+        lineList.removeChild(listItem);
+      });
+  }
+});
