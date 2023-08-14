@@ -129,13 +129,16 @@ document.getElementById('btn-li').addEventListener('click', function () {
     }
 })
 let sum = 0;
-document.getElementById('plus-btn').addEventListener('click', function(){
-    const count = document.getElementById('countNumber');
-    sum += 1;
-    count.innerText = sum;
+const count = document.getElementById('countNumber');
+document.getElementById('plus-btn').addEventListener('click', function () {
+    if (sum >= 0) {
+        sum += 1;
+        count.innerText = sum;
+    }
 })
-document.getElementById('plus-btn').addEventListener('click', function(){
-    const count = document.getElementById('countNumber');
-    sum += 1;
-    count.innerText = sum;
+document.getElementById('minus-btn').addEventListener('click', function () {
+    if (sum > 0) {
+        sum -= 1;
+        count.innerText = sum;
+    }
 })
