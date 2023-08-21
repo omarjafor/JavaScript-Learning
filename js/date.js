@@ -21,10 +21,10 @@ console.log(typeof numbers);
 // is this is an array then will return true if not return false
 console.log(Array.isArray(numbers)); 
 
-function milliseconds(x) {
+function isNanFunction(x) {
   if (isNaN(x)) {
     console.log ('Not a Number!');
   }
   console.log (x * 1000);
 }
-milliseconds('5');
+isNanFunction(25);
