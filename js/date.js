@@ -20,3 +20,11 @@ const numbers = [12, 15, 48, 23, 48, 95];
 console.log(typeof numbers);
 // is this is an array then will return true if not return false
 console.log(Array.isArray(numbers)); 
+
+function milliseconds(x) {
+  if (isNaN(x)) {
+    console.log ('Not a Number!');
+  }
+  console.log (x * 1000);
+}
+milliseconds('5');
