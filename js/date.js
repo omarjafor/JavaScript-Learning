@@ -28,3 +28,9 @@ function isNanFunction(x) {
   console.log (x * 1000);
 }
 isNanFunction(25);
+
+const json = '{"result":true, "count":42}';
+const obj = JSON.parse(json);
+
+console.log(json.count);
+console.log(obj.count);
