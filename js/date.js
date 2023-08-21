@@ -15,3 +15,8 @@ if(typeof number === 'number'){
 }else{
     console.log('Value is not a number');
 }
+
+const numbers = [12, 15, 48, 23, 48, 95];
+console.log(typeof numbers);
+// is this is an array then will return true if not return false
+console.log(Array.isArray(numbers)); 
