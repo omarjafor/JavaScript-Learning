@@ -32,5 +32,6 @@ isNanFunction(25);
 const json = '{"result":true, "count":42}';
 const obj = JSON.parse(json);
 
-console.log(json.count);
 console.log(obj.count);
+
+console.log(obj.result);
