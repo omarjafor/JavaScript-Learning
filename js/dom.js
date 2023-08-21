@@ -113,6 +113,7 @@ document.getElementById('btn-delete').addEventListener('click', function () {
 // fullName('abdulmalik', 'khairulbasar', upperName);
 
 document.getElementById('list-ul').addEventListener('click', function (event) {
+    console.log(event.target.parentNode);
     if (event.target.value === 0) {
         event.target.parentNode.removeChild(event.target);
     }
