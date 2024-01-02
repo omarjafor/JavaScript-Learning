@@ -59,11 +59,11 @@ function canPay(changeArray, totalDue) {
     }
 }
 
-console.log(cubeNumber(4));
+console.log(cubeNumber(5));
 
-console.log(matchFinder('Peter Parker', 'pet'));
+console.log(matchFinder('Peter Parker', 'Pet'));
 
-let arrIs = [4,5]
+let arrIs = [2,3]
 console.log(sortMaker(arrIs));
 
 let obj = {
