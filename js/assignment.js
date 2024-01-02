@@ -59,6 +59,11 @@ function canPay(changeArray, totalDue) {
     }
 }
 
+function dubleNumber(num){
+    return num*2;
+}
+
+console.log(dubleNumber(5));
 console.log(cubeNumber(5));
 
 console.log(matchFinder('Peter Parker', 'Pet'));
