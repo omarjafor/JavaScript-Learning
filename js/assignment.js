@@ -64,7 +64,7 @@ function dubleNumber(num){
 }
 
 console.log(dubleNumber(5));
-console.log(cubeNumber(5));
+console.log(cubeNumber(6));
 
 console.log(matchFinder('Peter Parker', 'Pet'));
 
