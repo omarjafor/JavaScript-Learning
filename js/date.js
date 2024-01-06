@@ -16,7 +16,7 @@ if(typeof number === 'number'){
     console.log('Value is not a number');
 }
 
-const numbers = [12, 15, 48, 23, 48, 95];
+const numbers = [12, 15, 48, 23, 48, 94];
 console.log(typeof numbers);
 // is this is an array then will return true if not return false
 console.log(Array.isArray(numbers)); 
