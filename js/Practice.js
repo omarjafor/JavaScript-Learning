@@ -94,5 +94,5 @@ function positiveNum(arr) {
     }
     return posArr;
 }
-const newNum = []
-console.log();
+const newNum = [12, 15, -18, 44, -84, -55, 64]
+console.log(positiveNum(newNum));
