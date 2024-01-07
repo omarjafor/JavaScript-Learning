@@ -60,7 +60,7 @@
 // }
 // console.log(fahrenheitToCelsius(15));
 // challenge #10: Calculate the sum of numbers in an array of numbers
-const numArr = [ 1,2,3,4,5 ];
+// const numArr = [ 1,2,3,4,5 ];
 // const sum = numArr.reduce( (acc, cur) => acc + cur , 0 );
 // console.log(sum);
 
@@ -74,28 +74,28 @@ const numArr = [ 1,2,3,4,5 ];
 // const result = sumArr(numArr);
 // console.log(sumArr(numArr));
 // challenge #11: Calculate the average of the numbers in an array of numbers
-function avgArr(arr){
-    let sum = 0;
-    for(let i=0; i < arr.length; i++){
-        sum += arr[i];
-    }
-    const avg = sum / arr.length;
-    return avg;
-}
-console.log(avgArr(numArr));
+// function avgArr(arr){
+//     let sum = 0;
+//     for(let i=0; i < arr.length; i++){
+//         sum += arr[i];
+//     }
+//     const avg = sum / arr.length;
+//     return avg;
+// }
+// console.log(avgArr(numArr));
 // challenge #12: Create a function that receives an array of numbers and returns an array containing only the positive numbers
-function positiveNum(arr) {
-    let posArr = [];
-    for(let i = 0; i <= arr.length; i++){
-        let pnum = arr[i];
-        if( pnum >= 0){
-            posArr.push(pnum);
-        }
-    }
-    return posArr;
-}
-const newNum = [12, 15, -18, 44, -84, -55, 64]
-console.log(positiveNum(newNum));
+// function positiveNum(arr) {
+//     let posArr = [];
+//     for(let i = 0; i <= arr.length; i++){
+//         let pnum = arr[i];
+//         if( pnum >= 0){
+//             posArr.push(pnum);
+//         }
+//     }
+//     return posArr;
+// }
+// const newNum = [12, 15, -18, 44, -84, -55, 64]
+// console.log(positiveNum(newNum));
 
-const newArr = newNum.filter(el => el > 0)
-console.log(newArr);
+// const newArr = newNum.filter(el => el > 0)
+// console.log(newArr);
