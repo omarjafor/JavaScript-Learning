@@ -34,8 +34,8 @@
 // console.log(sum);
 
 // challenge #6: Calculate 10!
-let prod = 1;
-for(let i = 1; i<11; i++){
-    prod *= i;
-}
-console.log(prod);
+// let prod = 1;
+// for(let i = 1; i<11; i++){
+//     prod *= i;
+// }
+// console.log(prod);
