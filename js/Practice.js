@@ -96,3 +96,6 @@ function positiveNum(arr) {
 }
 const newNum = [12, 15, -18, 44, -84, -55, 64]
 console.log(positiveNum(newNum));
+
+const newArr = newNum.filter(el => el > 0)
+console.log(newArr);
