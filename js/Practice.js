@@ -41,10 +41,21 @@
 // console.log(prod);
 
 // challenge #7: Calculate the sum of odd numbers greater than 10 and less than 30
-let sum = 0;
-for(let i = 11; i<30; i++){
-    if(i%2==1){
-        sum += i;
-    }
+// let sum = 0;
+// for(let i = 11; i<30; i++){
+//     if(i%2==1){
+//         sum += i;
+//     }
+// }
+// console.log(sum);
+
+// challenge #8: Create a function that will convert from Celsius to Fahrenheit 
+function celsiusToFahrenheit(num){
+    return num * (9 / 5) + 32
 }
-console.log(sum);
+console.log(celsiusToFahrenheit(15));
+// challenge #9: Create a function that will convert from Fahrenheit to Celsius 
+function fahrenheitToCelsius(num) {
+    return (num - 32) * 5/9;
+}
+console.log(fahrenheitToCelsius(15));
