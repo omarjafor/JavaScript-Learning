@@ -59,3 +59,17 @@ function fahrenheitToCelsius(num) {
     return (num - 32) * 5/9;
 }
 console.log(fahrenheitToCelsius(15));
+// challenge #10: Calculate the sum of numbers in an array of numbers 
+const numArr = [ 1,2,3,4,5 ];
+const sum = numArr.reduce( (acc, cur) => acc + cur , 0 );
+console.log(sum);
+
+function sumArr(arr){
+    let sum = 0;
+    for(let i=0; i < arr.length; i++){
+        sum += arr[i];
+    }
+    return sum;
+}
+const result = sumArr(numArr);
+console.log(sumArr(numArr));
