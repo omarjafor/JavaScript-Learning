@@ -99,3 +99,20 @@
 
 // const newArr = newNum.filter(el => el > 0)
 // console.log(newArr);
+
+console.log(2+3+'7');
+const nums = [1, 3, 4, 2, 2]
+
+var findDuplicate = function (nums) {
+    for (let i = 0; i < nums.length; i++) {
+        for (let j = i; j < nums.length; j++) {
+            // if (nums[i] === nums[j]) {
+            //     return nums[i];
+            // }
+            console.log(nums[i], nums[j]);
+        }
+
+    }
+};
+
+console.log(findDuplicate(nums));
