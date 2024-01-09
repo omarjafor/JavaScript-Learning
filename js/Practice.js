@@ -105,13 +105,11 @@ const nums = [1, 3, 4, 2, 2]
 
 var findDuplicate = function (nums) {
     for (let i = 0; i < nums.length; i++) {
-        for (let j = i; j < nums.length; j++) {
-            // if (nums[i] === nums[j]) {
-            //     return nums[i];
-            // }
-            console.log(nums[i], nums[j]);
+        for (let j = 1; j < nums.length; j++) {
+            if (nums[i] === nums[j]) {
+                return nums[i];
+            }
         }
-
     }
 };
 
