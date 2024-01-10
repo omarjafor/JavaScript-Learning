@@ -101,7 +101,7 @@
 // console.log(newArr);
 
 console.log(2+3+'7');
-const nums = [1, 3, 4, 2, 2]
+const nums = [1, 3, 4, 2, 2, 3, 5, 8, 1]
 
 var findDuplicate = function (nums) {
     for (let i = 0; i < nums.length; i++) {
