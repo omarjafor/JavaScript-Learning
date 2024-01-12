@@ -107,6 +107,7 @@ console.log(newArr);
 
 console.log(positiveNumArr(newArr));
 
+// Mock Test Interview Question Solve 
 console.log(2+3+'7');
 const nums = [1, 3, 4, 2, 2, 3, 5, 8, 1]
 
