@@ -123,3 +123,4 @@ var findDuplicate = function (nums) {
 
 console.log(findDuplicate(nums));
 
+// challenge #13: Find the maximum number in an array of numbers 
