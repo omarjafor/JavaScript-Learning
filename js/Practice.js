@@ -84,21 +84,28 @@
 // }
 // console.log(avgArr(numArr));
 // challenge #12: Create a function that receives an array of numbers and returns an array containing only the positive numbers
-function positiveNum(arr) {
-    let posArr = [];
-    for(let i = 0; i <= arr.length; i++){
-        let pnum = arr[i];
-        if( pnum >= 0){
-            posArr.push(pnum);
-        }
-    }
-    return posArr;
-}
+// function positiveNum(arr) {
+//     let posArr = [];
+//     for(let i = 0; i <= arr.length; i++){
+//         let pnum = arr[i];
+//         if( pnum >= 0){
+//             posArr.push(pnum);
+//         }
+//     }
+//     return posArr;
+// }
+
 const newNum = [12, 15, -18, 44, -84, -55, 64]
-console.log(positiveNum(newNum));
+// console.log(positiveNum(newNum));
+
+function positiveNumArr(arr) {
+    return arr.filter( num => num > 0 )
+}
 
 const newArr = newNum.filter(el => el > 0)
 console.log(newArr);
+
+console.log(positiveNumArr(newArr));
 
 console.log(2+3+'7');
 const nums = [1, 3, 4, 2, 2, 3, 5, 8, 1]
@@ -114,3 +121,4 @@ var findDuplicate = function (nums) {
 };
 
 console.log(findDuplicate(nums));
+
