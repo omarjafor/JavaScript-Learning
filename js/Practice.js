@@ -111,17 +111,17 @@ console.log(positiveNumArr(newArr));
 console.log(2+3+'7');
 const nums = [1, 3, 4, 2, 2, 3, 5, 8, 1]
 
-var findDuplicate = function (nums) {
-    for (let i = 0; i < nums.length; i++) {
-        for (let j = 1; j < nums.length; j++) {
-            if (nums[i] === nums[j]) {
-                return nums[i];
-            }
-        }
-    }
-};
+// var findDuplicate = function (nums) {
+//     for (let i = 0; i < nums.length; i++) {
+//         for (let j = 1; j < nums.length; j++) {
+//             if (nums[i] === nums[j]) {
+//                 return nums[i];
+//             }
+//         }
+//     }
+// };
 
-console.log(findDuplicate(nums));
+// console.log(findDuplicate(nums));
 
 // challenge #13: Find the maximum number in an array of numbers 
 function maxNumber(arr){
