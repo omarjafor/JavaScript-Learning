@@ -134,3 +134,6 @@ function maxNumber(arr){
     return max;
 }
 console.log(maxNumber(newNum));
+
+console.log(typeof('5'+3));
+console.log(typeof('5'-3));
