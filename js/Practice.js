@@ -103,37 +103,56 @@ function positiveNumArr(arr) {
 }
 
 const newArr = newNum.filter(el => el > 0)
-console.log(newArr);
 
-console.log(positiveNumArr(newArr));
+
+// console.log(positiveNumArr(newArr));
 
 // Mock Test Interview Question Solve 
-console.log(2+3+'7');
+// console.log(2+3+'7');
 const nums = [1, 3, 4, 2, 2, 3, 5, 8, 1]
 
 var findDuplicate = function (nums) {
+    let duplicate = []
     for (let i = 0; i < nums.length; i++) {
-        for (let j = 1; j < nums.length; j++) {
-            if (nums[i] === nums[j]) {
-                return nums[i];
+        for (let j = i+1; j < nums.length; j++) {
+            if(nums[i] === nums[j]){
+                duplicate.push(nums[i]);
             }
         }
     }
+    return duplicate;
 };
-
 console.log(findDuplicate(nums));
+
+const seen = {};
+const duplicates = [];
+for (let i = 0; i < nums.length; i++) {
+    if (seen[nums[i]]) {
+
+        if (seen[nums[i]] === 1) {
+            duplicates.push(nums[i]);
+        }
+        seen[nums[i]]++;
+
+    } else {
+        seen[nums[i]] = 1;
+
+    }
+}
+
+// console.log(duplicates);
 
 // challenge #13: Find the maximum number in an array of numbers 
 function maxNumber(arr){
     let max = arr[0]
-    for(let i=0; i<arr.length; i++){
-        if(arr[i] > max ){
+    for(let i=0; i < arr.length; i++){
+        if(arr[i] > max){
             max = arr[i]
         }
     }
     return max;
 }
-console.log(maxNumber(newNum));
+// console.log(maxNumber(newNum));
 
-console.log(typeof('5'+3));
-console.log(typeof(5-3));
+// console.log(typeof('5'+3));
+// console.log(typeof(5-3));
