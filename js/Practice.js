@@ -122,7 +122,7 @@ var findDuplicate = function (nums) {
     }
     return duplicate;
 };
-console.log(findDuplicate(nums));
+// console.log(findDuplicate(nums));
 
 const seen = {};
 const duplicates = [];
@@ -153,6 +153,18 @@ function maxNumber(arr){
     return max;
 }
 // console.log(maxNumber(newNum));
-
 // console.log(typeof('5'+3));
 // console.log(typeof(5-3));
+
+function abc(){
+    console.log(this);
+}
+abc()
+
+const obj = {
+    name: 'jabed',
+    print: function(){
+        console.log(this.name);
+    }
+}
+obj.print()
