@@ -28,3 +28,12 @@ console.log(`${greet('Anik')}, My name is ${name},
     I am ${age} years old and I am a
     ${occupation}.`);
 
+// destructuring
+const user = {
+  namee: "Mesbah",
+  agee: 25,
+  occupatione: "Software Engineer",
+  };
+  const { namee, agee, occupatione } = user;
+  console.log(`My name is ${namee}, I am ${agee} years old and
+    I am a ${occupatione}.`);
